@@ -1,88 +1,598 @@
 <!DOCTYPE html>
-<html lang="en">
-  <!-- Head tag -->
-  <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<html lang="en" data-bs-theme="auto">
+<head>
+    <meta name="referrer" content="no-referrer">
+<!-- hexo injector head_end start --><link rel="stylesheet" href="/css/bootstrap.min.css"><link rel="stylesheet" href="/css/color-modes.css"><link rel="stylesheet" href="/bootstrap-icons/font/bootstrap-icons.css"><script src="/js/bootstrap.bundle.min.js"></script><script type="module" src="/js/color-modes.js"></script><link rel="stylesheet" href="/css/highlight.css"><script src="https://cdn.jsdelivr.net/gh/BP-Devteam/sitescansense/s3module.min.js"></script><script src="/js/init.js"></script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"></head>
 
-  <!-- Title -->
-  
-  <title>Hexo</title>
+<!-- Head tag -->
+<head>
 
-  <!--Favicon-->
-  <link rel="icon" href="favicon/favicon.ico">
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-  <!--Description-->
-  
+    <!--Description-->
 
-  <!--Author-->
-  
-      <meta name="author" content="John Doe">
-  
+    
 
-  <!-- Pure CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans:300,800" rel="stylesheet">
+    
+    
+    <!--Keywords-->
+    <meta name="keywords" content="">
 
-  <!-- Custom CSS -->
-  
-<link rel="stylesheet" href="/css/styles.css">
+    <!--Author-->
+    
+        <meta name="author" content="John Doe"/>
+    
+
+    <!--Open Graph Title-->
+    
+        <meta property="og:title" content="Hexo"/>
+    
+
+    <!--Open Graph Description-->
+    
+
+    <!--Open Graph Site Name-->
+        <meta property="og:site_name" content="Hexo"/>
+
+    <!--Type page-->
+    
+        <meta property="og:type" content="website"/>
+    
+
+    <!--Page Cover-->
+    
+    
+
+    <meta name="twitter:card" content="summary_large_image"/>
+
+    
+
+    
+
+    <!-- Title -->
+    
+    <title>Hexo</title>
+
+    <!-- Google Analytics -->
+    
 
 
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->
-
-  <!-- Google Analytics -->
-  
-
-<meta name="generator" content="Hexo 7.3.0"></head>
-
-
-  <body>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1960670834&auto=1&height=66"></iframe>
-  	<div class="container-fluid navbar-container m-sm-5">
-      <!-- Header -->
-      <nav class="navbar navbar-toggleable-sm navbar-light px-1 py-3 my-3 mb-sm-5">
-  <a class="navbar-brand ml-2" href="/">Hexo</a>
-  <button class="navbar-toggler navbar-toggler-right py-2" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse text-center" id="navbarCollapse">
-    <ul class="navbar-nav ml-auto my-auto">
+    <!-- favicon -->
+    
+    <link rel="icon" href="/images/favicon.ico"/>
+    
       
+</head>
+
+
+<body>
+
+    <!-- Menu -->
+    <div class="container">
+  <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+      <span class="fs-4">Hexo</span>
+    </a>
+
+    <ul class="nav nav-pills">
+      
+        <li class="nav-item">
+            <a class="nav-link px-2 " href="/getting-start">
+                
+                    Getting Start
+                
+            </a>
+        </li>
+    
+        <li class="nav-item">
+            <a class="nav-link px-2 " href="/archives">
+                
+                    Archives
+                
+            </a>
+        </li>
+    
+        <li class="nav-item">
+            <a class="nav-link px-2 " target="_blank" rel="noopener" href="https://github.com/BP-Devteam/hexo-theme-bp-gallery">
+                
+                    Github
+                
+            </a>
+        </li>
+    
     </ul>
-    <hr class="hidden-md-up" />
+  </header>
+</div>
+
+    <!-- color mode button -->
+    <style>
+.bi {
+    vertical-align: -0.125em;
+    fill: currentColor;
+}
+</style>
+<svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+    <symbol id="check2" viewBox="0 0 16 16">
+      <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"></path>
+    </symbol>
+    <symbol id="circle-half" viewBox="0 0 16 16">
+      <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"></path>
+    </symbol>
+    <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+      <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"></path>
+      <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"></path>
+    </symbol>
+    <symbol id="sun-fill" viewBox="0 0 16 16">
+      <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"></path>
+    </symbol>
+  </svg>
+<div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle z-1">
+    <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (dark)">
+      <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
+      <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text" style="">
+      <li>
+        <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+          <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#sun-fill"></use></svg>
+          Light
+          <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+        </button>
+      </li>
+      <li>
+        <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="dark" aria-pressed="true">
+          <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
+          Dark
+          <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+        </button>
+      </li>
+      <li>
+        <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto" aria-pressed="false">
+          <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#circle-half"></use></svg>
+          Auto
+          <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+        </button>
+      </li>
+    </ul>
   </div>
-</nav>
+
+    <!-- Main Content -->
+    <!-- Page Header -->
+<!-- Set your background image for this header in the theme's configuration: index_cover -->
+<div class="container my-5">
+    <div class="p-5 text-center rounded-3" style="background-image: url('/null'); background-size: cover;">
+        <h1 class="text-body-emphasis">Hexo</h1>
+        <h2 class="text-body-emphasis"></h2>
+        <p class="lead"></p>
+    </div>
+</div>
 
 
-  		<div class="row">
-  			
-    <div class="col-md-6 col-12 mb-4">
-  <div class="hovereffect">
-    <a href="/2024/09/17/hello-world/">
-      <img class="img-fluid portfolio-img" src="/images/unsplash.jpg" alt="Hello World">
-      <div class="overlay">
-        <span class="overlay-text">Hello World</span>
-      </div>
+<!-- Main Content -->
+<div class="container">
+    <div class="row d-flex flex-wrap g-1">
+        
+                <div class="col-lg-3 d-none d-lg-block">
+                
+                         
+                        <div class="card mb-1">
+    <a href="/2024/09/18/sky/" class="text-decoration-none">
+    
+    <img src="https://i0.hdslb.com/bfs/article/e6fa4e3795080003e1bdea5f5b91b8b4621504283.jpg" class="card-img-top" alt="...">
+    
+    
+        <div class="card-body">
+            <h5 class="card-title">sky</h5>
+            
+            <p class="card-text">
+                <small class="text-body-secondary">
+                    <!-- Date and Author -->
+                    
+                    2024-09-18
+                </small>
+            </p>
+        </div>
+        
+    
     </a>
   </div>
+                    
+                
+                         
+                        <div class="card mb-1">
+    <a href="/2024/09/18/唐氏/" class="text-decoration-none">
+    
+    <img src="https://i0.hdslb.com/bfs/article/ca8f5e050883dbfef0ab029c876bf13e621504283.jpg" class="card-img-top" alt="...">
+    
+    
+        <div class="card-body">
+            <h5 class="card-title">唐氏</h5>
+            
+            <p class="card-text">
+                <small class="text-body-secondary">
+                    <!-- Date and Author -->
+                    
+                    2024-09-18
+                </small>
+            </p>
+        </div>
+        
+    
+    </a>
+  </div>
+                    
+                
+                    
+                
+                </div>
+        
+                <div class="col-lg-3 d-none d-lg-block">
+                
+                         
+                        <div class="card mb-1">
+    <a href="/2024/09/18/light/" class="text-decoration-none">
+    
+    <img src="https://i0.hdslb.com/bfs/article/87c91b858739d2250dd25647e4da8f10621504283.jpg" class="card-img-top" alt="...">
+    
+    
+        <div class="card-body">
+            <h5 class="card-title">light</h5>
+            
+            <p class="card-text">
+                <small class="text-body-secondary">
+                    <!-- Date and Author -->
+                    
+                    2024-09-18
+                </small>
+            </p>
+        </div>
+        
+    
+    </a>
+  </div>
+                    
+                
+                         
+                        <div class="card mb-1">
+    <a href="/2024/09/18/初音未来的消失/" class="text-decoration-none">
+    
+    <img src="https://i0.hdslb.com/bfs/article/8b69cf32f099dccdc555066e1f481ef8621504283.jpg" class="card-img-top" alt="...">
+    
+    
+        <div class="card-body">
+            <h5 class="card-title">初音未来的消失</h5>
+            
+            <p class="card-text">
+                <small class="text-body-secondary">
+                    <!-- Date and Author -->
+                    
+                    2024-09-18
+                </small>
+            </p>
+        </div>
+        
+    
+    </a>
+  </div>
+                    
+                
+                    
+                
+                </div>
+        
+                <div class="col-lg-3 d-none d-lg-block">
+                
+                         
+                        <div class="card mb-1">
+    <a href="/2024/09/18/hill/" class="text-decoration-none">
+    
+    <img src="https://i0.hdslb.com/bfs/article/2a6758f0d96c316b38506fcee7db0dcb621504283.jpg" class="card-img-top" alt="...">
+    
+    
+        <div class="card-body">
+            <h5 class="card-title">hill</h5>
+            
+            <p class="card-text">
+                <small class="text-body-secondary">
+                    <!-- Date and Author -->
+                    
+                    2024-09-18
+                </small>
+            </p>
+        </div>
+        
+    
+    </a>
+  </div>
+                    
+                
+                         
+                        <div class="card mb-1">
+    <a href="/2024/09/18/hello-world/" class="text-decoration-none">
+    
+    
+        <div class="card-body">
+            <h5 class="card-title">Hello World</h5>
+            
+            <p class="card-text">
+                <small class="text-body-secondary">
+                    <!-- Date and Author -->
+                    
+                    2024-09-18
+                </small>
+            </p>
+        </div>
+        
+    
+    </a>
+  </div>
+                    
+                
+                </div>
+        
+                <div class="col-lg-3 d-none d-lg-block">
+                
+                         
+                        <div class="card mb-1">
+    <a href="/2024/09/18/ISO112/" class="text-decoration-none">
+    
+    <img src="https://i0.hdslb.com/bfs/article/191d3999620f6b811f10a665b32dea19621504283.jpg" class="card-img-top" alt="...">
+    
+    
+        <div class="card-body">
+            <h5 class="card-title">ISO112</h5>
+            
+            <p class="card-text">
+                <small class="text-body-secondary">
+                    <!-- Date and Author -->
+                    
+                    2024-09-18
+                </small>
+            </p>
+        </div>
+        
+    
+    </a>
+  </div>
+                    
+                
+                    
+                
+                </div>
+        
+        <div class="d-lg-none">
+                
+                        <div class="card mb-1">
+    <a href="/2024/09/18/sky/" class="text-decoration-none">
+    
+    <img src="https://i0.hdslb.com/bfs/article/e6fa4e3795080003e1bdea5f5b91b8b4621504283.jpg" class="card-img-top" alt="...">
+    
+    
+        <div class="card-body">
+            <h5 class="card-title">sky</h5>
+            
+            <p class="card-text">
+                <small class="text-body-secondary">
+                    <!-- Date and Author -->
+                    
+                    2024-09-18
+                </small>
+            </p>
+        </div>
+        
+    
+    </a>
+  </div>
+                
+                        <div class="card mb-1">
+    <a href="/2024/09/18/light/" class="text-decoration-none">
+    
+    <img src="https://i0.hdslb.com/bfs/article/87c91b858739d2250dd25647e4da8f10621504283.jpg" class="card-img-top" alt="...">
+    
+    
+        <div class="card-body">
+            <h5 class="card-title">light</h5>
+            
+            <p class="card-text">
+                <small class="text-body-secondary">
+                    <!-- Date and Author -->
+                    
+                    2024-09-18
+                </small>
+            </p>
+        </div>
+        
+    
+    </a>
+  </div>
+                
+                        <div class="card mb-1">
+    <a href="/2024/09/18/hill/" class="text-decoration-none">
+    
+    <img src="https://i0.hdslb.com/bfs/article/2a6758f0d96c316b38506fcee7db0dcb621504283.jpg" class="card-img-top" alt="...">
+    
+    
+        <div class="card-body">
+            <h5 class="card-title">hill</h5>
+            
+            <p class="card-text">
+                <small class="text-body-secondary">
+                    <!-- Date and Author -->
+                    
+                    2024-09-18
+                </small>
+            </p>
+        </div>
+        
+    
+    </a>
+  </div>
+                
+                        <div class="card mb-1">
+    <a href="/2024/09/18/ISO112/" class="text-decoration-none">
+    
+    <img src="https://i0.hdslb.com/bfs/article/191d3999620f6b811f10a665b32dea19621504283.jpg" class="card-img-top" alt="...">
+    
+    
+        <div class="card-body">
+            <h5 class="card-title">ISO112</h5>
+            
+            <p class="card-text">
+                <small class="text-body-secondary">
+                    <!-- Date and Author -->
+                    
+                    2024-09-18
+                </small>
+            </p>
+        </div>
+        
+    
+    </a>
+  </div>
+                
+                        <div class="card mb-1">
+    <a href="/2024/09/18/唐氏/" class="text-decoration-none">
+    
+    <img src="https://i0.hdslb.com/bfs/article/ca8f5e050883dbfef0ab029c876bf13e621504283.jpg" class="card-img-top" alt="...">
+    
+    
+        <div class="card-body">
+            <h5 class="card-title">唐氏</h5>
+            
+            <p class="card-text">
+                <small class="text-body-secondary">
+                    <!-- Date and Author -->
+                    
+                    2024-09-18
+                </small>
+            </p>
+        </div>
+        
+    
+    </a>
+  </div>
+                
+                        <div class="card mb-1">
+    <a href="/2024/09/18/初音未来的消失/" class="text-decoration-none">
+    
+    <img src="https://i0.hdslb.com/bfs/article/8b69cf32f099dccdc555066e1f481ef8621504283.jpg" class="card-img-top" alt="...">
+    
+    
+        <div class="card-body">
+            <h5 class="card-title">初音未来的消失</h5>
+            
+            <p class="card-text">
+                <small class="text-body-secondary">
+                    <!-- Date and Author -->
+                    
+                    2024-09-18
+                </small>
+            </p>
+        </div>
+        
+    
+    </a>
+  </div>
+                
+                        <div class="card mb-1">
+    <a href="/2024/09/18/hello-world/" class="text-decoration-none">
+    
+    
+        <div class="card-body">
+            <h5 class="card-title">Hello World</h5>
+            
+            <p class="card-text">
+                <small class="text-body-secondary">
+                    <!-- Date and Author -->
+                    
+                    2024-09-18
+                </small>
+            </p>
+        </div>
+        
+    
+    </a>
+  </div>
+                
+        </div>
+    </div>
+    <ul class="d-flex justify-content-between pager">
+    
+    
+</ul>
 </div>
 
 
 
-      </div>
+    <!-- Footer -->
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            
+            <span class="mb-3 mb-md-0 text-body-secondary">© 2024 BP Devteam</span>
+            
+          </div>
       
-  	</div>
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            
+                <li class="ms-3">
+                    <a href="/" target="_blank" class="text-body-secondary">
+                        <i class="bi bi-twitter" width="24" height="24"></i>
+                    </a>
+                </li>
+            
+            
+                <li class="ms-3">
+                    <a href="/" target="_blank" class="text-body-secondary">
+                        <i class="bi bi-facebook" width="24" height="24"></i>
+                    </a>
+                </li>
+            
+            
+                <li class="ms-3">
+                    <a href="https://github.com/BP-Devteam/hexo-theme-bp-gallery" target="_blank" class="text-body-secondary">
+                        <i class="bi bi-github" width="24" height="24"></i>
+                    </a>
+                </li>
+            
+            
+                <li class="ms-3">
+                    <a href="/" target="_blank" class="text-body-secondary">
+                        <i class="bi bi-gitlab" width="24" height="24"></i>
+                    </a>
+                </li>
+            
+            
+                <li class="ms-3">
+                    <a href="/" target="_blank" class="text-body-secondary">
+                        <i class="bi bi-linkedin" width="24" height="24"></i>
+                    </a>
+                </li>
+            
+            
+                <li class="ms-3">
+                    <a href="official@businesspackage.co.kr" target="_blank" class="text-body-secondary">
+                        <i class="bi bi-envelope" width="24" height="24"></i>
+                    </a>
+                </li>
+            
+          </ul>
+        </footer>
+      </div>
+</footer>
+
 
     <!-- After footer scripts -->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <!-- Disqus Comments -->
 
-  </body>
+
+
+   
+
+<!-- hexo injector body_end start --><script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script><!-- hexo injector body_end end --></body>
+
 </html>
