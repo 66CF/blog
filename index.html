@@ -1,749 +1,916 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="auto">
+<html lang="en">
 <head>
-    <meta name="referrer" content="no-referrer">
-<!-- hexo injector head_end start --><link rel="stylesheet" href="/css/bootstrap.min.css"><link rel="stylesheet" href="/css/color-modes.css"><link rel="stylesheet" href="/bootstrap-icons/font/bootstrap-icons.css"><script src="/js/bootstrap.bundle.min.js"></script><script type="module" src="/js/color-modes.js"></script><link rel="stylesheet" href="/css/highlight.css"><script src="https://cdn.jsdelivr.net/gh/BP-Devteam/sitescansense/s3module.min.js"></script><script src="/js/init.js"></script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"></head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Hexo Theme Redefine">
+    
+    <meta name="author" content="The Redefine Team">
+    <!-- preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<!-- Head tag -->
-<head>
+    
+    <!--- Seo Part-->
+    
+    <link rel="canonical" href="http://example.com/"/>
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="1 days">
+    
+        <meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+    
+    
+    <!--- Icon Part-->
+    <link rel="icon" type="image/png" href="/images/redefine-favicon.svg" sizes="192x192">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/redefine-favicon.svg">
+    <meta name="theme-color" content="#A31F34">
+    <link rel="shortcut icon" href="/images/redefine-favicon.svg">
+    <!--- Page Info-->
+    
+    <title>
+        
+        Theme Redefine
+    </title>
 
-    <meta charset="utf-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    
+<link rel="stylesheet" href="/fonts/Chillax/chillax.css">
 
-    <!--Description-->
+
+    <!--- Inject Part-->
+    
+        
+            
+                
+                    -
+                
+    
+            
+                
+                    '
+                
+    
+            
+                
+                    <
+                
+    
+            
+                
+                    m
+                
+    
+            
+                
+                    e
+                
+    
+            
+                
+                    t
+                
+    
+            
+                
+                    a
+                
+    
+            
+                
+                     
+                
+    
+            
+                
+                    n
+                
+    
+            
+                
+                    a
+                
+    
+            
+                
+                    m
+                
+    
+            
+                
+                    e
+                
+    
+            
+                
+                    =
+                
+    
+            
+                
+                    "
+                
+    
+            
+                
+                    r
+                
+    
+            
+                
+                    e
+                
+    
+            
+                
+                    f
+                
+    
+            
+                
+                    e
+                
+    
+            
+                
+                    r
+                
+    
+            
+                
+                    r
+                
+    
+            
+                
+                    e
+                
+    
+            
+                
+                    r
+                
+    
+            
+                
+                    "
+                
+    
+            
+                
+                     
+                
+    
+            
+                
+                    c
+                
+    
+            
+                
+                    o
+                
+    
+            
+                
+                    n
+                
+    
+            
+                
+                    t
+                
+    
+            
+                
+                    e
+                
+    
+            
+                
+                    n
+                
+    
+            
+                
+                    t
+                
+    
+            
+                
+                    =
+                
+    
+            
+                
+                    "
+                
+    
+            
+                
+                    n
+                
+    
+            
+                
+                    o
+                
+    
+            
+                
+                    -
+                
+    
+            
+                
+                    r
+                
+    
+            
+                
+                    e
+                
+    
+            
+                
+                    f
+                
+    
+            
+                
+                    e
+                
+    
+            
+                
+                    r
+                
+    
+            
+                
+                    r
+                
+    
+            
+                
+                    e
+                
+    
+            
+                
+                    r
+                
+    
+            
+                
+                    "
+                
+    
+            
+                
+                    >
+                
+    
+            
+                
+                    '
+                
+    
+            
+                
+                     
+                
+    
+            
+                
+                    -
+                
+    
+
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    
+        
+<link rel="stylesheet" href="/assets/build/styles.css">
 
     
 
     
-    
-    <!--Keywords-->
-    <meta name="keywords" content="">
+<link rel="stylesheet" href="/fonts/GeistMono/geist-mono.css">
 
-    <!--Author-->
     
-        <meta name="author" content="QTY"/>
-    
+<link rel="stylesheet" href="/fonts/Geist/geist.css">
 
-    <!--Open Graph Title-->
+    <!--- Font Part-->
     
-        <meta property="og:title" content="QTY`s Blog"/>
     
-
-    <!--Open Graph Description-->
     
-
-    <!--Open Graph Site Name-->
-        <meta property="og:site_name" content="QTY`s Blog"/>
-
-    <!--Type page-->
     
-        <meta property="og:type" content="website"/>
-    
-
-    <!--Page Cover-->
     
     
 
-    <meta name="twitter:card" content="summary_large_image"/>
+    <script id="hexo-configurations">
+    window.config = {"hostname":"example.com","root":"/","language":"en"};
+    window.theme = {"articles":{"style":{"font_size":"16px","line_height":1.5,"image_border_radius":"14px","image_alignment":"center","image_caption":false,"link_icon":true,"title_alignment":"left","headings_top_spacing":{"h1":"3.2rem","h2":"2.4rem","h3":"1.9rem","h4":"1.6rem","h5":"1.4rem","h6":"1.3rem"}},"word_count":{"enable":true,"count":true,"min2read":true},"author_label":{"enable":true,"auto":false,"list":[]},"code_block":{"copy":true,"style":"mac","highlight_theme":{"light":"github","dark":"vs2015"},"font":{"enable":false,"family":null,"url":null}},"toc":{"enable":true,"max_depth":3,"number":false,"expand":true,"init_open":true},"copyright":{"enable":true,"default":"cc_by_nc_sa"},"lazyload":true,"recommendation":{"enable":false,"title":"推荐阅读","limit":3,"mobile_limit":2,"placeholder":"/images/wallhaven-wqery6-light.webp","skip_dirs":[]}},"colors":{"primary":"#A31F34","secondary":null,"default_mode":"light"},"global":{"fonts":{"chinese":{"enable":false,"family":null,"url":null},"english":{"enable":false,"family":null,"url":null},"title":{"enable":false,"family":null,"url":null}},"content_max_width":"1000px","sidebar_width":"210px","hover":{"shadow":true,"scale":false},"scroll_progress":{"bar":false,"percentage":true},"website_counter":{"url":"https://cn.vercount.one/js","enable":true,"site_pv":true,"site_uv":true,"post_pv":true},"single_page":true,"preloader":{"enable":false,"custom_message":null},"open_graph":true,"google_analytics":{"enable":false,"id":null}},"home_banner":{"enable":true,"style":"fixed","image":{"light":"/images/wallhaven-wqery6-light.webp","dark":"/images/wallhaven-wqery6-dark.webp"},"title":"Theme Redefine","subtitle":{"text":[],"hitokoto":{"enable":false,"show_author":false,"api":"https://v1.hitokoto.cn"},"typing_speed":100,"backing_speed":80,"starting_delay":500,"backing_delay":1500,"loop":true,"smart_backspace":true},"text_color":{"light":"#fff","dark":"#d1d1b6"},"text_style":{"title_size":"2.8rem","subtitle_size":"1.5rem","line_height":1.2},"custom_font":{"enable":false,"family":null,"url":null},"social_links":{"enable":false,"style":"default","links":{"github":null,"instagram":null,"zhihu":null,"twitter":null,"email":null},"qrs":{"weixin":null}}},"plugins":{"feed":{"enable":false},"aplayer":{"enable":false,"type":"fixed","audios":[{"name":null,"artist":null,"url":null,"cover":null,"lrc":null}]},"mermaid":{"enable":false,"version":"9.3.0"}},"version":"2.7.1","navbar":{"auto_hide":false,"color":{"left":"#f78736","right":"#367df7","transparency":35},"width":{"home":"1200px","pages":"1000px"},"links":{"Home":{"path":"/","icon":"fa-regular fa-house"},"相册":{"icon":"fa-solid fa-image","path":"/masonry/"}},"search":{"enable":false,"preload":true}},"page_templates":{"friends_column":2,"tags_style":"blur"},"home":{"sidebar":{"enable":true,"position":"left","first_item":"menu","announcement":null,"show_on_mobile":true,"links":null},"article_date_format":"auto","excerpt_length":200,"categories":{"enable":true,"limit":3},"tags":{"enable":true,"limit":3}},"footerStart":"2022/8/17 11:45:14"};
+    window.lang_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"};
+    window.data = {"masonry":true};
+  </script>
+    
+    <!--- Fontawesome Part-->
+    
+<link rel="stylesheet" href="/fontawesome/fontawesome.min.css">
 
     
+<link rel="stylesheet" href="/fontawesome/brands.min.css">
 
     
+<link rel="stylesheet" href="/fontawesome/solid.min.css">
 
-    <!-- Title -->
     
-    <title>QTY`s Blog</title>
+<link rel="stylesheet" href="/fontawesome/regular.min.css">
 
-    <!-- Google Analytics -->
     
-
-
-    <!-- favicon -->
     
-    <link rel="icon" href="/images/favicon.ico"/>
     
-      
-</head>
+    
+<meta name="generator" content="Hexo 7.3.0"></head>
 
 
 <body>
+<div class="progress-bar-container">
+    
 
-    <!-- Menu -->
-    <div class="container">
-  <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-      <span class="fs-4">QTY`s Blog</span>
-    </a>
-
-    <ul class="nav nav-pills">
-      
-        <li class="nav-item">
-            <a class="nav-link px-2 " href="/getting-start">
-                
-                    Getting Start
-                
-            </a>
-        </li>
     
-        <li class="nav-item">
-            <a class="nav-link px-2 " href="/archives">
-                
-                    Archives
-                
-            </a>
-        </li>
+        <span class="pjax-progress-bar"></span>
+<!--        <span class="swup-progress-icon">-->
+<!--            <i class="fa-solid fa-circle-notch fa-spin"></i>-->
+<!--        </span>-->
     
-        <li class="nav-item">
-            <a class="nav-link px-2 " target="_blank" rel="noopener" href="https://github.com/BP-Devteam/hexo-theme-bp-gallery">
-                
-                    Github
-                
-            </a>
-        </li>
-    
-    </ul>
-  </header>
 </div>
 
-    <!-- color mode button -->
+
+
+<main class="page-container" id="swup">
+
+    
+        
     <style>
-.bi {
-    vertical-align: -0.125em;
-    fill: currentColor;
-}
-</style>
-<svg xmlns="http://www.w3.org/2000/svg" class="d-none">
-    <symbol id="check2" viewBox="0 0 16 16">
-      <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"></path>
-    </symbol>
-    <symbol id="circle-half" viewBox="0 0 16 16">
-      <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"></path>
-    </symbol>
-    <symbol id="moon-stars-fill" viewBox="0 0 16 16">
-      <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"></path>
-      <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"></path>
-    </symbol>
-    <symbol id="sun-fill" viewBox="0 0 16 16">
-      <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"></path>
-    </symbol>
-  </svg>
-<div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle z-1">
-    <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (dark)">
-      <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
-      <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
-    </button>
-    <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text" style="">
-      <li>
-        <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
-          <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#sun-fill"></use></svg>
-          Light
-          <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
-        </button>
-      </li>
-      <li>
-        <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="dark" aria-pressed="true">
-          <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
-          Dark
-          <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
-        </button>
-      </li>
-      <li>
-        <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto" aria-pressed="false">
-          <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#circle-half"></use></svg>
-          Auto
-          <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
-        </button>
-      </li>
+        .home-banner-container {
+            background: none !important;
+        }
+        .home-article-item,
+        .sidebar-links,
+        .sidebar-content,
+        a.page-number,
+        a.extend,
+        .sidebar-links .links:hover,
+        .right-bottom-tools,
+        footer.footer {
+            background-color: var(--background-color-transparent-80) !important;
+        }
+        .right-bottom-tools:hover,
+        a.page-number:hover,
+        a.extend:hover {
+            background-color: var(--primary-color) !important;
+        }
+        .site-info,
+        .home-article-sticky-label {
+            background-color: var(--background-color-transparent-15) !important;
+        }
+        .home-article-sticky-label {
+            backdrop-filter: none !important;
+        }
+    </style>
+    <div class="home-banner-background transition-fade fixed top-0 left-0 w-screen h-screen scale-125 sm:scale-110 box-border will-change-transform bg-cover">
+        <img src="/images/wallhaven-wqery6-light.webp" alt="home-banner-background" class="w-full h-full object-cover dark:hidden">
+        <img src="/images/wallhaven-wqery6-dark.webp" alt="home-banner-background" class="w-full h-full object-cover hidden dark:block">
+    </div>
+
+
+<div class="home-banner-container flex justify-center items-center transition-fade relative">
+    
+    <div class="content mt-8 flex flex-col justify-center items-center">
+        <div class="description flex flex-col justify-center items-center w-screen font-medium text-center"
+        
+        >
+            Theme Redefine
+            
+            
+                <p><i id="subtitle"></i></p>
+            
+        </div>
+        
+    </div>
+    <script>
+        const scrollToMain = ()=> {
+            console.log('scroll');
+            const target = document.querySelector('.main-content-container');
+            target.scrollIntoView({ behavior: 'smooth'});
+        }
+    </script>
+</div>
+    
+
+    <div class="main-content-container">
+
+
+        <div class="main-content-header">
+            <header class="navbar-container px-6 md:px-12">
+
+    <div class="navbar-content has-home-banner">
+        <div class="left">
+            
+            <a class="logo-title" href="/">
+                <h1>
+                Theme Redefine
+                </h1>
+            </a>
+        </div>
+
+        <div class="right">
+            <!-- PC -->
+            <div class="desktop">
+                <ul class="navbar-list">
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="active"
+                                   href="/"
+                                        >
+                                    <i class="fa-regular fa-house fa-fw"></i>
+                                    HOME
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/masonry/"
+                                        >
+                                    <i class="fa-solid fa-image fa-fw"></i>
+                                    相册
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                    
+                </ul>
+            </div>
+            <!-- Mobile -->
+            <div class="mobile">
+                
+                <div class="icon-item navbar-bar">
+                    <div class="navbar-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile sheet -->
+    <div class="navbar-drawer h-screen w-full absolute top-0 left-0 bg-background-color flex flex-col justify-between">
+        <ul class="drawer-navbar-list flex flex-col px-4 justify-center items-start">
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/"
+                        >
+                            <span>
+                                HOME
+                            </span>
+                            
+                                <i class="fa-regular fa-house fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/masonry/"
+                        >
+                            <span>
+                                相册
+                            </span>
+                            
+                                <i class="fa-solid fa-image fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+
+            
+            
+        </ul>
+
+        <div class="statistics flex justify-around my-2.5">
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/tags">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">0</div>
+        <div class="label text-third-text-color text-sm">Tags</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/categories">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">0</div>
+        <div class="label text-third-text-color text-sm">Categories</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">1</div>
+        <div class="label text-third-text-color text-sm">Posts</div>
+    </a>
+</div>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="main-content-body">
+
+            
+                <div class="home-sidebar-container">
+    <div class="sticky-container sticky">
+        
+        
+            
+            <div class="sidebar-content" >
+                <div class="avatar flex justify-center">
+    <img src="/images/redefine-avatar.svg">
+</div>
+                <div class="author flex flex-col justify-center my-2.5 mx-0">
+    <div class="name">The Redefine Team</div>
+    
+        <div class="label">Lv1</div>
+    
+</div>
+                <div class="statistics flex justify-around my-2.5">
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/tags">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">0</div>
+        <div class="label text-third-text-color text-sm">Tags</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/categories">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">0</div>
+        <div class="label text-third-text-color text-sm">Categories</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">1</div>
+        <div class="label text-third-text-color text-sm">Posts</div>
+    </a>
+</div>
+            </div>
+        
+
+    </div>
+</div>
+
+            
+
+            <div class="main-content">
+
+                
+                    <div class="home-content-container">
+    <ul class="home-article-list">
+        
+            <li class="home-article-item">
+
+                
+
+                
+
+                
+                <div class="flex flex-col gap-5 px-7 pb-7 pt-7">
+                    <h3 class="home-article-title">
+                        <a href="/2024/09/18/hello-world/">
+                            Hello World
+                        </a>
+                    </h3>
+
+                    <div class="home-article-content markdown-body">
+                        
+                            
+                            Welcome to Hexo ! This is your very first post. Check documentation  for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting  or you can ask me on GitHub ...
+                        
+                    </div>
+
+                    <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span><i class="fa-solid fa-calendars"></i>&nbsp;
+            <span class="home-article-date" data-date="Wed Sep 18 2024 17:44:02 GMT+0800">
+                
+                    2024-09-18
+                
+            </span>
+        </span>
+        
+        
+    </div>
+
+    <a href="/2024/09/18/hello-world/">Read more<span class="seo-reader-text">Hello World</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
+</div>
+
+                </div>
+            </li>
+        
     </ul>
-  </div>
 
-    <!-- Main Content -->
-    <!-- Page Header -->
-<!-- Set your background image for this header in the theme's configuration: index_cover -->
-<div class="container my-5">
-    <div class="p-5 text-center rounded-3" style="background-image: url('/null'); background-size: cover;">
-        <h1 class="text-body-emphasis">QTY`s Blog</h1>
-        <h2 class="text-body-emphasis">一年春老知多少，多怨楼台万丈高</h2>
-        <p class="lead"></p>
+    <div class="home-paginator px-7 py-5">
+        <div class="paginator">
+    <span class="page-number current">1</span>
+</div>
+
     </div>
 </div>
 
+                    <div class="comment-container pjax"></div>
+                
 
-<!-- Main Content -->
-<div class="container">
-    <div class="row d-flex flex-wrap g-1">
-        
-                <div class="col-lg-3 d-none d-lg-block">
-                
-                         
-                        <div class="card mb-1">
-    <a href="/2024/09/18/盒武器/" class="text-decoration-none">
-    
-    <img src="https://i0.hdslb.com/bfs/article/699d3b4f287a597211b1f7080c8fd531621504283.jpg" class="card-img-top" alt="...">
-    
-    
-        <div class="card-body">
-            <h5 class="card-title">盒武器</h5>
-            
-            <p class="card-text">
-                <small class="text-body-secondary">
-                    <!-- Date and Author -->
-                    
-                    2024-09-18
-                </small>
-            </p>
-        </div>
-        
-    
-    </a>
-  </div>
-                    
-                
-                         
-                        <div class="card mb-1">
-    <a href="/2024/09/18/miku2024/" class="text-decoration-none">
-    
-    <img src="https://i0.hdslb.com/bfs/article/c3b7cbd09fa2cc989cd65ca374059b6e621504283.jpg" class="card-img-top" alt="...">
-    
-    
-        <div class="card-body">
-            <h5 class="card-title">miku2024</h5>
-            
-            <p class="card-text">
-                <small class="text-body-secondary">
-                    <!-- Date and Author -->
-                    
-                    2024-09-18
-                </small>
-            </p>
-        </div>
-        
-    
-    </a>
-  </div>
-                    
-                
-                         
-                        <div class="card mb-1">
-    <a href="/2024/09/18/light/" class="text-decoration-none">
-    
-    <img src="https://i0.hdslb.com/bfs/article/87c91b858739d2250dd25647e4da8f10621504283.jpg" class="card-img-top" alt="...">
-    
-    
-        <div class="card-body">
-            <h5 class="card-title">light</h5>
-            
-            <p class="card-text">
-                <small class="text-body-secondary">
-                    <!-- Date and Author -->
-                    
-                    2024-09-18
-                </small>
-            </p>
-        </div>
-        
-    
-    </a>
-  </div>
-                    
-                
-                    
-                
-                </div>
-        
-                <div class="col-lg-3 d-none d-lg-block">
-                
-                         
-                        <div class="card mb-1">
-    <a href="/2024/09/18/银狼wiki/" class="text-decoration-none">
-    
-    
-        <div class="card-body">
-            <h5 class="card-title">银狼wiki</h5>
-            
-            <p class="card-text">
-                <small class="text-body-secondary">
-                    <!-- Date and Author -->
-                    
-                    2024-09-18
-                </small>
-            </p>
-        </div>
-        
-    
-    </a>
-  </div>
-                    
-                
-                         
-                        <div class="card mb-1">
-    <a href="/2024/09/18/废话文学/" class="text-decoration-none">
-    
-    <img src="https://i0.hdslb.com/bfs/article/796fe876b7b6241b7400787b26eaef80621504283.jpg" class="card-img-top" alt="...">
-    
-    
-        <div class="card-body">
-            <h5 class="card-title">废话文学</h5>
-            
-            <p class="card-text">
-                <small class="text-body-secondary">
-                    <!-- Date and Author -->
-                    
-                    2024-09-18
-                </small>
-            </p>
-        </div>
-        
-    
-    </a>
-  </div>
-                    
-                
-                         
-                        <div class="card mb-1">
-    <a href="/2024/09/18/hill/" class="text-decoration-none">
-    
-    <img src="https://i0.hdslb.com/bfs/article/2a6758f0d96c316b38506fcee7db0dcb621504283.jpg" class="card-img-top" alt="...">
-    
-    
-        <div class="card-body">
-            <h5 class="card-title">hill</h5>
-            
-            <p class="card-text">
-                <small class="text-body-secondary">
-                    <!-- Date and Author -->
-                    
-                    2024-09-18
-                </small>
-            </p>
-        </div>
-        
-    
-    </a>
-  </div>
-                    
-                
-                    
-                
-                </div>
-        
-                <div class="col-lg-3 d-none d-lg-block">
-                
-                         
-                        <div class="card mb-1">
-    <a href="/2024/09/18/方知我是我，方知我非我？/" class="text-decoration-none">
-    
-    <img src="https://i1.hdslb.com/bfs/archive/c2d1989e38c2545c7734a51f5ff6bb2fecd5dda3.jpg@320w_200h_1c_!web-space-favlist-video.webp" class="card-img-top" alt="...">
-    
-    
-        <div class="card-body">
-            <h5 class="card-title">方知我是我，方知我非我？(b站视频测试</h5>
-            
-            <p class="card-text">
-                <small class="text-body-secondary">
-                    <!-- Date and Author -->
-                    
-                    2024-09-18
-                </small>
-            </p>
-        </div>
-        
-    
-    </a>
-  </div>
-                    
-                
-                         
-                        <div class="card mb-1">
-    <a href="/2024/09/18/我超，初音未来/" class="text-decoration-none">
-    
-    <img src="https://i0.hdslb.com/bfs/article/31341e5c203ce27ffc95695f8751620d621504283.jpg" class="card-img-top" alt="...">
-    
-    
-        <div class="card-body">
-            <h5 class="card-title">我超，初音未来</h5>
-            
-            <p class="card-text">
-                <small class="text-body-secondary">
-                    <!-- Date and Author -->
-                    
-                    2024-09-18
-                </small>
-            </p>
-        </div>
-        
-    
-    </a>
-  </div>
-                    
-                
-                    
-                
-                    
-                
-                </div>
-        
-                <div class="col-lg-3 d-none d-lg-block">
-                
-                         
-                        <div class="card mb-1">
-    <a href="/2024/09/18/涩狼/" class="text-decoration-none">
-    
-    <img src="https://i0.hdslb.com/bfs/article/2c9f01763af8b5da2acc5a9038e32267621504283.jpg" class="card-img-top" alt="...">
-    
-    
-        <div class="card-body">
-            <h5 class="card-title">涩狼</h5>
-            
-            <p class="card-text">
-                <small class="text-body-secondary">
-                    <!-- Date and Author -->
-                    
-                    2024-09-18
-                </small>
-            </p>
-        </div>
-        
-    
-    </a>
-  </div>
-                    
-                
-                         
-                        <div class="card mb-1">
-    <a href="/2024/09/18/sky/" class="text-decoration-none">
-    
-    <img src="https://i0.hdslb.com/bfs/article/e6fa4e3795080003e1bdea5f5b91b8b4621504283.jpg" class="card-img-top" alt="...">
-    
-    
-        <div class="card-body">
-            <h5 class="card-title">sky</h5>
-            
-            <p class="card-text">
-                <small class="text-body-secondary">
-                    <!-- Date and Author -->
-                    
-                    2024-09-18
-                </small>
-            </p>
-        </div>
-        
-    
-    </a>
-  </div>
-                    
-                
-                    
-                
-                    
-                
-                </div>
-        
-        <div class="d-lg-none">
-                
-                        <div class="card mb-1">
-    <a href="/2024/09/18/盒武器/" class="text-decoration-none">
-    
-    <img src="https://i0.hdslb.com/bfs/article/699d3b4f287a597211b1f7080c8fd531621504283.jpg" class="card-img-top" alt="...">
-    
-    
-        <div class="card-body">
-            <h5 class="card-title">盒武器</h5>
-            
-            <p class="card-text">
-                <small class="text-body-secondary">
-                    <!-- Date and Author -->
-                    
-                    2024-09-18
-                </small>
-            </p>
-        </div>
-        
-    
-    </a>
-  </div>
-                
-                        <div class="card mb-1">
-    <a href="/2024/09/18/银狼wiki/" class="text-decoration-none">
-    
-    
-        <div class="card-body">
-            <h5 class="card-title">银狼wiki</h5>
-            
-            <p class="card-text">
-                <small class="text-body-secondary">
-                    <!-- Date and Author -->
-                    
-                    2024-09-18
-                </small>
-            </p>
-        </div>
-        
-    
-    </a>
-  </div>
-                
-                        <div class="card mb-1">
-    <a href="/2024/09/18/方知我是我，方知我非我？/" class="text-decoration-none">
-    
-    <img src="https://i1.hdslb.com/bfs/archive/c2d1989e38c2545c7734a51f5ff6bb2fecd5dda3.jpg@320w_200h_1c_!web-space-favlist-video.webp" class="card-img-top" alt="...">
-    
-    
-        <div class="card-body">
-            <h5 class="card-title">方知我是我，方知我非我？(b站视频测试</h5>
-            
-            <p class="card-text">
-                <small class="text-body-secondary">
-                    <!-- Date and Author -->
-                    
-                    2024-09-18
-                </small>
-            </p>
-        </div>
-        
-    
-    </a>
-  </div>
-                
-                        <div class="card mb-1">
-    <a href="/2024/09/18/涩狼/" class="text-decoration-none">
-    
-    <img src="https://i0.hdslb.com/bfs/article/2c9f01763af8b5da2acc5a9038e32267621504283.jpg" class="card-img-top" alt="...">
-    
-    
-        <div class="card-body">
-            <h5 class="card-title">涩狼</h5>
-            
-            <p class="card-text">
-                <small class="text-body-secondary">
-                    <!-- Date and Author -->
-                    
-                    2024-09-18
-                </small>
-            </p>
-        </div>
-        
-    
-    </a>
-  </div>
-                
-                        <div class="card mb-1">
-    <a href="/2024/09/18/miku2024/" class="text-decoration-none">
-    
-    <img src="https://i0.hdslb.com/bfs/article/c3b7cbd09fa2cc989cd65ca374059b6e621504283.jpg" class="card-img-top" alt="...">
-    
-    
-        <div class="card-body">
-            <h5 class="card-title">miku2024</h5>
-            
-            <p class="card-text">
-                <small class="text-body-secondary">
-                    <!-- Date and Author -->
-                    
-                    2024-09-18
-                </small>
-            </p>
-        </div>
-        
-    
-    </a>
-  </div>
-                
-                        <div class="card mb-1">
-    <a href="/2024/09/18/废话文学/" class="text-decoration-none">
-    
-    <img src="https://i0.hdslb.com/bfs/article/796fe876b7b6241b7400787b26eaef80621504283.jpg" class="card-img-top" alt="...">
-    
-    
-        <div class="card-body">
-            <h5 class="card-title">废话文学</h5>
-            
-            <p class="card-text">
-                <small class="text-body-secondary">
-                    <!-- Date and Author -->
-                    
-                    2024-09-18
-                </small>
-            </p>
-        </div>
-        
-    
-    </a>
-  </div>
-                
-                        <div class="card mb-1">
-    <a href="/2024/09/18/我超，初音未来/" class="text-decoration-none">
-    
-    <img src="https://i0.hdslb.com/bfs/article/31341e5c203ce27ffc95695f8751620d621504283.jpg" class="card-img-top" alt="...">
-    
-    
-        <div class="card-body">
-            <h5 class="card-title">我超，初音未来</h5>
-            
-            <p class="card-text">
-                <small class="text-body-secondary">
-                    <!-- Date and Author -->
-                    
-                    2024-09-18
-                </small>
-            </p>
-        </div>
-        
-    
-    </a>
-  </div>
-                
-                        <div class="card mb-1">
-    <a href="/2024/09/18/sky/" class="text-decoration-none">
-    
-    <img src="https://i0.hdslb.com/bfs/article/e6fa4e3795080003e1bdea5f5b91b8b4621504283.jpg" class="card-img-top" alt="...">
-    
-    
-        <div class="card-body">
-            <h5 class="card-title">sky</h5>
-            
-            <p class="card-text">
-                <small class="text-body-secondary">
-                    <!-- Date and Author -->
-                    
-                    2024-09-18
-                </small>
-            </p>
-        </div>
-        
-    
-    </a>
-  </div>
-                
-                        <div class="card mb-1">
-    <a href="/2024/09/18/light/" class="text-decoration-none">
-    
-    <img src="https://i0.hdslb.com/bfs/article/87c91b858739d2250dd25647e4da8f10621504283.jpg" class="card-img-top" alt="...">
-    
-    
-        <div class="card-body">
-            <h5 class="card-title">light</h5>
-            
-            <p class="card-text">
-                <small class="text-body-secondary">
-                    <!-- Date and Author -->
-                    
-                    2024-09-18
-                </small>
-            </p>
-        </div>
-        
-    
-    </a>
-  </div>
-                
-                        <div class="card mb-1">
-    <a href="/2024/09/18/hill/" class="text-decoration-none">
-    
-    <img src="https://i0.hdslb.com/bfs/article/2a6758f0d96c316b38506fcee7db0dcb621504283.jpg" class="card-img-top" alt="...">
-    
-    
-        <div class="card-body">
-            <h5 class="card-title">hill</h5>
-            
-            <p class="card-text">
-                <small class="text-body-secondary">
-                    <!-- Date and Author -->
-                    
-                    2024-09-18
-                </small>
-            </p>
-        </div>
-        
-    
-    </a>
-  </div>
-                
-        </div>
-    </div>
-    <ul class="d-flex justify-content-between pager">
-    
-    
-        <li class="next"><a href="/page/2/">Older Posts  &rarr;</a></li>
-    
-</ul>
-</div>
+            </div>
 
+            
 
+        </div>
 
-    <!-- Footer -->
-    <!-- Footer -->
-<footer>
-<!-- 网易云音乐播放器 -->
-<div style="position: fixed; bottom: 0; left: 0; width: 300px; height: 100px; z-index: 9999;">
-  <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=2073492520&auto=1&height=66"></iframe>
-</div>
-
-    <div class="container">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-          <div class="col-md-4 d-flex align-items-center">
+        <div class="main-content-footer">
+            <footer class="footer mt-5 py-5 h-auto text-base text-third-text-color relative border-t-2 border-t-border-color">
+    <div class="info-container py-3 text-center">
+        
+        <div class="text-center">
+            &copy;
             
-            <span class="mb-3 mb-md-0 text-body-secondary">© 2024 BP Devteam</span>
+              <span>2022</span>
+              -
             
-          </div>
-      
-          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            2024&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>&nbsp;&nbsp;<a href="/">The Redefine Team</a>
             
-                <li class="ms-3">
-                    <a href="https://space.bilibili.com/621504283" target="_blank" class="text-body-secondary">
-                        <i class="bi bi-twitter" width="24" height="24"></i>
-                    </a>
-                </li>
+                
+                <p class="post-count space-x-0.5">
+                    <span>
+                        1 posts in total
+                    </span>
+                    
+                </p>
             
+        </div>
+        
+            <script data-swup-reload-script src="https://cn.vercount.one/js"></script>
+            <div class="relative text-center lg:absolute lg:right-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-right">
+                
+                    <span id="busuanzi_container_site_uv" class="lg:!block">
+                        <span class="text-sm">VISITOR COUNT</span>
+                        <span id="busuanzi_value_site_uv"></span>
+                    </span>
+                
+                
+                    <span id="busuanzi_container_site_pv" class="lg:!block">
+                        <span class="text-sm">TOTAL PAGE VIEWS</span>
+                        <span id="busuanzi_value_site_pv"></span>
+                    </span>
+                
+            </div>
+        
+        <div class="relative text-center lg:absolute lg:left-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-left">
+            <span class="lg:block text-sm">POWERED BY <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="relative top-[2px] inline-block align-baseline" version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" class="text-base" href="https://hexo.io">Hexo</a></span>
+            <span class="text-sm lg:block">THEME&nbsp;<a class="text-base" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v2.7.1</a></span>
+        </div>
+        
+        
+            <div>
+                Blog up for <span class="odometer" id="runtime_days" ></span> days <span class="odometer" id="runtime_hours"></span> hrs <span class="odometer" id="runtime_minutes"></span> Min <span class="odometer" id="runtime_seconds"></span> Sec
+            </div>
+        
+        
+            <script data-swup-reload-script>
+                try {
+                    function odometer_init() {
+                    const elements = document.querySelectorAll('.odometer');
+                    elements.forEach(el => {
+                        new Odometer({
+                            el,
+                            format: '( ddd).dd',
+                            duration: 200
+                        });
+                    });
+                    }
+                    odometer_init();
+                } catch (error) {}
+            </script>
+        
+        
             
-                <li class="ms-3">
-                    <a href="/" target="_blank" class="text-body-secondary">
-                        <i class="bi bi-facebook" width="24" height="24"></i>
-                    </a>
-                </li>
-            
-            
-                <li class="ms-3">
-                    <a href="https://github.com/66CF" target="_blank" class="text-body-secondary">
-                        <i class="bi bi-github" width="24" height="24"></i>
-                    </a>
-                </li>
-            
-            
-                <li class="ms-3">
-                    <a href="https://github.com/BP-Devteam/hexo-theme-bp-gallery" target="_blank" class="text-body-secondary">
-                        <i class="bi bi-gitlab" width="24" height="24"></i>
-                    </a>
-                </li>
-            
-            
-                <li class="ms-3">
-                    <a href="/" target="_blank" class="text-body-secondary">
-                        <i class="bi bi-linkedin" width="24" height="24"></i>
-                    </a>
-                </li>
-            
-            
-                <li class="ms-3">
-                    <a href="official@businesspackage.co.kr" target="_blank" class="text-body-secondary">
-                        <i class="bi bi-envelope" width="24" height="24"></i>
-                    </a>
-                </li>
-            
-          </ul>
-        </footer>
-      </div>
+                
+        
+                
+        
+        
+    </div>  
 </footer>
+        </div>
+    </div>
+
+    
+
+    <div class="right-side-tools-container">
+        <div class="side-tools-container">
+    <ul class="hidden-tools-list">
+        <li class="right-bottom-tools tool-font-adjust-plus flex justify-center items-center">
+            <i class="fa-regular fa-magnifying-glass-plus"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-font-adjust-minus flex justify-center items-center">
+            <i class="fa-regular fa-magnifying-glass-minus"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-dark-light-toggle flex justify-center items-center">
+            <i class="fa-regular fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+
+        <li class="right-bottom-tools tool-scroll-to-bottom flex justify-center items-center">
+            <i class="fa-regular fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="visible-tools-list">
+        <li class="right-bottom-tools toggle-tools-list flex justify-center items-center">
+            <i class="fa-regular fa-cog fa-spin"></i>
+        </li>
+        
+            <li class="right-bottom-tools tool-scroll-to-top flex justify-center items-center">
+                <i class="arrow-up fas fa-arrow-up"></i>
+                <span class="percent"></span>
+            </li>
+        
+        
+    </ul>
+</div>
+
+    </div>
+
+    <div class="image-viewer-container">
+    <img src="">
+</div>
 
 
-    <!-- After footer scripts -->
-    <!-- Disqus Comments -->
+    
+
+</main>
+
+
+    
+<script src="/js/libs/Swup.min.js"></script>
+
+<script src="/js/libs/SwupSlideTheme.min.js"></script>
+
+<script src="/js/libs/SwupScriptsPlugin.min.js"></script>
+
+<script src="/js/libs/SwupProgressPlugin.min.js"></script>
+
+<script src="/js/libs/SwupScrollPlugin.min.js"></script>
+
+<script src="/js/libs/SwupPreloadPlugin.min.js"></script>
+
+<script>
+    const swup = new Swup({
+        plugins: [
+            new SwupScriptsPlugin({
+                optin: true,
+            }),
+            new SwupProgressPlugin(),
+            new SwupScrollPlugin({
+                offset: 80,
+            }),
+            new SwupSlideTheme({
+                mainElement: ".main-content-body",
+            }),
+            new SwupPreloadPlugin(),
+        ],
+        containers: ["#swup"],
+    });
+</script>
 
 
 
-   
 
-<!-- hexo injector body_end start --><script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script><!-- hexo injector body_end end --></body>
 
+
+
+
+<script src="/js/tools/imageViewer.js" type="module"></script>
+
+<script src="/js/utils.js" type="module"></script>
+
+<script src="/js/main.js" type="module"></script>
+
+<script src="/js/layouts/navbarShrink.js" type="module"></script>
+
+<script src="/js/tools/scrollTopBottom.js" type="module"></script>
+
+<script src="/js/tools/lightDarkSwitch.js" type="module"></script>
+
+<script src="/js/layouts/categoryList.js" type="module"></script>
+
+
+
+
+
+    
+<script src="/js/tools/codeBlock.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/layouts/lazyload.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/tools/runtime.js"></script>
+
+    
+<script src="/js/libs/odometer.min.js"></script>
+
+    
+<link rel="stylesheet" href="/assets/odometer-theme-minimal.css">
+
+
+
+
+  
+<script src="/js/libs/Typed.min.js"></script>
+
+  
+<script src="/js/plugins/typed.js" type="module"></script>
+
+
+
+
+
+
+    
+<script src="/js/libs/minimasonry.min.js"></script>
+
+    
+<script src="/js/plugins/masonry.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/libs/anime.min.js"></script>
+
+
+
+<div class="post-scripts" data-swup-reload-script>
+    
+        
+<script src="/js/tools/tocToggle.js" type="module"></script>
+
+<script src="/js/layouts/toc.js" type="module"></script>
+
+<script src="/js/plugins/tabs.js" type="module"></script>
+
+    
+</div>
+
+
+</body>
 </html>
