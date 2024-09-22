@@ -1,484 +1,695 @@
+
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
-<meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 7.3.0">
-<meta name="referrer" content="no-referrer">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
-  <link rel="mask-icon" href="/images/logo.svg" color="#222">
-
-<link rel="stylesheet" href="/css/main.css">
-
-
-<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
-
-<script id="hexo-configurations">
-    var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"66cf.netlify.app","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
-  </script>
-
-<script>
-	!function () {
-    function n(n, e, t) {
-        return n.getAttribute(e) || t
-    }
- 
-    function e(n) {
-        return document.getElementsByTagName(n)
-    }
- 
-    function t() {
-        var t = e("script"), o = t.length, i = t[o - 1];
-        return {l: o, z: n(i, "zIndex", -1), o: n(i, "opacity", .5), c: n(i, "color", "0,0,0"), n: n(i, "count", 99)}
-    }
- 
-    function o() {
-        a = m.width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth, c = m.height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight
-    }
- 
-    function i() {
-        r.clearRect(0, 0, a, c);
-        var n, e, t, o, m, l;
-        s.forEach(function (i, x) {
-            for (i.x += i.xa, i.y += i.ya, i.xa *= i.x > a || i.x < 0 ? -1 : 1, i.ya *= i.y > c || i.y < 0 ? -1 : 1, r.fillRect(i.x - .5, i.y - .5, 1, 1), e = x + 1; e < u.length; e++) n = u[e], null !== n.x && null !== n.y && (o = i.x - n.x, m = i.y - n.y, l = o * o + m * m, l < n.max && (n === y && l >= n.max / 2 && (i.x -= .03 * o, i.y -= .03 * m), t = (n.max - l) / n.max, r.beginPath(), r.lineWidth = t / 2, r.strokeStyle = "rgba(" + d.c + "," + (t + .2) + ")", r.moveTo(i.x, i.y), r.lineTo(n.x, n.y), r.stroke()))
-        }), x(i)
-    }
- 
-    var a, c, u, m = document.createElement("canvas"), d = t(), l = "c_n" + d.l, r = m.getContext("2d"),
-        x = window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame || function (n) {
-            window.setTimeout(n, 1e3 / 45)
-        }, w = Math.random, y = {x: null, y: null, max: 2e4};
-    m.id = l, m.style.cssText = "position:fixed;top:0;left:0;z-index:" + d.z + ";opacity:" + d.o, e("body")[0].appendChild(m), o(), window.onresize = o, window.onmousemove = function (n) {
-        n = n || window.event, y.x = n.clientX, y.y = n.clientY
-    }, window.onmouseout = function () {
-        y.x = null, y.y = null
-    };
-    for (var s = [], f = 0; d.n > f; f++) {
-        var h = w() * a, g = w() * c, v = 2 * w() - 1, p = 2 * w() - 1;
-        s.push({x: h, y: g, xa: v, ya: p, max: 6e3})
-    }
-    u = s.concat([y]), setTimeout(function () {
-        i()
-    }, 100)
-}();
-</script>
-  <meta name="description" content="Curiosity killed the cat.but, satisfaction brought it back">
-<meta property="og:type" content="article">
+    <meta name="referrer" content="no-referrer">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="QTY`s Blog">
+    <title>__2021__ - QTY`s Blog</title>
+    <meta name="author" content="66CF">
+    
+    
+    
+    <script type="application/ld+json">{"@context":"http://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"66CF","sameAs":["https://github.com/66CF","http://stackoverflow.com/users","https://plus.google.com/","https://www.linkedin.com/profile/","mailto","https://yinlang.netlify.app","https://jinhenghs.us.kg"],"image":"https://i1.hdslb.com/bfs/face/0fcfff9250754b90582d3d549efd6984e59aa510.jpg"},"articleBody":"123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100101102103104105106107108109110111112113114115116117118119120121122123124125126127128129130131132133134135136137138139140141142143144145146147148149150151152153154155156157158159160161162163164165166167168169170171172173174骈鑫淼\t130726200607014968\t高中2021级1班\t张楠\t父亲\t13070219620323063X\t骈丽军\t母亲\t132525196701264926王梓睿\t140502200605100133\t高中2021级2班\t王晓晖\t父亲\t142730197810062512\t张丽锋\t母亲\t142601197910232622徐瑞\t120104200606050032\t高中2021级1班\t徐明皞\t父亲\t120102197604180370\t王莉\t母亲\t410303197605073223赵鹿含\t120104200607210042\t高中2021级3班\t赵德强\t父亲\t120104196510051816\t廖铁\t母亲\t430219197007105300安雨蕾\t120104200603010123\t高中2021级5班\t安承明\t父亲\t120104197306156850\t刘鑫\t母亲\t120101198208240042娄曦文\t120103200603090083\t高中2021级3班\t娄江峰\t父亲\t120111197305130054\t屈丽丽\t母亲\t130228197910215341赵介文\t130802200606250824\t高中2021级3班\t赵恩宏\t父亲\t130802197401281032\t肖丽君\t母亲\t130802197307081042许宇\t130981200604175235\t高中2021级6班\t许春雷\t父亲\t130981197604105216\t伊文英\t母亲\t130981197807205268王浩然\t130206200601011835\t高中2021级1班\t王永福\t父亲\t\t李艳梅\t母亲\t高鼎昊\t120103200508030074\t高中2021级5班\t高卫国\t父亲\t132828197206116555\t张逸会\t母亲\t120225197908296321李奕凝\t130404200608141526\t高中2021级1班\t李洪雁\t父亲\t\t王春英\t母亲\t王晨兴\t131102200603110431\t高中2021级6班\t王全福\t父亲\t131122197804168016\t高帅\t母亲\t131124198002122822许祺翌\t140203200605250107\t高中2021级5班\t许岩\t父亲\t140203198602133917\t井云\t母亲\t140203198607207620安晓佳\t130703200511120622\t高中2021级1班\t安占武\t父亲\t132527197211076014\t张春芳\t母亲\t132527197509257520艾婧仪\t150822200607130524\t高中2021级6班\t艾建兵\t父亲\t130984197810151810\t李乐\t母亲\t152823197810190024郝晨言\t130403200603223016\t高中2021级1班\t郝全永\t父亲\t\t陈雪玲\t母亲\t杨雨霖\t152101200510210917\t高中2021级5班\t杨震\t父亲\t152101197206170952\t龙慧\t母亲\t152101197605162140赵甲祺\t130503200505270615\t高中2021级4班\t赵汉青\t父亲\t\t秦桂英\t母亲\t孟墨\t37120320051025001X\t高中2021级2班\t孟波\t父亲\t371203197610210010\t毛文朵\t母亲\t370919197804143723顾博涵\t370103200603070054\t高中2021级2班\t顾锐\t父亲\t37098219791030437X\t徐筠\t母亲\t370305197901106229陈彦姝\t510104200604170084\t高中2021级4班\t陈育锋\t父亲\t352124197612061614\t强国芹\t母亲\t510781197802159346张琳悦\t34132120060305108X\t高中2021级2班\t张金锋\t父亲\t342122197810018532\t邵荣\t母亲\t34222119851210118X苏飞学\t220202200603270925\t高中2021级4班\t苏建华\t父亲\t35032119810821601X\t谢丽芬\t母亲\t350321198404192227刘梓翔\t421182200608135532\t高中2021级6班\t刘昆鹏\t父亲\t422129197907235597\t余艳红\t母亲\t421182198309265548谭禹哲\t500109200605117517\t高中2021级1班\t谭昌春\t父亲\t510226196802050838\t刘艳红\t母亲\t130821197411113322万皓炜\t131128200512316614\t高中2021级3班\t万永良\t父亲\t133031198009083336\t刘丽娜\t母亲\t131128198005081240杨韵函\t350305200604131103\t高中2021级4班\t杨青山\t父亲\t 350321198109166018\t施素贞\t母亲\t350301198605230028蒋泉旭\t510921200604234615\t高中2021级4班\t蒋鹏春\t父亲\t510921197407234611\t赵秀敏\t母亲\t130627198309182622宋雨宸\t130426200408040024\t高中2021级3班\t宋书良\t父亲\t132132197310130011\t武志宏\t母亲\t132132197505010327杨宇轩\t15252720060818031X\t高中2021级1班\t杨金玉\t父亲\t152527197803050356\t马兰\t母亲\t132440198103147620孙研书\t370783200605101365\t高中2021级3班\t孙胜军\t父亲\t无\t才令艳\t母亲\t无孙楷淇\t120104200604300130\t高中2021级3班\t孙伟\t父亲\t12010119750612001X\t徐欣\t母亲\t120104197508150422李维格\t230606200509191752\t高中2021级5班\t李文刚\t父亲\t230606196208271610\t赵洪芹\t母亲\t230606196302281647王若馨\t120102200510120101\t高中2021级2班\t王光阵\t父亲\t120223197701211017\t张丽丽\t母亲\t230521197806130626刘雨涵\t150926200606240167\t高中2021级5班\t刘波\t父亲\t152630197507270171\t梁燕\t母亲\t152630198510043628付佳莹\t13032320060622142X\t高中2021级5班\t付宝利\t父亲\t130323198009033113\t李志新\t母亲\t130323197907301429荣誉\t120104200511030266\t高中2021级5班\t荣世福\t父亲\t120103197201063811\t卢志军\t母亲\t13020219710728802X霍菱君\t130104200611241222\t高中2021级3班\t霍宁\t父亲\t13010419790811131X\t姚颖\t母亲\t130922197912030084王月茹\t120111200604130120\t高中2021级4班\t王健\t父亲\t120103198203227036\t杨靖\t母亲\t120111198212182028李翘楚\t420101200505247014\t高中2021级4班\t李强\t父亲\t\t\t\t张中河\t130282200502160014\t高中2021级6班\t张志军\t父亲\t\t郑育清\t母亲\t朱馨仪\t130826200503030029\t高中2021级6班\t朱涛\t父亲\t513027197010244610\t赵彬彬\t母亲\t132627198209050026吴宇轩\t341102200602076410\t高中2021级3班\t吴必俊\t父亲\t342301197703026210\t马粹萍\t母亲\t340123198108187300马洪达\t130406200603240317\t高中2021级1班\t马保路\t父亲\t\t杨相如\t母亲\t耿浚赫\t130302200511240415\t高中2021级1班\t耿昊\t父亲\t\t刘燕\t母亲\t张馨予\t120103200512190126\t高中2021级3班\t张鹏\t父亲\t120102197610240915\t张荣\t母亲\t120105197703054221侯懿桀\t12010220060423007X\t高中2021级5班\t侯俊\t父亲\t142431197304030032\t赵梓彤\t母亲\t140203197401130045刘镇滔\t130203200604050013\t高中2021级5班\t刘长春\t父亲\t130227198012076616\t刘玲玲\t母亲\t130202198111050641易庭宇\t120101200608160017\t高中2021级2班\t易扬\t父亲\t12010319730618031X\t霍虹\t母亲\t120105197712213327姜波\t120112200603190064\t高中2021级2班\t姜永满\t父亲\t120112197512140059\t王辉\t母亲\t120112197711300027曹鸿俊\t120109200507110134\t高中2021级4班\t曹汉彬\t父亲\t132629197701293917\t李绍艳\t母亲\t120111198104291526董林升\t120102200509150012\t高中2021级6班\t董宁\t父亲\t120101197910311512\t李琳\t母亲\t12010219761019172X陈艺文\t130130200609280022\t高中2021级1班\t陈占平\t父亲\t132324197706271612\t苌坤\t母亲\t132324198012240162郭恒博\t141002200606230339\t高中2021级4班\t郭华雷\t父亲\t141027198205240015\t王晶\t母亲\t141002198009210145马雪源\t120106200602150020\t高中2021级5班\t马清海\t父亲\t12010619791104151X\t杜娜\t母亲\t120106198001080020杨禹辰\t120103200512260075\t高中2021级2班\t金焰\t父亲\t230106195512060816\t杨庆英\t母亲\t120112196811028329袁满渠\t130206200603130336\t高中2021级2班\t袁旭刚\t父亲\t612101197710030212\t胡丽红\t母亲\t130206197710020621吕承澄\t130481200601100062\t高中2021级5班\t吕江秀\t父亲\t130422196602243015\t程红玺\t母亲\t130481196806210063贾亦琨\t130703200510211530\t高中2021级6班\t贾鸣钟\t父亲\t\t张彦敏\t母亲\t赵王竹馨\t130403200611191229\t高中2021级3班\t赵罗生\t父亲\t\t王莹露\t母亲\t刘子武\t130203200603235139\t高中2021级1班\t刘伟\t父亲\t130223197806220616\t武慧妍\t母亲\t130204197711242725刘馨阳\t130281200704164324\t高中2021级3班\t刘景红\t父亲\t130228197301270038\t王小梅\t母亲\t130228197712170066宋梓榕\t120104200604300085\t高中2021级3班\t宋安扬\t父亲\t120105197311012110\t王雪晴\t母亲\t430204197312061020陈嘉木\t130403200605231212\t高中2021级4班\t陈欣\t父亲\t\t王媛媛\t母亲\t王浩铜\t120103200601170098\t高中2021级5班\t秦正利\t父亲\t120105197010062413\t彭展\t母亲\t120103197807034521何奕霏\t411523200610270442\t高中2021级2班\t何绵浩\t父亲\t413029198002035417\t黄丽\t母亲\t413029197807230426黄钇涵\t321202200608211515\t高中2021级2班\t黄文强\t父亲\t\t韩燕\t母亲\t321202198202270347何奕霖\t411523200610270426\t高中2021级4班\t何绵浩\t父亲\t413029198002035417\t黄丽\t母亲\t413029197807230426徐梓洋\t231281200709160044\t高中2021级2班\t徐海君\t父亲\t23230219761225653X\t王红娟\t母亲\t23230219731015102X朱际潼\t120104200508090049\t高中2021级5班\t朱清\t父亲\t120104197302206013\t高颖\t母亲\t120105197702146044张烔硕\t130526200601263057\t高中2021级5班\t张占山\t父亲\t132227197405162213\t霍建莹\t母亲\t132227197403032220张一骁\t120109200604240053\t高中2021级6班\t张朋海\t父亲\t\t杨丽红\t母亲\t张玄同\t120104200606210104\t高中2021级6班\t张津生\t父亲\t120107197304014516\t穆江蓓\t母亲\t120104197405202146栗嘉翊\t130902200605190941\t高中2021级1班\t栗瑞堂\t父亲\t42030319800305251X\t李杨\t母亲\t130902198106220624陈敬严\t120106200602070012\t高中2021级6班\t陈胜斌\t父亲\t620523197210242016\t张秋苓\t母亲\t120222197409101041袁行健\t420521200511280010\t高中2021级2班\t袁宜勋\t父亲\t\t\t\t李翊鸣\t120107200511020059\t高中2021级2班\t李帅\t父亲\t\t代蕊\t母亲\t杜雨佳昊\t210802200608190538\t高中2021级2班\t杜鹏程\t父亲\t\t尹宏君\t母亲\t魏思远\t130429200701010827\t高中2021级1班\t魏继强\t父亲\t\t李晓粉\t母亲\t王禹涵\t130823200604250048\t高中2021级3班\t王顺智\t父亲\t130104198209152416\t李淑丽\t母亲\t130823198101211063王馨玉\t130203200607148024\t高中2021级2班\t王宏\t父亲\t130202197906173018\t付佳\t母亲\t130202197908143023王天啟\t411425200509164546\t高中2021级5班\t王宗章\t父亲\t120105197612226075\t杨雪寒\t母亲\t412321197712294544石函丞\t120102200606150153\t高中2021级2班\t石凤国\t父亲\t120111197607041516\t张华\t母亲\t120105197612231827胡立轩\t140109200602220191\t高中2021级1班\t胡俊英\t父亲\t142222197509092416\t朱花\t母亲\t142222197702240329田宛鹭\t140106200608280065\t高中2021级5班\t田艳辉\t父亲\t142301197911196313\t赵静\t母亲\t142321197811268020马梓航\t130802200601111016\t高中2021级6班\t马征\t父亲\t\t甄晓慧\t母亲\t杨泽瑞\t130982200605256519\t高中2021级5班\t杨昆\t父亲\t13098219811231731X\t张红\t母亲\t130224198110203624王暕曈\t120104200601010031\t高中2021级5班\t王睿\t父亲\t120103197110265119\t张瑞\t母亲\t120104197208157622敬康卓\t130322200601290032\t高中2021级5班\t敬运涛\t父亲\t130322198503100098\t孙巧丽\t母亲\t130322198208252224赵梓潇\t120103200608160087\t高中2021级3班\t赵彬\t父亲\t120106197711224039\t符敏\t母亲\t120104197806061823庞济琪\t12010320051101012X\t高中2021级4班\t庞峰松\t父亲\t413024197301286017\t严毅惠\t母亲\t12010319810524262X谢昱航\t429006200601137039\t高中2021级2班\t谢实宇\t父亲\t420503197008295234\t张露\t母亲\t420503197503275265陈炳赫\t130729200706110030\t高中2021级1班\t陈飞\t父亲\t\t韩丽萍\t母亲\t杨凯涵\t230921200604300064\t高中2021级5班\t杨利\t父亲\t\t李立伟\t母亲\t陈昊煊\t130603200602150610\t高中2021级2班\t陈铁雷\t父亲\t130604197711020614\t宋艳玲\t母亲\t130406197907221524田博文\t130223200601300676\t高中2021级5班\t田辉\t父亲\t\t刘红伟\t母亲\t黄安心\t341422200605212723\t高中2021级4班\t黄成乐\t父亲\t342623197710292714\t陈桂枝\t母亲\t342623198008302745李泓燕\t231024200509083728\t高中2021级3班\t李光福\t父亲\t231024197006133717\t金文玉\t母亲\t23102319800121142X郭京\t150123200604081622\t高中2021级4班\t郭晓斌\t父亲\t\t张丽鸿\t母亲\t张艺馨\t130983200607085326\t高中2021级6班\t张云红\t父亲\t612101197601296011\t安莉\t母亲\t132930197906025344王一琛\t130105200609222125\t高中2021级4班\t王景桥\t父亲\t372432197809264116\t李淑艳\t母亲\t130226197804016864牛顿\t440113200606085113\t高中2021级1班\t牛建伟\t父亲\t430303197404134011\t李丹\t母亲\t120105198211044224于子璐\t410304200607010024\t高中2021级3班\t于长海\t父亲\t410811197703119034\t张军莉\t母亲\t410304197806242528罗章诚\t41010520050802037X\t高中2021级1班\t罗庆华\t父亲\t410105196905303833\t刘燕\t母亲\t410303197003300521赵一诚\t130133200510230059\t高中2021级6班\t赵志祥\t父亲\t130921197905014215\t史英霞\t母亲\t132326197902070343江蕙心\t410105200604210149\t高中2021级4班\t江敬华\t父亲\t410105197611291018\t孙咏梅\t母亲\t412725197408260320王亚宇\t41032420060101007X\t高中2021级1班\t王鹏\t父亲\t410324198111230053\t楚林芝\t母亲\t410324198104140025宋炳霖\t410522200602060499\t高中2021级3班\t宋珍飞\t父亲\t410523197610174033\t赵瑜\t母亲\t410503197809222025马英杰\t410581200803154010\t高中2021级4班\t马瑞军\t父亲\t410521197908274018\t闫云丽\t母亲\t410502198311215002刘达远\t410105200602250059\t高中2021级2班\t刘涛\t父亲\t142621197809023514\t朱海萍\t母亲\t410726197712032423韩博翔\t410305200609270133\t高中2021级6班\t韩露\t父亲\t410305197102187512\t胡晓军\t母亲\t420121197409212525郭栩冰\t410303200605300048\t高中2021级6班\t郭健\t父亲\t61012319760510751X\t冯蓉\t母亲\t41030319790816056X李达为\t410303200701050050\t高中2021级1班\t李根权\t父亲\t412721197509255015\t苗莉莉\t母亲\t410303197705283228尹梓睿\t130922200605300050\t高中2021级6班\t尹建\t父亲\t130922197802230050\t孟洁\t母亲\t130922198008060028杨松\t130825200608300017\t高中2021级1班\t杨文富\t父亲\t\t战风侠\t母亲\t王宏宇\t131126200605163626\t高中2021级1班\t王衍辉\t父亲\t\t纪腊梅\t母亲\t李金蔓\t130404200607230025\t高中2021级6班\t李亚龙\t父亲\t510704198101160055\t杨小建\t母亲\t130633198302091362施贻洋\t330382200602091717\t高中2021级6班\t施成晓\t父亲\t330323197709201934\t陈晓丽\t母亲\t330323197710220948董云昕\t120104200509210102\t高中2021级3班\t董永凯\t父亲\t211382197811305418\t王立红\t母亲\t13098219810502712X张倍源\t120103200604220038\t高中2021级1班\t张亚军\t父亲\t12011119760215153X\t李莉\t母亲\t120224197801175320漆彦希\t120103200607110117\t高中2021级2班\t漆新华\t父亲\t362229197703120412\t王静\t母亲\t120103197910034220王雅绮\t130981200602270642\t高中2021级6班\t王立群\t父亲\t\t赵春漂\t母亲\t梁家畅\t130103200606080050\t高中2021级1班\t梁拥军\t父亲\t610113197212142135\t严敏\t母亲\t410401197509230041刘奕\t33020620051027467X\t高中2021级3班\t刘振兴\t父亲\t320821198001173912\t易春香\t母亲\t513721197903137548贾川慧\t12011320051125010X\t高中2021级6班\t贾世俊\t父亲\t220102197609083338\t梁英\t母亲\t430511197703130046陈艺萌\t120106200608280029\t高中2021级5班\t陈富庆\t父亲\t120106197909306515\t王丹\t母亲\t120105197810243925只晟均\t120103200603170016\t高中2021级4班\t只瑛\t父亲\t120103197212173514\t王丽\t母亲\t120103197911301722钱畅\t120102200511080041\t高中2021级3班\t钱晓明\t父亲\t120102196410020710\t侯孟青\t母亲\t120103196605042625任晓彤\t120103200608010089\t高中2021级2班\t任智锋\t父亲\t320106197509290830\t汤慧卿\t母亲\t320106197205250848阎昱文\t120106200509140055\t高中2021级4班\t阎联臣\t父亲\t120106197207263573\t郭广荣\t母亲\t12010619711024152X吴桐宇\t12011220060117030X\t高中2021级2班\t吴振强\t父亲\t120112197204043353\t李桂香\t母亲\t12011219730211336X屈孟樟\t362330200508060210\t高中2021级2班\t屈承炜\t父亲\t362330197601174197\t汪婷红\t母亲\t362330198312240244李少衡\t140825200610100016\t高中2021级2班\t李福奎\t父亲\t140825197508080018\t文晓霞\t母亲\t142701198101161262严子淇\t120102200607310032\t高中2021级4班\t郑波\t父亲\t120104198011106316\t孙羽佳\t母亲\t120102197904191266牟宣泽\t120103200607040075\t高中2021级1班\t牟革\t父亲\t120101197507121014\t张颖\t母亲\t12010519751030452X庄雨航\t120102200604240059\t高中2021级5班\t庄洪年\t父亲\t120113197411281633\t吕静\t母亲\t120102197901261169张共益\t120104200603170098\t高中2021级5班\t张同龙\t父亲\t120111197606174034\t姚修娟\t母亲\t120111197812261024高雨含\t120109200606130042\t高中2021级1班\t高立明\t父亲\t120109197704110518\t赵靓\t母亲\t120107197702131523程雨初\t12010320060526004X\t高中2021级3班\t程港\t父亲\t120109197305235014\t陈玉敏\t母亲\t120103197602164867孙楷淇\t12010420060516007X\t高中2021级2班\t孙镇\t父亲\t\t王彦\t母亲\t张洺庚\t120101200601160065\t高中2021级5班\t张喜平\t父亲\t622723197204170178\t陈欣\t母亲\t12010119721010458X刘一诺\t120102200604160016\t高中2021级6班\t刘利剑\t父亲\t350102197605125819\t刘颖新\t母亲\t120108197701021521耿瑞卿\t120103200605050034\t高中2021级5班\t耿光裕\t父亲\t120103197610296157\t邢颖\t母亲\t12010319771111384X宫珮然\t120111200602130207\t高中2021级3班\t宫祥洲\t父亲\t120111198311171519\t张广爱\t母亲\t120111198304051586段家琦\t120103200608290121\t高中2021级5班\t段健鹏\t父亲\t120101197810120014\t唐仁莉\t母亲\t120103197911163526赵泽元\t120105200605130010\t高中2021级5班\t赵玉增\t父亲\t130324197509080612\t杨丽\t母亲\t120102197607130221常皓然\t120101200603290058\t高中2021级4班\t常青\t父亲\t120101197505310532\t侯莉娟\t母亲\t120103197902032145刘恒\t610726200612183912\t高中2021级6班\t吴军\t父亲\t120101196904164013\t常巧英\t母亲\t410922198406110921王若珊\t610113200605220469\t高中2021级3班\t王俊峰\t父亲\t610321197302141532\t郭涵\t母亲\t152801197512265624安子阳\t130702200603021510\t高中2021级1班\t安志远\t父亲\t\t杨翠芳\t母亲\t王炜城\t320203200510282513\t高中2021级1班\t王平\t父亲\t320203197707230616\t黄斌\t母亲\t320203197710281529闫家悦\t130702200412030625\t高中2021级4班\t闫志刚\t父亲\t\t王丽华\t母亲\t赵萱策\t13080220051005081X\t高中2021级2班\t赵来来\t父亲\t130802197802011439\t徐淑清\t母亲\t130802197612250826员珂莹\t370202200608240728\t高中2021级4班\t员水源\t父亲\t142732197607242019\t吕毓祺\t母亲\t370206197902164448王卓\t130726200602090419\t高中2021级4班\t王占兵\t父亲\t\t王志红\t母亲\t顾浩琳\t130603200604130015\t高中2021级1班\t顾宗芳\t父亲\t\t梁丽\t母亲\t刘笙庆\t130105200605101828\t高中2021级1班\t刘亚军\t父亲\t130106197904250016\t任路平\t母亲\t130102197711221846周自超\t140202200511200014\t高中2021级5班\t周强\t父亲\t140202197607102537\t赵开迪\t母亲\t140211197709180049陈玮嘉\t130203200701195425\t高中2021级1班\t陈浙东\t父亲\t13020319790430093X\t李晓玮\t母亲\t130203197910070923赵文瑄\t130108200601100026\t高中2021级1班\t赵志刚\t父亲\t\t王向辉\t母亲\t付达\t130924200607192711\t高中2021级1班\t付延升\t父亲\t\t王金燕\t母亲\t李本奥\t130534200611154110\t高中2021级5班\t李金柱\t父亲\t\t潘其洽\t母亲\t王子涵\t130924200608305220\t高中2021级3班\t王建军\t父亲\t\t赵金平\t母亲\t王曼孜\t130203200512188322\t高中2021级2班\t王印\t父亲\t130229198102033014\t付建坤\t母亲\t130203198110178025付依涵\t13082320050113102X\t高中2021级2班\t付春会\t父亲\t132624198101031035\t王丽娜\t母亲\t132624197910215040李昉璞\t13100220060601401X\t高中2021级6班\t李晓东\t父亲\t15040419760315671X\t倪凤远\t母亲\t120102197910242488王玮琪\t130203200605160046\t高中2021级2班\t王余\t父亲\t130224197701096256\t郭慧宇\t母亲\t130203197602040028穆昶谕\t120103200506280205\t高中2021级2班\t穆远\t父亲\t120102197607011716\t范凯杰\t母亲\t120104198003052928姜思丞\t14060220051102004X\t高中2021级6班\t姜玉莲\t父亲\t140104197106201614\t白翠兰\t母亲\t142127197106164629李卓\t130726200603110418\t高中2021级5班\t李德国\t父亲\t\t王志英\t母亲\t唐若菲\t140107200512080102\t高中2021级3班\t唐明\t父亲\t142629197809241512\t赵翠玲\t母亲\t142430197704121228安舒瑾\t130930200607290028\t高中2021级3班\t安立明\t父亲\t132931198002120059\t董秀芳\t母亲\t13293119801218278X刘思源\t14010720060210004X\t高中2021级2班\t刘强\t父亲\t142323198004110216\t白莉\t母亲\t142401197901140629","dateCreated":"2024-09-20T20:38:14+08:00","dateModified":"2024-09-20T20:46:14+08:00","datePublished":"2024-09-20T20:38:14+08:00","description":"","headline":"__2021__","image":[],"mainEntityOfPage":{"@type":"WebPage","@id":"https://66cf.netlify.app/2024/09/20/2021/"},"publisher":{"@type":"Organization","name":"66CF","sameAs":["https://github.com/66CF","http://stackoverflow.com/users","https://plus.google.com/","https://www.linkedin.com/profile/","mailto","https://yinlang.netlify.app","https://jinhenghs.us.kg"],"image":"https://i1.hdslb.com/bfs/face/0fcfff9250754b90582d3d549efd6984e59aa510.jpg","logo":{"@type":"ImageObject","url":"https://i1.hdslb.com/bfs/face/0fcfff9250754b90582d3d549efd6984e59aa510.jpg"}},"url":"https://66cf.netlify.app/2024/09/20/2021/","keywords":"doxxing"}</script>
+    <meta name="description" content="12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989910010110210">
+<meta property="og:type" content="blog">
 <meta property="og:title" content="__2021__">
 <meta property="og:url" content="https://66cf.netlify.app/2024/09/20/2021/index.html">
 <meta property="og:site_name" content="QTY&#96;s Blog">
-<meta property="og:description" content="Curiosity killed the cat.but, satisfaction brought it back">
+<meta property="og:description" content="12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989910010110210">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2024-09-20T12:38:14.000Z">
 <meta property="article:modified_time" content="2024-09-20T12:46:14.538Z">
 <meta property="article:author" content="66CF">
 <meta property="article:tag" content="doxxing">
 <meta name="twitter:card" content="summary">
+    
+    
+        
+    
+    
+        <meta property="og:image" content="https://i1.hdslb.com/bfs/face/0fcfff9250754b90582d3d549efd6984e59aa510.jpg"/>
+    
+    
+    
+    
+    <!--STYLES-->
+    
+<link rel="stylesheet" href="/assets/css/style-zkyg9z9nhls94r5grc09wfbtcbhyzmpcjd83wunoq6jfn0qkxrecrpjqo0cg.min.css">
 
-<link rel="canonical" href="https://66cf.netlify.app/2024/09/20/2021/">
+    <!--STYLES END-->
+    
 
+    
 
-<script id="page-configurations">
-  // https://hexo.io/docs/variables.html
-  CONFIG.page = {
-    sidebar: "",
-    isHome : false,
-    isPost : true,
-    lang   : 'en'
-  };
-</script>
-
-  <title>__2021__ | QTY`s Blog</title>
-  
-
-
-
-
-
-
-  <noscript>
-  <style>
-  .use-motion .brand,
-  .use-motion .menu-item,
-  .sidebar-inner,
-  .use-motion .post-block,
-  .use-motion .pagination,
-  .use-motion .comments,
-  .use-motion .post-header,
-  .use-motion .post-body,
-  .use-motion .collection-header { opacity: initial; }
-
-  .use-motion .site-title,
-  .use-motion .site-subtitle {
-    opacity: initial;
-    top: initial;
-  }
-
-  .use-motion .logo-line-before i { left: initial; }
-  .use-motion .logo-line-after i { right: initial; }
-  </style>
-</noscript>
-
+    
+        
+    
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage">
-  <div class="container use-motion">
-    <div class="headband"></div>
+    <body>
+        <div id="blog">
+            <!-- Define author's picture -->
 
-    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-container">
-  <div class="site-nav-toggle">
-    <div class="toggle" aria-label="Toggle navigation bar">
-      <span class="toggle-line toggle-line-first"></span>
-      <span class="toggle-line toggle-line-middle"></span>
-      <span class="toggle-line toggle-line-last"></span>
+
+    
+        
+            
+        
+    
+
+<header id="header" data-behavior="4">
+    <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+    <div class="header-title">
+        <a
+            class="header-title-link"
+            href="/"
+            aria-label=""
+        >
+            QTY`s Blog
+        </a>
     </div>
-  </div>
+    
+        
+            <a
+                class="header-right-picture "
+                href="#about"
+                aria-label="Open the link: /#about"
+            >
+        
+        
+            <img class="header-picture" src="https://i1.hdslb.com/bfs/face/0fcfff9250754b90582d3d549efd6984e59aa510.jpg" alt="Author&#39;s picture"/>
+        
+        </a>
+    
+</header>
 
-  <div class="site-meta">
+            <!-- Define author's picture -->
 
-    <a href="/" class="brand" rel="start">
-      <span class="logo-line-before"><i></i></span>
-      <h1 class="site-title">QTY`s Blog</h1>
-      <span class="logo-line-after"><i></i></span>
-    </a>
-      <p class="site-subtitle" itemprop="description">你是过去我，我是未来你，从未相见，从未分别。</p>
-  </div>
 
-  <div class="site-nav-right">
-    <div class="toggle popup-trigger">
+
+        
+    
+
+<nav id="sidebar" data-behavior="4">
+    <div class="sidebar-container">
+        
+            <div class="sidebar-profile">
+                <a
+                    href="/#about"
+                    aria-label="Read more about the author"
+                >
+                    <img class="sidebar-profile-picture" src="https://i1.hdslb.com/bfs/face/0fcfff9250754b90582d3d549efd6984e59aa510.jpg" alt="Author&#39;s picture"/>
+                </a>
+                <h4 class="sidebar-profile-name">66CF</h4>
+                
+                    <h5 class="sidebar-profile-bio"><p>author.bio</p>
+</h5>
+                
+            </div>
+        
+        
+            <ul class="sidebar-buttons">
+            
+                <li class="sidebar-button">
+                    
+                        <a
+                            class="sidebar-button-link "
+                            href="/"
+                            
+                            rel="noopener"
+                            title="Home"
+                        >
+                        <i class="sidebar-button-icon fa fa-home" aria-hidden="true"></i>
+                        <span class="sidebar-button-desc">Home</span>
+                    </a>
+            </li>
+            
+                <li class="sidebar-button">
+                    
+                        <a
+                            class="sidebar-button-link "
+                            href="/all-categories"
+                            
+                            rel="noopener"
+                            title="Categories"
+                        >
+                        <i class="sidebar-button-icon fa fa-bookmark" aria-hidden="true"></i>
+                        <span class="sidebar-button-desc">Categories</span>
+                    </a>
+            </li>
+            
+                <li class="sidebar-button">
+                    
+                        <a
+                            class="sidebar-button-link "
+                            href="/all-tags"
+                            
+                            rel="noopener"
+                            title="Tags"
+                        >
+                        <i class="sidebar-button-icon fa fa-tags" aria-hidden="true"></i>
+                        <span class="sidebar-button-desc">Tags</span>
+                    </a>
+            </li>
+            
+                <li class="sidebar-button">
+                    
+                        <a
+                            class="sidebar-button-link "
+                            href="/all-archives"
+                            
+                            rel="noopener"
+                            title="Archives"
+                        >
+                        <i class="sidebar-button-icon fa fa-archive" aria-hidden="true"></i>
+                        <span class="sidebar-button-desc">Archives</span>
+                    </a>
+            </li>
+            
+                <li class="sidebar-button">
+                    
+                        <a
+                            class="sidebar-button-link open-algolia-search"
+                            href="#search"
+                            
+                            rel="noopener"
+                            title="Search"
+                        >
+                        <i class="sidebar-button-icon fa fa-search" aria-hidden="true"></i>
+                        <span class="sidebar-button-desc">Search</span>
+                    </a>
+            </li>
+            
+                <li class="sidebar-button">
+                    
+                        <a
+                            class="sidebar-button-link "
+                            href="#about"
+                            
+                            rel="noopener"
+                            title="About"
+                        >
+                        <i class="sidebar-button-icon fa fa-question" aria-hidden="true"></i>
+                        <span class="sidebar-button-desc">About</span>
+                    </a>
+            </li>
+            
+        </ul>
+        
+            <ul class="sidebar-buttons">
+            
+                <li class="sidebar-button">
+                    
+                        <a
+                            class="sidebar-button-link "
+                            href="https://github.com/66CF"
+                            
+                                target="_blank"
+                            
+                            rel="noopener"
+                            title="GitHub"
+                        >
+                        <i class="sidebar-button-icon fab fa-github" aria-hidden="true"></i>
+                        <span class="sidebar-button-desc">GitHub</span>
+                    </a>
+            </li>
+            
+                <li class="sidebar-button">
+                    
+                        <a
+                            class="sidebar-button-link "
+                            href="http://stackoverflow.com/users"
+                            
+                                target="_blank"
+                            
+                            rel="noopener"
+                            title="Stack Overflow"
+                        >
+                        <i class="sidebar-button-icon fab fa-stack-overflow" aria-hidden="true"></i>
+                        <span class="sidebar-button-desc">Stack Overflow</span>
+                    </a>
+            </li>
+            
+                <li class="sidebar-button">
+                    
+                        <a
+                            class="sidebar-button-link "
+                            href="https://plus.google.com/"
+                            
+                                target="_blank"
+                            
+                            rel="noopener"
+                            title="Google +"
+                        >
+                        <i class="sidebar-button-icon fab fa-google-plus" aria-hidden="true"></i>
+                        <span class="sidebar-button-desc">Google +</span>
+                    </a>
+            </li>
+            
+                <li class="sidebar-button">
+                    
+                        <a
+                            class="sidebar-button-link "
+                            href="https://www.linkedin.com/profile/"
+                            
+                                target="_blank"
+                            
+                            rel="noopener"
+                            title="LinkedIn"
+                        >
+                        <i class="sidebar-button-icon fab fa-linkedin" aria-hidden="true"></i>
+                        <span class="sidebar-button-desc">LinkedIn</span>
+                    </a>
+            </li>
+            
+                <li class="sidebar-button">
+                    
+                        <a
+                            class="sidebar-button-link "
+                            href="/mailto"
+                            
+                            rel="noopener"
+                            title="Mail"
+                        >
+                        <i class="sidebar-button-icon fa fa-envelope" aria-hidden="true"></i>
+                        <span class="sidebar-button-desc">Mail</span>
+                    </a>
+            </li>
+            
+                <li class="sidebar-button">
+                    
+                        <a
+                            class="sidebar-button-link "
+                            href="https://yinlang.netlify.app"
+                            
+                                target="_blank"
+                            
+                            rel="noopener"
+                            title="银狼的模拟宇宙"
+                        >
+                        <i class="sidebar-button-icon fas fa-globe" aria-hidden="true"></i>
+                        <span class="sidebar-button-desc">银狼的模拟宇宙</span>
+                    </a>
+            </li>
+            
+                <li class="sidebar-button">
+                    
+                        <a
+                            class="sidebar-button-link "
+                            href="https://jinhenghs.us.kg"
+                            
+                                target="_blank"
+                            
+                            rel="noopener"
+                            title="合成大王易"
+                        >
+                        <i class="sidebar-button-icon fas fa-gamepad" aria-hidden="true"></i>
+                        <span class="sidebar-button-desc">合成大王易</span>
+                    </a>
+            </li>
+            
+        </ul>
+        
+            <ul class="sidebar-buttons">
+            
+                <li class="sidebar-button">
+                    
+                        <a
+                            class="sidebar-button-link "
+                            href="/atom.xml"
+                            
+                            rel="noopener"
+                            title="RSS"
+                        >
+                        <i class="sidebar-button-icon fa fa-rss" aria-hidden="true"></i>
+                        <span class="sidebar-button-desc">RSS</span>
+                    </a>
+            </li>
+            
+        </ul>
+        
     </div>
-  </div>
-</div>
-
-
-
-
-<nav class="site-nav">
-  <ul id="menu" class="main-menu menu">
-        <li class="menu-item menu-item-home">
-
-    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
-
-  </li>
-        <li class="menu-item menu-item-archives">
-
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">11</span></a>
-
-  </li>
-        <li class="menu-item menu-item-about">
-
-    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a>
-
-  </li>
-        <li class="menu-item menu-item-tags">
-
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">2</span></a>
-
-  </li>
-        <li class="menu-item menu-item-categories">
-
-    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories<span class="badge">0</span></a>
-
-  </li>
-        <li class="menu-item menu-item-github">
-
-    <a href="https://github.com/66CF" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>Github</a>
-
-  </li>
-  </ul>
 </nav>
 
-
-
-
+            
+            <div id="main" data-behavior="4"
+                 class="
+                        hasCoverMetaIn
+                        ">
+                
+<article class="post">
+    
+    
+        <div class="post-header main-content-wrap text-left">
+    
+        <h1 class="post-title">
+            __2021__
+        </h1>
+    
+    
+        <div class="post-meta">
+    <time datetime="2024-09-20T20:38:14+08:00">
+	
+		    Sep 20, 2024
+    	
+    </time>
+    
 </div>
-    </header>
 
     
+</div>
 
-
-    <main class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          
-
-          <div class="content post posts-expand">
+    
+    <div class="post-content markdown">
+        <div class="main-content-wrap">
+            <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br></pre></td><td class="code"><pre><span class="line">骈鑫淼	130726200607014968	高中2021级1班	张楠	父亲	13070219620323063X	骈丽军	母亲	132525196701264926</span><br><span class="line">王梓睿	140502200605100133	高中2021级2班	王晓晖	父亲	142730197810062512	张丽锋	母亲	142601197910232622</span><br><span class="line">徐瑞	120104200606050032	高中2021级1班	徐明皞	父亲	120102197604180370	王莉	母亲	410303197605073223</span><br><span class="line">赵鹿含	120104200607210042	高中2021级3班	赵德强	父亲	120104196510051816	廖铁	母亲	430219197007105300</span><br><span class="line">安雨蕾	120104200603010123	高中2021级5班	安承明	父亲	120104197306156850	刘鑫	母亲	120101198208240042</span><br><span class="line">娄曦文	120103200603090083	高中2021级3班	娄江峰	父亲	120111197305130054	屈丽丽	母亲	130228197910215341</span><br><span class="line">赵介文	130802200606250824	高中2021级3班	赵恩宏	父亲	130802197401281032	肖丽君	母亲	130802197307081042</span><br><span class="line">许宇	130981200604175235	高中2021级6班	许春雷	父亲	130981197604105216	伊文英	母亲	130981197807205268</span><br><span class="line">王浩然	130206200601011835	高中2021级1班	王永福	父亲		李艳梅	母亲	</span><br><span class="line">高鼎昊	120103200508030074	高中2021级5班	高卫国	父亲	132828197206116555	张逸会	母亲	120225197908296321</span><br><span class="line">李奕凝	130404200608141526	高中2021级1班	李洪雁	父亲		王春英	母亲	</span><br><span class="line">王晨兴	131102200603110431	高中2021级6班	王全福	父亲	131122197804168016	高帅	母亲	131124198002122822</span><br><span class="line">许祺翌	140203200605250107	高中2021级5班	许岩	父亲	140203198602133917	井云	母亲	140203198607207620</span><br><span class="line">安晓佳	130703200511120622	高中2021级1班	安占武	父亲	132527197211076014	张春芳	母亲	132527197509257520</span><br><span class="line">艾婧仪	150822200607130524	高中2021级6班	艾建兵	父亲	130984197810151810	李乐	母亲	152823197810190024</span><br><span class="line">郝晨言	130403200603223016	高中2021级1班	郝全永	父亲		陈雪玲	母亲	</span><br><span class="line">杨雨霖	152101200510210917	高中2021级5班	杨震	父亲	152101197206170952	龙慧	母亲	152101197605162140</span><br><span class="line">赵甲祺	130503200505270615	高中2021级4班	赵汉青	父亲		秦桂英	母亲	</span><br><span class="line">孟墨	37120320051025001X	高中2021级2班	孟波	父亲	371203197610210010	毛文朵	母亲	370919197804143723</span><br><span class="line">顾博涵	370103200603070054	高中2021级2班	顾锐	父亲	37098219791030437X	徐筠	母亲	370305197901106229</span><br><span class="line">陈彦姝	510104200604170084	高中2021级4班	陈育锋	父亲	352124197612061614	强国芹	母亲	510781197802159346</span><br><span class="line">张琳悦	34132120060305108X	高中2021级2班	张金锋	父亲	342122197810018532	邵荣	母亲	34222119851210118X</span><br><span class="line">苏飞学	220202200603270925	高中2021级4班	苏建华	父亲	35032119810821601X	谢丽芬	母亲	350321198404192227</span><br><span class="line">刘梓翔	421182200608135532	高中2021级6班	刘昆鹏	父亲	422129197907235597	余艳红	母亲	421182198309265548</span><br><span class="line">谭禹哲	500109200605117517	高中2021级1班	谭昌春	父亲	510226196802050838	刘艳红	母亲	130821197411113322</span><br><span class="line">万皓炜	131128200512316614	高中2021级3班	万永良	父亲	133031198009083336	刘丽娜	母亲	131128198005081240</span><br><span class="line">杨韵函	350305200604131103	高中2021级4班	杨青山	父亲	 350321198109166018	施素贞	母亲	350301198605230028</span><br><span class="line">蒋泉旭	510921200604234615	高中2021级4班	蒋鹏春	父亲	510921197407234611	赵秀敏	母亲	130627198309182622</span><br><span class="line">宋雨宸	130426200408040024	高中2021级3班	宋书良	父亲	132132197310130011	武志宏	母亲	132132197505010327</span><br><span class="line">杨宇轩	15252720060818031X	高中2021级1班	杨金玉	父亲	152527197803050356	马兰	母亲	132440198103147620</span><br><span class="line">孙研书	370783200605101365	高中2021级3班	孙胜军	父亲	无	才令艳	母亲	无</span><br><span class="line">孙楷淇	120104200604300130	高中2021级3班	孙伟	父亲	12010119750612001X	徐欣	母亲	120104197508150422</span><br><span class="line">李维格	230606200509191752	高中2021级5班	李文刚	父亲	230606196208271610	赵洪芹	母亲	230606196302281647</span><br><span class="line">王若馨	120102200510120101	高中2021级2班	王光阵	父亲	120223197701211017	张丽丽	母亲	230521197806130626</span><br><span class="line">刘雨涵	150926200606240167	高中2021级5班	刘波	父亲	152630197507270171	梁燕	母亲	152630198510043628</span><br><span class="line">付佳莹	13032320060622142X	高中2021级5班	付宝利	父亲	130323198009033113	李志新	母亲	130323197907301429</span><br><span class="line">荣誉	120104200511030266	高中2021级5班	荣世福	父亲	120103197201063811	卢志军	母亲	13020219710728802X</span><br><span class="line">霍菱君	130104200611241222	高中2021级3班	霍宁	父亲	13010419790811131X	姚颖	母亲	130922197912030084</span><br><span class="line">王月茹	120111200604130120	高中2021级4班	王健	父亲	120103198203227036	杨靖	母亲	120111198212182028</span><br><span class="line">李翘楚	420101200505247014	高中2021级4班	李强	父亲				</span><br><span class="line">张中河	130282200502160014	高中2021级6班	张志军	父亲		郑育清	母亲	</span><br><span class="line">朱馨仪	130826200503030029	高中2021级6班	朱涛	父亲	513027197010244610	赵彬彬	母亲	132627198209050026</span><br><span class="line">吴宇轩	341102200602076410	高中2021级3班	吴必俊	父亲	342301197703026210	马粹萍	母亲	340123198108187300</span><br><span class="line">马洪达	130406200603240317	高中2021级1班	马保路	父亲		杨相如	母亲	</span><br><span class="line">耿浚赫	130302200511240415	高中2021级1班	耿昊	父亲		刘燕	母亲	</span><br><span class="line">张馨予	120103200512190126	高中2021级3班	张鹏	父亲	120102197610240915	张荣	母亲	120105197703054221</span><br><span class="line">侯懿桀	12010220060423007X	高中2021级5班	侯俊	父亲	142431197304030032	赵梓彤	母亲	140203197401130045</span><br><span class="line">刘镇滔	130203200604050013	高中2021级5班	刘长春	父亲	130227198012076616	刘玲玲	母亲	130202198111050641</span><br><span class="line">易庭宇	120101200608160017	高中2021级2班	易扬	父亲	12010319730618031X	霍虹	母亲	120105197712213327</span><br><span class="line">姜波	120112200603190064	高中2021级2班	姜永满	父亲	120112197512140059	王辉	母亲	120112197711300027</span><br><span class="line">曹鸿俊	120109200507110134	高中2021级4班	曹汉彬	父亲	132629197701293917	李绍艳	母亲	120111198104291526</span><br><span class="line">董林升	120102200509150012	高中2021级6班	董宁	父亲	120101197910311512	李琳	母亲	12010219761019172X</span><br><span class="line">陈艺文	130130200609280022	高中2021级1班	陈占平	父亲	132324197706271612	苌坤	母亲	132324198012240162</span><br><span class="line">郭恒博	141002200606230339	高中2021级4班	郭华雷	父亲	141027198205240015	王晶	母亲	141002198009210145</span><br><span class="line">马雪源	120106200602150020	高中2021级5班	马清海	父亲	12010619791104151X	杜娜	母亲	120106198001080020</span><br><span class="line">杨禹辰	120103200512260075	高中2021级2班	金焰	父亲	230106195512060816	杨庆英	母亲	120112196811028329</span><br><span class="line">袁满渠	130206200603130336	高中2021级2班	袁旭刚	父亲	612101197710030212	胡丽红	母亲	130206197710020621</span><br><span class="line">吕承澄	130481200601100062	高中2021级5班	吕江秀	父亲	130422196602243015	程红玺	母亲	130481196806210063</span><br><span class="line">贾亦琨	130703200510211530	高中2021级6班	贾鸣钟	父亲		张彦敏	母亲	</span><br><span class="line">赵王竹馨	130403200611191229	高中2021级3班	赵罗生	父亲		王莹露	母亲	</span><br><span class="line">刘子武	130203200603235139	高中2021级1班	刘伟	父亲	130223197806220616	武慧妍	母亲	130204197711242725</span><br><span class="line">刘馨阳	130281200704164324	高中2021级3班	刘景红	父亲	130228197301270038	王小梅	母亲	130228197712170066</span><br><span class="line">宋梓榕	120104200604300085	高中2021级3班	宋安扬	父亲	120105197311012110	王雪晴	母亲	430204197312061020</span><br><span class="line">陈嘉木	130403200605231212	高中2021级4班	陈欣	父亲		王媛媛	母亲	</span><br><span class="line">王浩铜	120103200601170098	高中2021级5班	秦正利	父亲	120105197010062413	彭展	母亲	120103197807034521</span><br><span class="line">何奕霏	411523200610270442	高中2021级2班	何绵浩	父亲	413029198002035417	黄丽	母亲	413029197807230426</span><br><span class="line">黄钇涵	321202200608211515	高中2021级2班	黄文强	父亲		韩燕	母亲	321202198202270347</span><br><span class="line">何奕霖	411523200610270426	高中2021级4班	何绵浩	父亲	413029198002035417	黄丽	母亲	413029197807230426</span><br><span class="line">徐梓洋	231281200709160044	高中2021级2班	徐海君	父亲	23230219761225653X	王红娟	母亲	23230219731015102X</span><br><span class="line">朱际潼	120104200508090049	高中2021级5班	朱清	父亲	120104197302206013	高颖	母亲	120105197702146044</span><br><span class="line">张烔硕	130526200601263057	高中2021级5班	张占山	父亲	132227197405162213	霍建莹	母亲	132227197403032220</span><br><span class="line">张一骁	120109200604240053	高中2021级6班	张朋海	父亲		杨丽红	母亲	</span><br><span class="line">张玄同	120104200606210104	高中2021级6班	张津生	父亲	120107197304014516	穆江蓓	母亲	120104197405202146</span><br><span class="line">栗嘉翊	130902200605190941	高中2021级1班	栗瑞堂	父亲	42030319800305251X	李杨	母亲	130902198106220624</span><br><span class="line">陈敬严	120106200602070012	高中2021级6班	陈胜斌	父亲	620523197210242016	张秋苓	母亲	120222197409101041</span><br><span class="line">袁行健	420521200511280010	高中2021级2班	袁宜勋	父亲				</span><br><span class="line">李翊鸣	120107200511020059	高中2021级2班	李帅	父亲		代蕊	母亲	</span><br><span class="line">杜雨佳昊	210802200608190538	高中2021级2班	杜鹏程	父亲		尹宏君	母亲	</span><br><span class="line">魏思远	130429200701010827	高中2021级1班	魏继强	父亲		李晓粉	母亲	</span><br><span class="line">王禹涵	130823200604250048	高中2021级3班	王顺智	父亲	130104198209152416	李淑丽	母亲	130823198101211063</span><br><span class="line">王馨玉	130203200607148024	高中2021级2班	王宏	父亲	130202197906173018	付佳	母亲	130202197908143023</span><br><span class="line">王天啟	411425200509164546	高中2021级5班	王宗章	父亲	120105197612226075	杨雪寒	母亲	412321197712294544</span><br><span class="line">石函丞	120102200606150153	高中2021级2班	石凤国	父亲	120111197607041516	张华	母亲	120105197612231827</span><br><span class="line">胡立轩	140109200602220191	高中2021级1班	胡俊英	父亲	142222197509092416	朱花	母亲	142222197702240329</span><br><span class="line">田宛鹭	140106200608280065	高中2021级5班	田艳辉	父亲	142301197911196313	赵静	母亲	142321197811268020</span><br><span class="line">马梓航	130802200601111016	高中2021级6班	马征	父亲		甄晓慧	母亲	</span><br><span class="line">杨泽瑞	130982200605256519	高中2021级5班	杨昆	父亲	13098219811231731X	张红	母亲	130224198110203624</span><br><span class="line">王暕曈	120104200601010031	高中2021级5班	王睿	父亲	120103197110265119	张瑞	母亲	120104197208157622</span><br><span class="line">敬康卓	130322200601290032	高中2021级5班	敬运涛	父亲	130322198503100098	孙巧丽	母亲	130322198208252224</span><br><span class="line">赵梓潇	120103200608160087	高中2021级3班	赵彬	父亲	120106197711224039	符敏	母亲	120104197806061823</span><br><span class="line">庞济琪	12010320051101012X	高中2021级4班	庞峰松	父亲	413024197301286017	严毅惠	母亲	12010319810524262X</span><br><span class="line">谢昱航	429006200601137039	高中2021级2班	谢实宇	父亲	420503197008295234	张露	母亲	420503197503275265</span><br><span class="line">陈炳赫	130729200706110030	高中2021级1班	陈飞	父亲		韩丽萍	母亲	</span><br><span class="line">杨凯涵	230921200604300064	高中2021级5班	杨利	父亲		李立伟	母亲	</span><br><span class="line">陈昊煊	130603200602150610	高中2021级2班	陈铁雷	父亲	130604197711020614	宋艳玲	母亲	130406197907221524</span><br><span class="line">田博文	130223200601300676	高中2021级5班	田辉	父亲		刘红伟	母亲	</span><br><span class="line">黄安心	341422200605212723	高中2021级4班	黄成乐	父亲	342623197710292714	陈桂枝	母亲	342623198008302745</span><br><span class="line">李泓燕	231024200509083728	高中2021级3班	李光福	父亲	231024197006133717	金文玉	母亲	23102319800121142X</span><br><span class="line">郭京	150123200604081622	高中2021级4班	郭晓斌	父亲		张丽鸿	母亲	</span><br><span class="line">张艺馨	130983200607085326	高中2021级6班	张云红	父亲	612101197601296011	安莉	母亲	132930197906025344</span><br><span class="line">王一琛	130105200609222125	高中2021级4班	王景桥	父亲	372432197809264116	李淑艳	母亲	130226197804016864</span><br><span class="line">牛顿	440113200606085113	高中2021级1班	牛建伟	父亲	430303197404134011	李丹	母亲	120105198211044224</span><br><span class="line">于子璐	410304200607010024	高中2021级3班	于长海	父亲	410811197703119034	张军莉	母亲	410304197806242528</span><br><span class="line">罗章诚	41010520050802037X	高中2021级1班	罗庆华	父亲	410105196905303833	刘燕	母亲	410303197003300521</span><br><span class="line">赵一诚	130133200510230059	高中2021级6班	赵志祥	父亲	130921197905014215	史英霞	母亲	132326197902070343</span><br><span class="line">江蕙心	410105200604210149	高中2021级4班	江敬华	父亲	410105197611291018	孙咏梅	母亲	412725197408260320</span><br><span class="line">王亚宇	41032420060101007X	高中2021级1班	王鹏	父亲	410324198111230053	楚林芝	母亲	410324198104140025</span><br><span class="line">宋炳霖	410522200602060499	高中2021级3班	宋珍飞	父亲	410523197610174033	赵瑜	母亲	410503197809222025</span><br><span class="line">马英杰	410581200803154010	高中2021级4班	马瑞军	父亲	410521197908274018	闫云丽	母亲	410502198311215002</span><br><span class="line">刘达远	410105200602250059	高中2021级2班	刘涛	父亲	142621197809023514	朱海萍	母亲	410726197712032423</span><br><span class="line">韩博翔	410305200609270133	高中2021级6班	韩露	父亲	410305197102187512	胡晓军	母亲	420121197409212525</span><br><span class="line">郭栩冰	410303200605300048	高中2021级6班	郭健	父亲	61012319760510751X	冯蓉	母亲	41030319790816056X</span><br><span class="line">李达为	410303200701050050	高中2021级1班	李根权	父亲	412721197509255015	苗莉莉	母亲	410303197705283228</span><br><span class="line">尹梓睿	130922200605300050	高中2021级6班	尹建	父亲	130922197802230050	孟洁	母亲	130922198008060028</span><br><span class="line">杨松	130825200608300017	高中2021级1班	杨文富	父亲		战风侠	母亲	</span><br><span class="line">王宏宇	131126200605163626	高中2021级1班	王衍辉	父亲		纪腊梅	母亲	</span><br><span class="line">李金蔓	130404200607230025	高中2021级6班	李亚龙	父亲	510704198101160055	杨小建	母亲	130633198302091362</span><br><span class="line">施贻洋	330382200602091717	高中2021级6班	施成晓	父亲	330323197709201934	陈晓丽	母亲	330323197710220948</span><br><span class="line">董云昕	120104200509210102	高中2021级3班	董永凯	父亲	211382197811305418	王立红	母亲	13098219810502712X</span><br><span class="line">张倍源	120103200604220038	高中2021级1班	张亚军	父亲	12011119760215153X	李莉	母亲	120224197801175320</span><br><span class="line">漆彦希	120103200607110117	高中2021级2班	漆新华	父亲	362229197703120412	王静	母亲	120103197910034220</span><br><span class="line">王雅绮	130981200602270642	高中2021级6班	王立群	父亲		赵春漂	母亲	</span><br><span class="line">梁家畅	130103200606080050	高中2021级1班	梁拥军	父亲	610113197212142135	严敏	母亲	410401197509230041</span><br><span class="line">刘奕	33020620051027467X	高中2021级3班	刘振兴	父亲	320821198001173912	易春香	母亲	513721197903137548</span><br><span class="line">贾川慧	12011320051125010X	高中2021级6班	贾世俊	父亲	220102197609083338	梁英	母亲	430511197703130046</span><br><span class="line">陈艺萌	120106200608280029	高中2021级5班	陈富庆	父亲	120106197909306515	王丹	母亲	120105197810243925</span><br><span class="line">只晟均	120103200603170016	高中2021级4班	只瑛	父亲	120103197212173514	王丽	母亲	120103197911301722</span><br><span class="line">钱畅	120102200511080041	高中2021级3班	钱晓明	父亲	120102196410020710	侯孟青	母亲	120103196605042625</span><br><span class="line">任晓彤	120103200608010089	高中2021级2班	任智锋	父亲	320106197509290830	汤慧卿	母亲	320106197205250848</span><br><span class="line">阎昱文	120106200509140055	高中2021级4班	阎联臣	父亲	120106197207263573	郭广荣	母亲	12010619711024152X</span><br><span class="line">吴桐宇	12011220060117030X	高中2021级2班	吴振强	父亲	120112197204043353	李桂香	母亲	12011219730211336X</span><br><span class="line">屈孟樟	362330200508060210	高中2021级2班	屈承炜	父亲	362330197601174197	汪婷红	母亲	362330198312240244</span><br><span class="line">李少衡	140825200610100016	高中2021级2班	李福奎	父亲	140825197508080018	文晓霞	母亲	142701198101161262</span><br><span class="line">严子淇	120102200607310032	高中2021级4班	郑波	父亲	120104198011106316	孙羽佳	母亲	120102197904191266</span><br><span class="line">牟宣泽	120103200607040075	高中2021级1班	牟革	父亲	120101197507121014	张颖	母亲	12010519751030452X</span><br><span class="line">庄雨航	120102200604240059	高中2021级5班	庄洪年	父亲	120113197411281633	吕静	母亲	120102197901261169</span><br><span class="line">张共益	120104200603170098	高中2021级5班	张同龙	父亲	120111197606174034	姚修娟	母亲	120111197812261024</span><br><span class="line">高雨含	120109200606130042	高中2021级1班	高立明	父亲	120109197704110518	赵靓	母亲	120107197702131523</span><br><span class="line">程雨初	12010320060526004X	高中2021级3班	程港	父亲	120109197305235014	陈玉敏	母亲	120103197602164867</span><br><span class="line">孙楷淇	12010420060516007X	高中2021级2班	孙镇	父亲		王彦	母亲	</span><br><span class="line">张洺庚	120101200601160065	高中2021级5班	张喜平	父亲	622723197204170178	陈欣	母亲	12010119721010458X</span><br><span class="line">刘一诺	120102200604160016	高中2021级6班	刘利剑	父亲	350102197605125819	刘颖新	母亲	120108197701021521</span><br><span class="line">耿瑞卿	120103200605050034	高中2021级5班	耿光裕	父亲	120103197610296157	邢颖	母亲	12010319771111384X</span><br><span class="line">宫珮然	120111200602130207	高中2021级3班	宫祥洲	父亲	120111198311171519	张广爱	母亲	120111198304051586</span><br><span class="line">段家琦	120103200608290121	高中2021级5班	段健鹏	父亲	120101197810120014	唐仁莉	母亲	120103197911163526</span><br><span class="line">赵泽元	120105200605130010	高中2021级5班	赵玉增	父亲	130324197509080612	杨丽	母亲	120102197607130221</span><br><span class="line">常皓然	120101200603290058	高中2021级4班	常青	父亲	120101197505310532	侯莉娟	母亲	120103197902032145</span><br><span class="line">刘恒	610726200612183912	高中2021级6班	吴军	父亲	120101196904164013	常巧英	母亲	410922198406110921</span><br><span class="line">王若珊	610113200605220469	高中2021级3班	王俊峰	父亲	610321197302141532	郭涵	母亲	152801197512265624</span><br><span class="line">安子阳	130702200603021510	高中2021级1班	安志远	父亲		杨翠芳	母亲	</span><br><span class="line">王炜城	320203200510282513	高中2021级1班	王平	父亲	320203197707230616	黄斌	母亲	320203197710281529</span><br><span class="line">闫家悦	130702200412030625	高中2021级4班	闫志刚	父亲		王丽华	母亲	</span><br><span class="line">赵萱策	13080220051005081X	高中2021级2班	赵来来	父亲	130802197802011439	徐淑清	母亲	130802197612250826</span><br><span class="line">员珂莹	370202200608240728	高中2021级4班	员水源	父亲	142732197607242019	吕毓祺	母亲	370206197902164448</span><br><span class="line">王卓	130726200602090419	高中2021级4班	王占兵	父亲		王志红	母亲	</span><br><span class="line">顾浩琳	130603200604130015	高中2021级1班	顾宗芳	父亲		梁丽	母亲	</span><br><span class="line">刘笙庆	130105200605101828	高中2021级1班	刘亚军	父亲	130106197904250016	任路平	母亲	130102197711221846</span><br><span class="line">周自超	140202200511200014	高中2021级5班	周强	父亲	140202197607102537	赵开迪	母亲	140211197709180049</span><br><span class="line">陈玮嘉	130203200701195425	高中2021级1班	陈浙东	父亲	13020319790430093X	李晓玮	母亲	130203197910070923</span><br><span class="line">赵文瑄	130108200601100026	高中2021级1班	赵志刚	父亲		王向辉	母亲	</span><br><span class="line">付达	130924200607192711	高中2021级1班	付延升	父亲		王金燕	母亲	</span><br><span class="line">李本奥	130534200611154110	高中2021级5班	李金柱	父亲		潘其洽	母亲	</span><br><span class="line">王子涵	130924200608305220	高中2021级3班	王建军	父亲		赵金平	母亲	</span><br><span class="line">王曼孜	130203200512188322	高中2021级2班	王印	父亲	130229198102033014	付建坤	母亲	130203198110178025</span><br><span class="line">付依涵	13082320050113102X	高中2021级2班	付春会	父亲	132624198101031035	王丽娜	母亲	132624197910215040</span><br><span class="line">李昉璞	13100220060601401X	高中2021级6班	李晓东	父亲	15040419760315671X	倪凤远	母亲	120102197910242488</span><br><span class="line">王玮琪	130203200605160046	高中2021级2班	王余	父亲	130224197701096256	郭慧宇	母亲	130203197602040028</span><br><span class="line">穆昶谕	120103200506280205	高中2021级2班	穆远	父亲	120102197607011716	范凯杰	母亲	120104198003052928</span><br><span class="line">姜思丞	14060220051102004X	高中2021级6班	姜玉莲	父亲	140104197106201614	白翠兰	母亲	142127197106164629</span><br><span class="line">李卓	130726200603110418	高中2021级5班	李德国	父亲		王志英	母亲	</span><br><span class="line">唐若菲	140107200512080102	高中2021级3班	唐明	父亲	142629197809241512	赵翠玲	母亲	142430197704121228</span><br><span class="line">安舒瑾	130930200607290028	高中2021级3班	安立明	父亲	132931198002120059	董秀芳	母亲	13293119801218278X</span><br><span class="line">刘思源	14010720060210004X	高中2021级2班	刘强	父亲	142323198004110216	白莉	母亲	142401197901140629</span><br><span class="line"></span><br></pre></td></tr></table></figure>
             
 
-    
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="https://66cf.netlify.app/2024/09/20/2021/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://i1.hdslb.com/bfs/face/0fcfff9250754b90582d3d549efd6984e59aa510.jpg">
-      <meta itemprop="name" content="66CF">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="QTY`s Blog">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          __2021__
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-              
-
-              <time title="Created: 2024-09-20 20:38:14 / Modified: 20:46:14" itemprop="dateCreated datePublished" datetime="2024-09-20T20:38:14+08:00">2024-09-20</time>
-            </span>
-
-          
 
         </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-        <div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="05fee6e7fa2d0651ba2f802dd62411ed95c93c651058d3b8ecb162ba87dde6dd">8c83c1fd70b2001f095a68c8e758fb29f45f1d08fc19a5676db62fbfe69a08c516d2b41b69b2c5f7544f1803b6e228ca8afef200ada3f3c98215c5714d2e01418ad80ecef2c04e81501f78b08641be187aab03070badd5afabe06b3b30749cc4ee5fb4151bf207dc9c945cddaa4e76f3d6af172a2124605a679fafab18e0d2d94ee800f143f23560696dc3dc9a496c9fd411dbb730df11be15219a2b8084cd879c4ff1ee5446c0a807ae3997608716804973257a15eacf8cd9fa71ec119f8677a3506bab91383645ec6b074049fdbd100fc29b1efe61a9e52920808b3c704b27f8249b297f1a68d984e073bd22734862fb80f205924fb3944ed658021126c7904a2ea33b21351cfe53a22b4d557c954243f4f8b13489f82f59f19e01432f1d96608056535403f307e6a3b1276d2fecfb72b85dbc265f4b22c0ebc54d4ebfade9da9c3239486fa10f695368277b229e7a268c72fe9029804a10b28e3604eeda6f1f80199ecb513d08b31b8234dda832bb69262ef0aaae9a9a928071e33114abc53c70d1c09653909938f64445ecdba39c0ff6783639b1bc6fad989bcd87c0440c3502f42645cc7816f6b231585158abf7d9d02c3b29a545c04f4147e10a9e9b40637273d29bc364724a4f2b7017e236213b333e794cdfeb75c07c2f751f1bf805b0fd664af3fed8e6d0202e750799d44c6d81008b1c4620e277c3a87672d85a7d24a60cce92509d507fabe3c7262853044a43ab3d48a5ddeb02cf4712e73d4da8ea30b3914ed2be8f8af1fd39b47d9b9ee3dcba6562675379db5b887c88da527b2057435e0fe0c7b7d29e3a76590bdcf350edf2ab975827f22ea56ccf00dab1e9c3866196b6ba70cfe8288add67a21bf4078563a0375cba735fa43758da9b4739b3b732a374c69d594695f78cb2b7f434d848f68294ef5102b74f4a54e75a74227321358b2b36a0d27c42ef82de430828323e696c60fc6bdf50c79c0c06e0fb6df5ee7d6cb13392272e9132e432df689ad8ca7cf05ccbe0a9dab883ae49584fcd27b745eeaac2c60cc6487cae1f4954388fc9af00ce9a61b26d8ff2c5423a54616d4955dcafb68f443d4fb2fb0ddb04c9d49b35fdbaa358a8938e5bbd2deb01231c3d31994a67ea7f3efc040c197d0ed60627a24c32bf6b277d8c6924c3893b32be374ddabcf2c8cf161d1f48fcfcd3c8a2facd6454b96c6101300839f513464b06fcdbb76573004b913b1273655322af02f47ece6dc6420c65f877ef5e9e0d7ddda59aedca2b127a5754c5c405b9c7170ac4aaaf10af72b94743501c4cdde5d6120db43c2e4853d39f898972ead33250dda5b8df9f58f29522cf662b2ad328359fb311da54773d20dd33dbd78e6f1889626e77c6a57d45f2254c4f3d392d324a155e5a5985052f22f43939e9ddeec65f9170d4ac8b5fc72383fe8ca67aebd1af953188f0f3ae79916c3c2ac08a23a8a0ee8ada448bc3de49bb9e26000465afa4a3d3756f092a57ab9bf97071689d730665ad4fb3ca2398138bba7bceb6fb77c0f2926274d9c3bc3517ca766f28f01bb06b3d9146762ea29d282bd20dc19f8a927c8c67834b014bc8fabee9351aea89ddc220e29eb1d98289a6f2f05af6384be8de7b80e0fcafca4ae83ed77c186ab468915bae4b136dd496c28d7d520dbdc1d6a2cb70d6eb050e6690dd67c88d4eb87ec3045f95be7ee884648eb2a7b4caf430ebee70a17b83f33a419c3c03cb4f5331a9d39ef2722d83c396531cd7b47cfd2bae97f6113b23703a383bdc212e4db064b778790b455aafa1b1b6caf2797b65c6e9629b55cfc18b101e288708e2b1e14d0c5aceadefac559484aa2f571a494367434c212f1810609c5c0d6140a60b7599e59286e554f13b580d949501c891f544272332c552adaede06858dd7dcc1b5c93ca4e2f71316022ad12dd8259feaa7a6c5eb16a219b963bccf20c8440afb207ae9700fec44d7deb7638278f4859ead98d82c4cb5ee4c6663a0dda31cbb23c1384ffe4f7f444cfaafc2779353e8f36c24b2dfd4655a1d7a74e645e59a109d7b167bff4ec092293fd62e9da3ef71395106f39ffb033a113618dc228fbf5a1e8dd0fc6cdfa7181df13d0e36e049c55fa99f74d4cd5f098ab534824104ed72444ab6318763bb2144007863868f558ae6b3b9c6a389607e982bfa6e7b50894e82465b49ffe3b345ef50363fa4fa6b170e3219f9215a285dcbd6bc781fcf421f730f1d7da043edb51853c90eda56c3b95b437b4c8e0732e636171017c5779460d2e35bc33e53cc0533070906d1c329f42fff6484cff1899581a9d66bb8dde160dbf767b4ddf59d7479cfc90dc90b9d180e01f241e1bfd362d476d19e296eabe502db1faf6c87fe1075394169ae6ea78f087938476910450fd6a712ddc507e5692aa3c79f1777b25b3697c431ed8cec0435c75213880121fac65aa3526168e423e616e8ae349981ec6c2687c0f856168103b0fa2d3ad2cb6b5f5fdd467d76318a7bb28bc4a63327679b5d1cc120dde186eaaf5f61246dd1a89fc97e60cabb4ab965ac01d46cc4e4c37659a313ce1276b4d5cfd3c586a0dc7332febb4ea8f6ec5936dba52c7ea01dfa8130bed8373fb371f6e0685aa8cebafdedff8c93114a369c03867a1da74f6e417cb5db670400d1ee68495e2bc8ef37ce8c825097f0502b75b4b45f34edb2b3f8ee9b6ff7f16ba60cdcf9a4b160adfe307f8ba9731c925d3fd00a388c16f13fd394a7345d455f9df80020b2ccaff62ce9f053e4e09617d7ff9db627262b4eb3223a1df41f9f67b709940d4bfe6d71d9ff1b0e3742a10e4a826e0e375e19d401c7fed6f4d602acdea31e55d54ed2e44aa0ff88853ded7f44248822a28f14e4ed6bc3514f564bab1f3e3417d6bdac14e6c2d2cdab88ba52fb5cf0c6134d77d6812d00569fbb18599ad9c20c9e76fab63c7b44852252f26911a417d4bb9c924f380119fe1b965b6a9655b44615d36921b7059e2d7b9bd6648863b19b335f22e805df0d96c212f28ca5bfe5333274c32dcf4f72b466472272bbaa20693806ef6b1b11e9c176d2328401236f0e056461cf7cf95fe3f58585b95d601ca69115188441003a2f542ad5606367ee3f85beeff1c717c3a1a4f8269e17b38de70a3321e44ce0c9e9153989fe0398139c045984bc8e876505999696bdc592c896012deb8428acb3239f7557c3a1a80af252cf3957abd7f669a1b890509d58133aae4f8337439bffdc9b6828be19f0725b885a7cb175edff376e7e6ce6a5778b3003a00dc4f0a48275d0f7db4bcd7b227460ed3b75773fca874b136c8591e350e06f662f4479bd2bbfc1326f43c11e612ba18f00bf156e89661a29dd2f55fdfbd47cf34e1190d0699c1b969960d0816978dce1177f1dfb27ea81ab604ce821f9d128e357b30d86d9e7458f6bb44c24822e360dc1bfc787ab75d5dfba16271373d2e980ad0618b4351e7375a36f07dd36efe5b3476861684ead8d118f39fe5264c42ea0c8dd18ff7dc7c61afd4f046b7b5d705038c3788234f9c78f96163067fdf13f56644535251f754155dd8b0bdadedf5f07a92d6a8434f6c9c37715eb014c91bd8f375dfc15ed2b2bcc31b27d42dc24d49ec28f117a497cccfcec8f410d7de2e50c02423b28e7da0b8eabf926f7e90074997bfe061a21007b72f2dbb0d1a242e9bcb037e128288224ef77a11959a98f40376f8b9b319ee3bb641853f196409af39749f9531d1dbe41857199c5deb1fa502ba741fbfc49b72f797cb28c8394a56c31a330d9db85bb80622a8ecffe800af44e98d0865bd00ea6e06bcef2c484fb58f69ed9c5030de397650a0880bb1fd13aaa6b0c2a95dc53386e6e5e9d8ca3c4135eb182b3d81e9808e7b16829db0fbb8b69943371fa15ab90be6c0ad0143f8f20097ce308f98985a35307cd7692b5cc157234cdf60f5d626302f421206603077752b5150dfbc48155c760da95dce55b4de8778f1242304b9c1dd88fa55914b0bab501cd6ffd13e1d83aa0b9ce6cc6d72a109e040b78eb04ec62e72068c77b0d198dc47146c2f5f85bda6d09746b11e48f01fdd01801cf08ee722329affc9b2f8283e80d4cd9754c426a9aeacbb1d414c2570bed56c4ab4721fcce91fe4711308949aec390eee5562acb8be0f8e56801203aad3b3769fb31418aa5cf75c9e2c5c81702e8acdb43333c004fd5410cdd2dc3847f9a13487e128eecb681f3640ec50d59f727925a120629c574e0dcbdcdda161a6a4d769baf128d2d7e9d5a6471c2fea3dbb47c3a8d8c7d9be7f733a4f041869d92b91a08b78888f16e7c897325f65a57376d1516ba6d173635c2d2105bb077752e76d70407bb7a62e3c0242613f86c7395827a2222848b44b65f79ff4099e694cb877d0255f18234cfdf1949aa54f2c1420e6103e98694b26b488243aebe52793f3e018cd08aeaded85205d7cac4427323459969788e7e617070b2e7c9af6597aa8c61f4f78d1dc8dbb4d27c277b4e8f76630e6ef7c162df9f7d9611c0b74ff86553ddcbe7c2980a676335d3511497e97aa42b906c3430696e12e4019bc40bf0656a8ad0ac7a8fc68dc000e0660f58f6efb9edc91927292d96eba9c8dc67b41895cc402f546d176f9476eb436a1ef6f051b078131f0957baf6b0e370ae257c1d6d7167cc677314ff6559928875b50413898dd7abb23f388d4aba4cac35462e6443f8cf5dbb33a73d2dd7e7516c66fdd394cecf70ef2b9257157aef7a08722d2a3779232aab2c619ad8bf1fc09f643fa55a94d812ff233198e10bc02d4de8313cf37f14e6119712c9c740f8f3e9566600bb5e7caa1949361dc7c165d84a93ce7066252f5bfd66aee0a51a30101a84e688186c28b9bee5d5e0500dce4670b7ec09929acb672455f13eca1d79492f89102dd7eabc151a263814d5080d93662c5f1964fc20e65d2f130163dd8dee26d6664c5c0fb34b97f3ed1cfa724dc7531fc5acb79f15579899c45755329dab52bc0028b8940d5ff014b0060f39ce00a7558d75e8957c685185d3848867368260a56c98010d2de06a67d364d811029661ca987282d567a3b5bca8b0ff749c52ea327d785b2fef5b7c2fababe90e8c648dc3a83d16425d9ba8df4f3a764f9174a637e3857a4d1df32da8f00e020bdad614dc649505adafbb93b873775b5eb9e12d0e138dc9daa55c6d463bf76744a5b04cbb9c9dd33fa67e3793aa7c577de5f81f81baa15e93349259a25e68cca8d2abf72e215bcaf5d84b7c47a7a362edac60e1082de11831bbd571c726144c955c984b46eacc9ea8ac078a265fa89bc0fd39515f4fcb895e0f38a1d93d2697d0fd7d47c7c0682e9d66b709d59480557ad1adaeb78912c4c0c75086ba0e4353235b8e876e79c0d8d78951e1ebda6b122be7c66e81e57eac5acd70623cc4c70e2b5d3437305cdb1650203b71d8c32f42b09ced30c234497fe54cee5fc5c3f36a504181c0f4b7ec200d755e27db3d66eab7ab766ab6aed2a0e86269769892116a223d659a03d7c55f20de853a2823d08ef8ea07861efd7bfb3e2d340c08ed640823d0919ee4cbe6eac48dc440dad1293d9b05a512d1aee983d57596496a08f545f6e10ea25d8bfa57cadf923809571776d9d5ba226760e3a5e5a5e210e0a5f63c2961c48f0868e8b433d3eb892b7ec16a5d2828470f68ca684af555926e22babb6ada7062e055fc5891feab5998b9af10dc70af6d410e2b635e5cf48f6f42ee97ddf23f08c41d89ada9d2a777d3dccd0f9408d8986e979202459a3af4b9a8d3ad9726a4b7f0d47f431c9b85dc9e321120d6b35afc77de6d35d761c84c1f1d9dff5702c44fe983704b8685cfd6ee39279f4f1da573e5bb78fd84c28ca0d3e4925c6a590c6289a7ea93091485ccd05fc92a880e3079e52f96d44ac6f7c5da762e19a0a6d04f9910d258f70822106fafc0f3343b99b87d5c44504e89de6e0cd80be6d4da0401465450e3c7c9279c6227c1dc559978b473d0b04cbdde35ed3959c58b5bd9954edd7afd10f90fb48091c449f8d7906d41f870d785941d80679e4c6f8ba1ca108fcee131504241f2b1a55768ebd8546d914143e984c46d899c0340ee371579bc6c4b574eeb0715b8da601121be73085ee022139ced0aeed7eaca53b281eb237d57574049cfe0d547933b6691a53b7a84aaae4853ca51c682a3bd531d064de71097bfb264b4042b16643092325bd165675d2a1d4ec827ad9ffa08163b02b90d8ea9b9639fd611d8fa28e29c5053de31cac4db85a5a960dedeb73726780e9e003f228d73999c7166f1dab901e7b2045e450d7be27297caff1191b2a678908db1e08cc828a3504f943b477e395e6a1fd97a7b3f3014ca0d85b93740853ed34036af01a95e242d19fa8faef7e4e1a12a377836622b974dd2715116ce4cd1e22699609e1cbe5da00af3c0d6b7a79772a53eb98d6ab1fbf48f6ad1a2982490ca812afd1868526f93cef3fa1f12b8f8af4abe0912cbae26d40a9a8404a329141535def769a714d002cf6dda2bfae056dbbd422d7d4432d140a77fad0a464e0b63f8255685b649016a567fa630f0461f0872ac81b14ed339b79266fad8b0db9282d2e4d3578e55816bd57a68c6a77fdf999774ee0afa91582a299d473ee5882c5f2a8b7e0cc73261f7bafc98f5cff184dbd5abdb0cd741e57461e4a310da43638a0cc9541d74e48272c6eac4a201d747f18043fd9a4d02602e47ef48a54e53ff6a5663ea6997b896113f640aea47165f18b451819408ad28d077958e29d49f6b89a152b48358454a39545eb5ed8dc82383bd761f2cdd0a0ef0627b98c651ebb5a451eeff7bd96be9352f18c614219b6287a63ec82ed08f12b3abdf6018379390941a240abd89315b41a6f48a1935d26ab69dbb96459d2287f5b8328c93884581b48854c933796da7929fa70c56a0676ce7168ec81347d561d1612f6f85aa4b6ff4ec4b318233b7eae0a4f812a18cd8194569bb0aa281e31202693241d6ae40cf9d23ca933b8d41398347836fe34a220786ba7ceaf3de0a0291f00bc2361db49898830618b5517a1fadf9bf83e5217a52b8bffa60fd76bbcaebedbe6ae23eadaaa781de0d04baf40bfb1b7d23826c97b53e71347c2823871d931e0da1b0f00153a18b88260919d5efa2e41b35fe5b9c49def08063dd9fa89f0b71e84dc64815c4386e64f88516176e463146539c5df99d694f5aef241dc7f8864767d2c521fdafb69f6f346a2b14676a0088604f1cdb9d05a482ca6c1f38167e655f155a08a184e19ce4b1f97e17bf7a92175955462de1a9e3199fed262d8eec5af014004ad6cd59a9c58ba34fd4b6b556d71839b1ae84d2e46dafa99260132b5cd8d93b9e0f74817f9e6b67f6b17fc73b25326c319ea131791b53401a82bd7869fddbe3f231d7fd64343f9c5a7ee662159a96fbfebeaf017a5d839f19b1b9dbe8cef83c170a105a9b9e41910d253b74e835dbbb4d3aa62840329f4d5c27a9ff77e124aa78d01ba291b34141360b1516d26b59226ff29b060aa698c013b6360c05a3439c5f4da727a6b56539c89ce6ec7d42ec099b492d7560448d143bda2d4920811f846204de0dcff6e720df1063219f0f14bba9bf385df673d41befae68bbb679de5884078d3d0c9c15b9c890a09165b8a875c94aba4e292cbf61a355b8966cfd92068a10e19cd2d6a099cd0307d5d13d4016bc45cfa9e2bb21197e837f9f28a325cda2602cdbfb032a817ca6266ab48f2ba8f493b1e43d9a60b61af3f9b2ac2e5a41f192fea8ef2eae16aa2a3192e2e3ff559c1a0b69390efc54aac4a064f279b3eeb3d79bba61bdf104277b14cea88ac0eaee86969219b347e87efc5b014549db5e4b2df710e0aae7ea336bf7d349aa31b2a46f7ca06120c7a5dcaedfe50af87449ce5597e5b23fe0b8a9e9e1a48e40014071210c6ae8c0740993ae1cf4afed5dfbc24e799f4dfac424ccf6345e1671a4606ea42a621c65ace9fa1dc82a843f515e0b03890f0bd60dd53ef9c27b75595aa8825d87378f2388ee8c72b5a8beaad90cd0cc03d03a394c10d146b0a91caa6f46f54e03ede6c1a5c97fbb9fc8133af08e8bd74e2eb5543be9e27c31252d384082dca47c3125d54c67a2a87a435df848d1a6a0ade6e55f1c56e75fefbd720f11b91736151a2b4503d9eff96fa08f98e82faab5644ac3ee5a715ccbc4bdd3ba3c7fa130f1cabdc3657623cb123b59bb6504eef6d252609399c57d734548c548bd79e006544c52888472df37c83729c9b19096017fd688b6cf0163b3b15decf9f8534f5206188ba5d7af8a655cc37f2cd6166543340ab71e5f512c5b6e28f35db8913066c73f57f5444ed79fdc08825d502aff0cff653533d4a6796bb55dad9e759c99e4648a5a88db2305961fd029c9bbfeea4e686827db8bc4769d72c1bdb0e13d1ec4d0751a48f670b676b2cb415b05c93b390c8da89059e778eb915508fb7521b68577042ec0d32817db97e6acf5953d6684bf448d5a68750e6d91e808c1aea97bc36c49c94fe190b2251b499a937d3c7b3f03005345c93f8781a90b05322cd891f0bf3335e3fb27b3b9086cad9ec123de4ab8508a5dc6c8bf1277a80491cba9cd391c6ca1b13e6bb6b08a6e30f3efc79262bf389ca53508757184dc0f5f7c87a4b6ee43f1f68ea1926655c4f6317f54193306df58f0dd48891b94421a1e8670cb34e757c43df02dd5a707b6702c9b986613cd2de77c5712cac9e5cbd2f297c3781620acb7c6434017e22975bb7c220cdf57422ef6a045213f669e584f41a87c1f5c3519481bff493200e62f8a6e0bc14cfa4cc426ae211d71d6ca8e817fe2e90f3b2c1c363934aa765a69f146bc85c61ab1eb11a3a9e92dab134151d762ba205a61983a1b0cbf1f9cb5537a40c99adf044e699c58cc1d974714be489dc5794f13ee8a464d0697acccf32cdc826681baabfab9d3d11ae5ed38b17eddc472346826567b1c16adae0e4a04c5015b0188c88e77d3f7a0085f1e88fa06f987461b2984ea0f9fd1d1a13b6ee343ebef171b4c487f46671d6d2984eb1bb705ab55ef120f87967d8096ac8f438d9b77a6ef4266da486dc34015c519104ead58e32158fda2a04700dd3f5c73e9d724bc77e54598aa4c458f0008e045bca711c1056e6059110c442ce142e5f560ba049b59153c751870244f47836db3a72ae3eeca0366fa934cb4b226245f1d1ce6be3ad3efe153df39aad94f9c797236232d93b9ca9a2d514058eb3a4740a97db536f4d33e1cd64c90a403118aef96f248d13d7ffa17b066d5a1c631731389ab2459b6d819555101dbcd7d5399235c74864c7cbf01b8c455984156ec931ec4680f76aa494a645f412824be8ed75cee040151e91154ea737d3741beaa8d5e960a22a0b7cc183a0af397c32e6c56282f19983c3890456d9c49eb4be19892d6cb17acf2ad57ef46210d142abd70c9e82c11d5c1c57405d7257af3b14692bb838b13fbaf36f003749a3b86702115a5884bbe52e1ea646c9347d0cb68611dacb7f4b9477edfbfd97714947535498ede4bb13156cd68c3e8693e998dd93149a026da3111f2d38b50c9d621092e10dce38493fabcde041ded602b47c17de6da817114b343c32a2896a78f53a400543afb487851a9e8dc67768443a204fb217eaed9aadb767780d5c797edb6975670b193db3e29d262557e7d3bc6e7aae6b1d659214201f440ec5e6c86971a0fed66c4b160a8d8d7ff3cec92683c998077f8b1f253562716fd5394d05cece4be5c27f30943f40a36932ce5176ba623dce6783ddb031cbfc77f8cbf934c565ca3920666c65738dd05fc30acd2cb6051f5c19a83d564417da085c433f10bfeeca01761e0d8c28df02733580fa298baf423c471aa858e0c37bbbcf114528f9c37d2df34473b2c79273115619b4d66bdd77dde374f42cac27a210a349735c31dd259aaea83e43e87e94facb75a38544514ad22557375dad29ee62ad959de9215762bdc7e77b0d714107672cc7d25721ee5208a446eeeca73a7be78769517df621c97d7cc37e04f7e84dd9bcba954d7833a9e301f0acbd0d56384f9e0e4eb43fec8164b561f41851aa63997feedacf2e7ff0ab39f373c1af0d79bcebe1827dc16f3875e243d392869afd23bc05ceddb48b1114bf4518a2930ba8e7286c3f27b36f9c0a97ae7c73f01bc67b7916ceb3c712e0abddd51e552ba026adbde5e3bc1822a0be9ae7b71cc1a60584154f27b8c9b30693fe138788be146fce33cb1aad6e6f72f8e92cada7e3e4bc0983b11115e687d14b7dc88860d197c158356f5362a5d58ed7b54cd0e98a89f08285606f85cfcb0e14e41eba938d5bf5e784ba33ca23d8033b1509fa1be1c3715b30947aac73bbb2d48c8b3656989e26d32128f060cf5196faa9aca18126dfd24197353be9847dfc955816953f6ca112867f21adbc14b8d52ab01b8d0264b3336898e0d74736ba65872037bbeacf224c04c8e9561b218fcef94811a5f65ed2ecb4ae9b1c1724dee983cc271cb6b658e69c46b6451e0b58b48764810f0a6228ffa66117b9e5ddbb43c7213030feac2ee7b4cb9d52109e4c524a0d9e5ef69c096f27fe7b64e80554217be6b963848adff992a6656d60df7d2560fa8b02431be3125af0b3847056fba5ebeb9a498654abd6e54d3e4f480c7a6062a43f952b77d3e9599e35208d9ebd3ce915a9ee94807a270166ad55bb106e9b719f4ff0edf2b2aab85c666ebc6b23a65133791534437ddc53871a799d282980590ce9050c3b74724eabfe251754f2ba4b70d1d0385c2c76d77d246eb726866fe4c7c54a84d917b37b0f036b1dcd88e14ad2125043f39efa7b4a6c03be79588b846f511133bafd7fbaa52ca8707ee36491b0250395ee1d4200fd68dc62f1c18f4fa9a950d659c86ee4b93928ea5f01bd3992fb337414e934f2d462be2a04f9905a8ef46c1e3fcffd031f306784ce7f843a976e995cd71137c2adf6d513ae6a1be574419b5cca8dab79d3c82b344edeb866687708793bdf04caca0fcd9d2e96ea736f631240cdfe695644e16fcdeb6100e6a38f7d043a9fc640005590f9277c6d13c5fe67faebd5cf3acdedfe1670dbd5b151f44933c7d32e04415a857124b0baf45d5e482475876bb31f7a6f546c233ec62d92720bcb0595b809454ea0e086ac0a4d87ad6f79af3558a9a697aa8f1171d12602ba671659dec17fc0d8c8433ba6bbe1fff356e3f97895515470084088d893baf79aaafeb727187e98bccfdaafa6ca1fa70e9ce972fac32252f0f42bb08abe3e2b08ab98a37cc6c15efc390530786a098afb30a1ed30ada36c1100b931a015b6bfc4bc3eec5135a666f66a0e754ecc959afad93bcacd6ef7797e1297add67a34d5571bd44bbc71f869671bab4e452bbca411d2835ef138e2346b685dadb552228ccedf0e25cf5f2e527e12c867f2dd22059ea078d853bd666e5fdbeba46a471910e595eef95c74ff3ebbb176bbacfc49a7ed354634f825cdf9ec6be679039fc6513355a791f22cce85af0c82f62ac787836c72c88be5e52592006b79b9ebac77098f4fdf5ff97e04536e6cf8014da374f34e748a7f7c122f9b620a1f3ab99a6949e0ee637bff99ba9bf35511b2b99de26e6e1271f666a7c08b822e42b8e28ccbbbd5cb997c8a0d066433125669aac309daca014eb69df07ea36a3088fcf70a3433e36b74527f169f66a3aeff62fdeca07a9019328b847b85caeb48dd050c659ca9105a1afda7916e8abab42441390657d92040f2bc7519ef7251d4bf6139eb16050fda9959ed769dbb06324a7944f31917fb746a5bc7da8cb21e4aee6890942ea1989cab39547f08c43c81d4edfb7442175fd9b4a80108070641f9fa93ef7fed522bf7cf33d81b68400061099871395754b0ca629000b31a6ace82bffd99d22361c32455bb00ebafbe386900c0da3ac38db47910bdc989ae48ff958c4797f2afd5ea4a4f08e9dba1f46e659b4643149585e399d7a3e929e733ed378a8af9ef4bb39310841565b5789708db7b5aa8da256f2c4f4dbace25ac60c655cf6546c39fa5b688c105f868ccece67f6e3cf669e1b88f640569947ceef914d850629ac2eb84daf641193afad42f910721b90e71d6f8fd57a7178de7d2cd17fcb6c6ef4993795ca046748e69ccc559e5d2317c6694f7d6d531ed931ef2b133c01b42c1afc2ed40f577b853eb5ef4b00ad31d22cd502b7222e8fdf4c105efb2282cff0a04581739a0f1c0c32ed421b216c5519fdb0d84a020c726ab882ca399bd3e6392cd56cf055f576cb13e7dd016651e5e9bf903df5728a787a2496933a7fafa2f7151d7664337ee706c7d2f33a704516ddcfecbdb6e9ba56d40c5f4a942c9f6fc35933c67d10d29d10968dcfd83dc333610ccd1f56031b2976fc3b01a9c759231b30e6f367c884b8d068fcba0f0a74e971f46d5e2203f2b516a39ce1390fefeedbd05469ae42fe03a516107ef9a89736b76625e804a36bdcc4114d0dc331b06a8a4c941f3452bed6488305aa1fb2ed3f2a34f8c42a855af4ee7dcd73697bc6c2d6fc7ce56267f661b3ccb39c2e9fb5b51df6dd629308c971f586722b698eefe6df58cd59998c9e9260f4cbcc81c5d5afcfdb36f412ab6ed9c2e524fa380bcbaf39b9de76f7a32c1cc4bf96d277ca5deb27f156413c3181e00f6e5e3b20b5fcdf69a85fff520df93e737d1fe03ca361f4012923e5c2522fada28e966e0402522bbaaae59ff4596d7098598dd197a5bfc55bedecb0f026769f16e5474ca29e2c1c33a1cd0c5a57102badc2985b0785d19a87545642a5b5ebd6850c5d0a9dedc56cb36e0a9213b674af8d4071adb0e240a85813a1d8071d6c0c7b517bbdeca0c7e9b2617a6c01f00ffe0a80eaff406e5d3ccccb64c0d5278b14b4302eb62ae5ba854304e3b42345b1e6c10455fdc86547e25bcf7baa8cc2ae97fc943f12e6278fc3c61150287d627208773869f782a331efa14a078b00ce5698270803b8ef1f5921aa5d195f10b60eb310af0de07efa93d137c6dc9b12b3ad6a0a06405f25a8bf83cbc827683282bf59f99f890302f02740d5ae4d6bd0f9c4f1cbbc25cb44b8ffb9bb553e9b837e94ebb9573278a26d4a622c07ed02d857233c20593c85123486737ad5571acd21e2e2c059951cc895ce8dece92472f64a8df95d3810f2344a7aafcbb91495b73b8053355773a35c90d66b76b4cd54df2e94ee9befb78563490879260b22e990a632ef14e48ba516f31f5f84ae90847e3fbb09c9b201b2931bc3112c88703ca7a022c771df69e71e84acccc365f731a6b3cc6ab330f59d53d6d9e2d1c7dac4f0bfc80daeab4cb3d544e55eade035e6570d2fc2a848b123c79e8446c1e740d0d72b6aab9f54df5f6eb9e0c08a433eb105467f13827ff934e3cea9b9a8984d64eef4b3d255a1a8f666f0ba9574e58e0a2442da4132a53b639769aa841f513f28d04379124fc5492b3995b82961e5bcf1c28f60a7d5774d33fcdeebbaafcb1a8adda19a359f39a2408b9c316d4ee262397b40fb5f656141a9e7f122eaeb5c2d5b594426623a6b3b06b3db73048a074ed00042617b349a76caa01d2e72bf81312eb7c86ae118dae94df2ab18eeb72b12d8bf2dee82d36cdb8ca0341eb829fbeb8178276957ad88033345e9a46ed2756afc82e44c7a9c95011f13a93ae71318c90e91921b12eb9cd8c36253ff70818b39fb64db8bba6820e3b51ea42242c64d244827285983049932515ff42033e6e2eb71a6387a1c9d945200c580ad6e9e9da51cb5c88217e75843ded5bed3620561d2ab5104c999f02be69ad9a291597ab03a1d53ff1df91d958c64913284d5aba3e33cdda94113e69c9804b2cd6ff1426cb040de02cb7276fdeea661eee28be11ea1890f4f77b3c976e006b013435e790cfe506e7378718c2f78a288d5ff515f326fbd49bf162ace24f34d3791868799c81276d37d2d803050f5a2a9c9599f8bc4dfe654890dde016b44a294a882ed75a86ade4e642f642a43518ba8665a58065b1704c517ac089b0ad2ea27e0a0863301feaaee60c4c8d65e41b5d48fca186d3563e8aea82ca734aed3d3eb16221279f1f4c92292b43b57500fe5e4f92b23f1435cf04a53249acb92010caad68e283ab97904b4dacb9be95af3adf41f68776777d097fa51fd27035ccc9097611265c7f97c99c21912686327e0be88b3253c6c0d0566cc71001ae12c8faf18a08a576a4e9b0af4507a37618fce4da301c3c9d1c631edafdd36afc975868b5adc1097652463ea4f187c5c9e3f54bb8cf6c413186b2db6ba7fa997ccbf0d289081e174ef16522a9c396593dd0c7ab6ea5b7076f90916d51e1f99ebacc892e8257e6d17ff34463dac19ef13d5ce6caa5e1cf0877af0a3d4e57744d4c7cf42581789dd78be86da5f30c167067667adf2afcecb2da06b629734fca76ffef5b234c563c976f60a3bf7356cf11a09ccd9a433516796b538b79739bf7b0a987000800d0bdcd3b81c37e6a75a5034a1cf91658e6d84cb8db8d2140ea4880e0efd0cebeb910b27e1f4978792ec93b425484a2737297839ccc5b13d6224735e5340bd0586c6fef0047893beee8443ebe1150985b0a6d96a0f940c43a228e959dddbb1aad238db0acb4d2b5c466e0bd3d0b66b77a02c82aeb52f55bcb0e5d17b2c52e0b3d2fba1cd8ae58eba7895d58ff089b8be0aa8f58279a70e87c84f2dd9f1d4bef8d186b9a34d6c864078f0015c5988c499bb89cd4e2f1e73f82b196040942c4989f28298b6068f47bec30253cbddb9de224ff9f707a18ce026f09ca5742288379f12de01e725045031726349e466f09c77b36f6fb98941732adfefafb8e9317566c5c67684d0eb53830174cce17ec1e9841355fc0754eddb6135d8ea26263116087b842841ec4dc680375eb222a35a193bae1f33f3ed2d5162f722fff95db78f2082fea33b5c03808ee5fc32c39f1d87d3e2c82c3f103b04249e9bf7def4f8633cbe39a2b32cdc342911448b8e1d645546639fa38d540b0b2fb6da1e8aef951f3627bbe663200fb8b60aeca194fcc84c19d80c6bd36feadbc1101b8ca7d7babdae26074d4361de7041a5984b6ea58152aae8b186a58b6f94ff58b727542bdff147856a32193b247312817cd6961c7a339c35dd9bd434acd5686bbf5fb5f98016acb049d61ff2600aa2ae4c13d39f289279f152daea56be27f41f8db68ea333ed42b3b59a748c35c2b9398b8b40a740a1ee626e760f4f0377db141494097636c2ecc423e1e89acbf0b7a2bb60422e2699e10ceffbeeaccbbd948698832b66ac96f6e7c6d609130d99dd5ed9ad41d8d68a1c07809708da7f8f5b2b66128527b0b37515319af347bd85279d4fd3cd3051a80725ddf57f30354c7da8302f2e83e74dded09a5c15597689b4e1c063baf7bfb52e932ff5510bb6d85841fd48219b9852a6dfa2d7e3238a894f71c108e119c4e47c73000eac41b086512188f9d2a43951cad1001315d2ea2ce3d5e8cdd9faf068b1b2ee06d203bb4296a2078ab611b0e84b3b94bfbfa22adea5204a90549059afd1ac26b7dcc41cd566550fea8e38dd8f924f2861849a90a8bc4cf6aac0c30a009d0e983633b776cd52fccc9760d47b702196225a07a4f7426ae98f90884a9cd87850e8e4df392f5b2cae0919c797aa4805b6c6721bb0a47bb052612ffd15fd98ce0f063b16e83be43cb275b8f80312989681cb92d68ffcafe8c529aeeb1772d2d757948dc740c0f8836754e5aaeef456e205b8e192ccc1dac8b1339a6f52fbe864dccf5cbef6bbc96dac8fee8c637f94011eaed87de3391cb641647a481533e17a6fbc561a01f397396fe2fe28cf6c779a5957359c3db28a1f44c7d08cf44d7f109361eaf47de4314deac36189e91749f92f298fae9e444afa1e8c6e4c9f4be15ac1909008faccf437ee4ede1ac714cd36cd02e179e339e0727a3c65261a43ead7073d18ec6df8645393ad992a2a7460f1dd854c37786411512c7c70170cb823586159310de62a2a1a6ceb760bca97f483abf8a047d5824b750f14521773e447151035d118a346b1c9f165b738be3185c94d17d11d57e3805be00eca371c0d0c199e1b03a99528356102dfb0f0beb59f2d14de377e5650420382f44baf7350f0502d6135d7f319175ec4507f2c4aafc73867a486d3dbc76ca357a02a99ad9ed55fa5b081a3b8157b48e5684c58860174fd0f2fb1d508ef1eaf56fa345e389b4b08d71e38ec85d76fb28f357fbc68ec2ab8d07a6e56bd1c1aa41bd682edec8ffa476d7a2f17416a5c8c6576a933001da8a9640195e7f6418b93063df346c148a93e830a3244f4e0c400c8b3f88c6e64525076c2fbf363c0d2c9aeb92c76190eee47d6c126c0d14fca8341897454fba4157d11b7bf8d0926b7763f946e38a59bf873ea7058d7237e83c659c73607791af3911843fab24699fdba592655aab62b5b51f9b8e432d59a2afb743a94829c8f3302cdcfdfdef001277f24f39780a03534611b008d792c3cd829dedf2cb62d073d812dd580b54c99be35e613461c39a40a2c952f5fb22cfda27c65e2b519c5342e26757789a7a16dc582bec7ac5129c4181d170935f59d05f9f92e5078bf6ecf732b761ba1a1b097e9c917cfdc60843cc961de66c3647b1e73560b1e278d87fe7b9489e4dc33747a03035ae9841e2691698b1c201ac45523d66a8cce64614127a9bbad484cb6430ef260b12668784d723e15324df45da43b85671e5c2c9ab6a26a686f589ca94092b58b768715fdc4bfddf7b7bb0329025b375589c0c33dec16b779b89f389948dc527a553becc6cee790a60f838b80e3ecd79fbcab3874f882bbe0cb358266042df502dd3fac6e2da34198433055ff0a8e303321456a0ec42212ea8f22479110744b501e2762abb4638df89834df94610fa4dc4556eba222f30ce73e6d3f82b39db2a3979bb9bf051abbadcd72a7c63361dd28e7e4cc48e0ce59ed4ee4533a08abc9428ac0a64750ecdb11b5fea95e2ca1c8fc14a8a42aad8b50f0238e1cdf5b7e766766632a31676dee13450406599a355e8ddd7161f4a79430a6158b883160bcbc67e33cbd027509c8c560a7d4f3d1a825b6fb84066b0ce8ea8b5ca8e4f983b98a457dd24d3486e0267615b77725eee6f1a894c15ace384d80a8b771aa2964f4a08855056d1a515032d34573279ef1594bd32d46ce95a660c4ac39746783da69afc8a693d21812309a867fc59eef6e1684aebfc3a05cde89fcbf6b563ab9c65c4dd7f23190b52dfe580a00813ba6d1fd603af890ecd20d1eb61439b5b8bf5ba72f182c027b493b0b8891f8cdd3ff33edd72723f3545f5dda8c2531e5a46c249d00ea59bf94b38f07b8f5fb2539f84986d70ec3c557a5591332d782b3006614c77646ba7b8efab9e5c97112d1d1edce4789b95b9a2b627a2819787a42de9dc6618d6466df05c4ed8052d9aa2a69c8d9794ca482c44ea8485d3869859bffdbc004165fe20ff0fcd60dcc47e5d3098799fc959c6e018696f488539564143e3c422fe72508a22a2804b4ee075f59b2917dded13855a9c030b2ce22219090c884fa2424b3d291b60a02818c60be361663a9102ce2c719bd0573a9a72bfafa61f3bbc4cdd612bd50733b417cad4c07a10bfabf66e92051cfe3c07debd86a262ee89b51377b325bc4aa0a84b96c0806a912756dab3f0a7d439c5d5a21da8cda58d207a1fab65afcca50a10532aaf766a91cfcf86043a212a76724ed3a83acea2ced27becc01a4b223f2afeffdb6ea1fe0436f6416748f4fcafdcc383db29c7b7a9057ae225bdb18738c4d542651761d6f4d9f7d5f1d38fa90e1bdf83f64c21be16447a80e91c098645166d0b198a31af560e275fb4f22cd291313be888bfad3791151de590e9d59f1aed548074c1639891dae597b51913c4736571d8059a2f049bf834c6ca0e7f299da9f8396d87b59c799fa3448597776ffdf36e0d9d597c0fd70a157b16bdc8ce732fcb2e098125151fdc37f31054adbb63f76456ca7f7bb48ef8f54830b7b4c758e4332d60a15539bc397991fcf98705ddbeda5d5aa668f2530cc1923051f0ca74ead0befd24ddbab05c1d2a31765c873d09b4bb7bc2e3b3d9722e1b0fa5606e04014b6b9fd8b2a1af165febe467c58fa664a6d49b1d1a158ffb62d88e77a32a3d422584eb0001fc7651b314fafb7c591c009bd3757a6e4bdfb9c793fb78862a8db154b735b6e898f455e7420c0a3d1268c6291ae87e34cff848d6d9b87a9ef7a15872acc16d06d23e1f0919365cb7dd692e15d00b6515c1c81fd4813225543bfda0a6df798687b18641f4d0d729c088663f587df8c9333a17ebfea8c91043ebfca2e254747e19ab5369b81f468d0e7dea663a276ff7409c4ca5129f435a931868273d581b177d06f9d330541dc885b087b19fee6746c5b7730c33fc34657b09298a0a500cd88125257a9aa2155f468539d4c7d79165d959d34a5190e5d2aee90e0eb671a8f12125aefadc68d7a46246b642bd8410a52b0cb485e452d7011fe342c610fa465731076d10bc079a10d14b303836ac4f1f2b70c9df598058b81b3c7db23593beacba2b8836b6abc84480ef6aed5724130028823148f44b3bfac3d678816d0d323c81c04549b403d594b76e7754cac900c911af5334c13f6a74b3e573a31b8afdd2ce41c7eea2e315884bd911f2b0e63c8cd8a816ffd5b92af5372d71f233ab63ecbffc5c4b47c018aef2545cc214407c4473f1b9767be06e0bff9b21da8a5b18f0eed8f9dc3ff61be11b96ff642c26dc83da870c41af1f943f9f8285cee5c69a781b01c768afa06f342c843396a6affce2f951894ea3ab8353767aac6e5da2f54f68f84a9f18cdc893e877e42860d8ba100d219c8fc3450ca0573835b3fddecff2317b2e755ff7b6790b550e304c1715837867aec03f007b03a44c4d3836331ca82a5ba6d1f12e08193e676e808bd2391a21b7065d3a471b6d88a9db38b0e64c696bef35ef8ea07dbf67357f29ae9abccbcbc149dd8adc7aa9c8da21dbde2adcd6bf690bb9bb873a5bc6d1f16e7d512e045d49de78f4ff9a5e400a19b28f4dc9cf433db7733f0db5324ee7f80505e43f184d9061cf8d706289c8c5100c35ef35d9972f25383b2c16c989d5c12a71371876d4446c1436a3b5fdd13b12c6bff75cad8aa9f225d49977deb3a42eca768fc57c0a01036b0bf95292828fffce1734acc6c642db0242fc9f38a1210945e5cf59568637ab0b49cd4df421da15ef592096cade65d2ce4b41992e8a0455b9283c13046bfa8df3569398f0f8be4f918ae4650ee990eb87786f9716459f521bcf70417af0ade7f49798ca1c4a20ee9e3cc265942e6c65a0dfb82b1c4c8eabec7a7a6cf91a2d9c8e7bf3e523b629d540bc67b0954317e9924a2762e48e5439104d262f76a6fe3df7e388f7b61bb83c7117ff3ea6ce09644bfba076445a358229e788b6b79be2b0b517840aaaa482366f8a1acbbfec0fbfe887a9a272469a1b61aa1068075faf0c4d02026a133df6b8cf60bbe0a3df235962e8bd0e3afca1df0df5e61a7bda5854fdeb70c66edebfac37b376b86208cc49cadda2122f058f01dbb592686fdbeb031882e4020fee02864546e308176cec36252ab8f1532bd9c3be0d9ea9087d5c800a3486f9c22de11f4dee050ab98ba04ee957d175984a5377f38ee4757dd2f3d18d5a92daa09d70191141723ce54c2deda3c4358c2c278307ac2ff6bc64471216442583db8d6fe19d5105401ee5c36f94e98604a7d77af9c21ee8c9114dd4cea32061e0d11f7f25162c839969965f62b89c44b18863bd02eb2e4f1575f27bd9bb2edb85146dfdfa6bdaac2c887e9f134220678107cef50e8c88950c8beb1e61820325e932a772ec8fc4ad0d3aadc6d10740d96d83534878957d2b4f9282eaeb9db579adf754c7abfdfa60bcf760e99615624e356e28b41fff54a1bd79005d578dc0db73280da4d29973a53fbdbf06a3e38c4b40b9b56ba93a644089a83a269a4eb3c72b7489fb575474f195de71e42e6297f8ede1a0de6966235d3c3bff7489c84329b372506dacfd9d898a46864be0ab7c21c8a26d99c69715240fceaf6be866a9cf1fd3d23e8afdef593d3bb3b2b53ce5436f7c621fb989d5c0f020489eebb165e839b8c0be9cd70e77d85951cebe80ea23b16490c7250ece8d7487e6239bd80c8a4f2c49aa8b160f988ade7a6f903a8f22b946f5818c7f32fffa88e81ed74dfe4538bbff5376027e7165b48412d25053784c45c45c26b7cc7ff43b485dcfa972942de9269c95cde418a2a94b9a229c97ef9f32a68d2f056a9869ecb1baba627bedcaa5ced13b82f08499d5907d7ae25c860f5b7377c205c3773c95bd80f2b5107db14cfa209ca737b91b180a4d3e9d9ba90eb8f422e1296d6487807757b5f2a0c469384a2e9ea6c935e1d5c237f74276d07b0d9c7d337a0114e592262c4e4cb42c59655daacc2fb8f441ff383a2bf9acdbe9c69e7071164fe1c4842cc770dca06f69422e95ca5251698d8a14e8d961fede9ec118f402bfc03ad3d760ffcc07eedeeea7022a2e1745b313a29b1f6c1880aea81a615d577aac1cd1452e2d2f28eb78c2696d58108ba54cc372e3173a2e2f27241e42b1c02edaa19b4a35eb6483eb89b05ff09a6fea2cdc14fde82cc461d42200d9fbd212459674030feeabae22ca8caec99ab887a76b1926dd57d85d11be76f16c74c491dfc91bc67f0bb5038e9b7b983dcfba74161637770b8582cd305abc432bf908aa13926cec50d3017b1fe1e9fcb969c435db2193a4b7aa374675883009d0d228695f2c1726c032f3cebbb30d857503773708557c2f5c7694e58ec71dac4dda9f34425625a3e012c4e7e16379425be2e523512c31578aea9786f8bafb12b06cb073d2f417697f7be52247b5f9c221c512574454d81109e70c80962bec59725af8513c224f4358285d00d5f4fbd8b43f9959985df0003856e0fb2fda5d67c7a7b34eefa68e697b03444cd2d6ec5e23940392b9f39b0b78f2b1d40bd9bbf825001d0662caade4f6a71b4fc2acd12473ebe40ce4f91c23c82e99032f0f697b7bb5d9b0e674ed4848e95094fd0eb0a16029d42ba6651f03dc1724229d7defbeea03d77cfbf666415ab168ec2dc2229d9ccd5b5c9f92d3c223850e6e67ad369231462c786368753e60b223869fcd73980fd93fc043ff66a25565193f0fd8f5cec36f5edb978e5d43d189c2130f8f359247433e0accbaa455be9bfc0d1e13af8e6dadba2d83fe802c7f6b3f69ddeb4da9f3f525c8fe8db66d2117b798024f16709c631581b84d7b9e3d33e54566dffec3cac7252f699c59f7b3a8d7ceb2636dd58d28c9700a9bf7f923b01da81068a1ea83198f87dc3203dd01018d034aaf186a629cdfa42f560441816a65737ab7b2a685ced4b7d3a1ef2e4ae7747e8150bf5b63688404f61d3b717992934735d017df9d1d666d47cb35e317f1f5cf74b24250ae4d66a04880eb634b2dba5746be65d637627fbd63ea89af1f60e3ad947ec4eb3a5ce2c52bb8cffc9b718e6f2af4c977160b0c42046d65592cb537084a08bbf5034852df2dd9238da609443e4d2dc7749c8de7c608c0df9f463550c6e053bd4f3c1fff39fde650b8f8fc193c934725f9e507d0930dc2477675c1f3353be05a8f8cae886a1721da29805fb9231c957c03dd4de62856efb42f297b3605241291536e54ee1ff324fd9d12f18621c460063019151fdc56014bbe8daa2f066730d51259a04a4922216e1457908b91e75d9f664f8e536cb52fd328f250eed94c6b3cfaf52b38d661f1816119dfe708f9c5f3d1167f7a3a2cd55f11417fd35c3da9d619cadd5bf3132c40fa21aa66b2bb3859a3aa2d14170ceec6ae869c40581196865f0dcfc82c40ec14e1902c963ad154dd192a557ac97605d2483e89656efdce0dcc29f41b7a292535f7af7d42c6ba41d40f2bdbbf2b8af1423c1ca2ba5d6b447fdabfd416de3005647500fc43d1d8518eb881a47276388f19f2633d0dd0783845d5fd8520e066d85c24c9a4ba8bdd66202970d25d0efbb34b1acf505f7495ee988d90ced2f38f0c3923235769be5de08eca976e9b6fa44672069d8e1c6c4a46d3d67e9d89a947073657f17f82c954b48082ea02364896012fefa87196e40d84ebdabd8088725f202656dc5e40897b774bc3ab55226eb27b8de68693565d58dc3638b15b8b54d892fa021d04679f161df6fa97af6c121526651385a9f7308254b7789538d70742c79aeca7876dffeaf30dd68e1f49c79e0290141591250d741d317186b253b4d2df73825450b94bf4ac430ff45ce7d6de2864d4b058373be2f0d50ad77b65f0d0e8a55095d6fb6930c260ea5a6546a3d7efda83b5b9ae80533da4ecfdbb24b10bb06e1ddc545ee2fdae258f650679341c20614759c3df1e83ae03a75f08fad3fbc560fae2f2dc164bbed5aaed3a7c2c0842227f6903a7c2fb010b90480b36d7ff6208847d6795b3ee8f26e1803e6f905b96c457371dcc86709422cc44e800546a25e6322574733d9e030a85bbf1ced0f824c743eb4dfe86af4f2d7886f12d0dfc9f898cc82811f37b312f0767e8bce4c64eeeb043477042335f54232f59b3d73ca8267797abb48c983c18da75c5b01d61c467a063781a1255e9400bd0d6a2b1f5469b12eba95b5504716752d095487b43c12ddb43e3fa6a174fb87b75c7fe300879640578c6f788d5033f43c4b8d5b5e7f9b1bee8256dfa0ef6a5fda3795c3d67c116ce7e1e9b6da31a9a4a988f95a21ff793607b8d466e0b671c0beead570b6b65260bb915610fcefa96bcb0c678d56ade85650ffabe795684f66254612d445f3fbeb58fd46ac358df263de6e00df02ce54374fac644acc33b92ceab7f4ed806480c0bdd91669071630b0d0c3a8c09128eb75fed953ef6dae6fa4060b2b19d8d4d5462fc2c0e02a7050c5ccb961a30f6be0ea2263816287beac58eb970ca138e920e2e9ed5e95c2626cda115adedb537a074662c3bfc1dc5a8b1a3506dc5d01244d07aece89f218296846d12e98814b801ce509163bf59cb4adc3cf46b41db5d073fdc8e9b76b9ad7625e833ed394f8e2faecb07e197b03de3ad8171688ae9256f3df1e409f2b56cd4444bb7adcce397a5ceac1cd000389fb934d6ac99272d0def7e30d406b1a375dd574a786fa3253177a7c7b21aac34f39011220d619c784ea6bf2be7ae4c249a6e7fa402e3022d1303c3b559fcf22135e816ee0b1d8844e2526aa8528748d6d218cb91c0f2f2559410427e05a609858352995c3fea14ceb43b0dc03a77297eb8bd8f6af6c709e4a647bc2f76dfbd3658c03831715a12f05b54085c6b1eca8b6a9d7d6f60286295f4ce8949e8852b29bfc48a95980c23d70fde9c89e90095df51bf3e1d5c35eeb4b9f1201428660679bd01b116332f72084aed37860a8e0ca67e23f4e010de4c33842b9603e2d93807bcb7040d8e594da4ebf504be94bc8b8503e2a9612ec8bbf54bdf37c1232e1e92e0e0925160ccdd63c7e5d6ff506263bfbb8b0bf39ccb007615a15f7beaaba27f577853164bec7a6ad09abdd18d7bca43a41b0cdfeb214c25d6880d9a2c82f32b02ee6280e54ca95081aa6bee796a30dbaddc22d40c0c4bc8987b1f0673c6ea5d260d6175017c2df1912e62bb7bc5adfd5894e611675a102724f735ee68c988fe95cb9f48759fe1a0eba56c7d6fda48438b534d2e03952a6329c57e950366a08b8e448ac0d060c6e61df206c3c63f5f30cedadcf86b7527e75298eeece4d1b922b03c18bec838caff31547236f77250aeed76a4e05f04f1d699230afd53c3db5996dbd641f56d6f3a318754c55ad04013c626dde307a1f5e3428f9bd4ffd1e7ed1809ed4445c032de8507b163d1701d8ee22cd2896b8f6f4802917515374aecce25519448c7782e040ee89b3dd8cf1c3d34a76083b773d90fb8ca9938fcb75362d19229c8e24033d5db9c27846930da2e524fef2fd965851acfbd1fc1b14f498e01a3dd314fd66e74f259fd904edbaf12b3798a00745447c85efec0c8aad57978331f395618c7e427ff51cc0f23275a7fe1022ab0d02ff404f6e05d9856eee4aae777d4f58e20f34f34a96fc2377de91447fef244911420b55446f05b768e0f15899da19e57fe83485ce94985493920c1138dda57209f560ef8494d439406c5a77262b23acecb7ada9a57f18d909f38a4fadf7bb8cb397dc74c05bd855bf05e95e230bbde5a162e248f51df61634a48eba84e23ea58ae70d73338523a66d3a42bbe31b769767f7d561827b90795941cc4d14983b699cdd234c398921f34a153ba1f11ddada0603e9e2fcb177731e69bb1d3aac8dd33117a8c365148b8920f78bd7a05c9ae32cd4b0883eb3375064c796493d9cab021ccb5aa246b32e6caa04102b0f9a7907cea3fff96f2122107c1bd13aba23bf2b661f043bb6691d218da727532e28d0be4428ae41e3e208e7f75f52ae6b3c989ef848a34b5c78dfa4fbb6d36b79b631e68f945e09c4eb2e8a73a7a9d2b17837e947802b81e93367c6de0e21e21fdc1debd8d974b893081a66fe16aa49fbc540f2876c56bebc30393955319dcc4ee1dc268b516f59fcc02efda3829ebade7fd15c3bf3dde947c886107670c3a606f027e9afcb53406fefada0ddb03e28e581507b0ee5ac3b21bf208145ddd590a97004ce79faa51a29991517af5f4abec6b7f1bf15ba14247dceae73bef35411ce38b85be1a83a13bb22f45ca06490b094ac1e2b968e52718805a2a6b0b7614fe7037067ddc202f15b432d262cf2a8285e722cabf9bf2296abd76bcfc8c3ae99971d4859243497fe25621bce038538d88ad4369d06396424bd736b6e3788bb882889ae12cf8ea8843e4dfc6152389952b1bbc4b5cc6ffd732c12ba1036583032b57cf7aa98c51ab3e4cd1653b5746f10453129b476fbac778a031bb6783365cc8cb5ae7d24c1e206977e3dfbd66fec5f500cce3b0364560f3ff2240bd9c1780df86f5aba10e6c43ae89831e236d281e07868d92011eb8b2400f7bf8870aa6d4aeb4d84ff022328c6e694034dff9369a92de6c7e06dd15664bf315ac5e9409dc58825a048f30f3145354218d9068631300d2acc555c2751b72183b848217f4f54dd169e7ec029a0b90cb13e7280808b0e963f0c417f14a61e49dcf261d63a7560e90119c83622861094ea7b74f170b7144756c5df18463f9d28908e6cc54ac30b6555108cb694080a653cb858d7f3b491d6dd22b968adaff991a1991e9d6f677b0a4702a84dced3b64559dd7d5fd0955bf80ce00ba7c76876be7b77694578d990bb35227e896977cf62a111c67bc32ce2340c72dc7e9e150748bb89fdc7794f0d902fc0584d7b09d3e4488c333855302fa8d79d2e938321665abe3b936e69e4ba9317dc31e19908da226fa58bccd4e4b6acfe7c8b7603192f0a067518166e8f21297e304aedba5347adaae3d56115bce8ac54389afed1d297ad188fece735017200bfb21f0058f567086057e38c15a97b54ce4908dacde57db26fc192fce20be78b2d07579b3828cc31ebcc48cc78ef477da7bf7c00ce273f993f48a79284cd891ac89dd73d6c1e16caf4ee64fcf956a5fc51b795bb151416cb00afb3147591a5cfeb5fefcecb74a073a16b7744bbb27eb8c45390664c52d0668cb3b12592584b8281bc905edf647e4f45d8a3ff76c627d09b82471fb1638d2441d7d7a18f76ca94b42c08e6a2ec8ccf2a490aae4fb6045850fe96d5d3b499a5813f5acc50a85913122791c5eca2824769ad52c33673fab4802c6a31f4ebe5daf2adda07d60dd2b5a8a5a69fd91ff06081650da78443be9113285c946528538ac45249c7f433bad05d03de08f37d6f03dc81216b78c15fa98f242dd4233143f97b15334484b24c98d2cb41e01f65f69cb5067dd76db5ee5ccd032a5936dca0ccb66e8efc65bb6ca50fed25393c7540e34782e908f536118d4683d7198c638021ccd9453ce5cb66a4fdb0b3e95207c82db2b0b903c66f07a2a4fee306e264cd5bec673da1bff011e8f7c30129197a07c3d6236dafc292e4e56a51f11aa474a8c08a80285d6120408866fcaf92461e651074cbed2a902e048a6c9e0633e2a351852e1a2cc9a543f20621680a181f8eb38b2408ea0b35c223e905a160f3bc5166475b97a49c1c58d1074ea707a3e3780ed8950fdfc7c8bad35a7675b6bc0683a54b8b75c4f648d84d045bdaeff682e10a42a5404ef9be276b2f41eec60e99632666d8860ad67c775a04d1b1084ec72965090007cf27a0a0b1248d472cdc92476b17f838d587dc65d5ada605478762bc7390d4efa6d11db1cb92048b4284538d4c844bd6b7c6600671338965e3fe27d40dc76e9e351880f6ecef359f3be19a95c550dd2ea5148cc7f4d8c241f60a66ce7117fdd3439c490cc2d51caa078fc9dbf38812782efbca4f750126d634c691e853096fb19e805d6569546b36359e1d95c0b2b56c5c9b048b893ed026f39842561a9fc9d4bbb0d620f47e7c54d565c849db8bf4f5cc6fa619863713772545853ed3f43c37f1e2d5c4e1e5a6bd7f3fa6dd65c6f18e4833aa43725811351016c40047d73083afb4c9617ecc72a094bf2d7bb78b21c2abd23c98c4fabe1e144b3b386e2e299495a1fd3c8ab3a5c9601aa870eb05495847f0504d202a42a7d1a3cae8c244cfc4ff22500bab555850826f53fa88782369cba8ed9ee6e856855bc45bfa8fe0f6c7de8f6507d663f975a194da52726a4054b872715b81a142ca4fbcd6ed10a84e7933e9fa8458baf5d3d8cecec1a22202f7937cefe583a162594f719aa6d59f2eca274c42574cf426b127e2cb1f7a8e78f48cfc39d210feb42fe316a23e08f650e374cb1b857655e0baf56ff5f00ef0abe04ad3aec5df1420597b7e4ddcfc9da9aa16d39a0246ca75dcf76605435a8b46452fcc62691721b1a3e47739b2985012d2a4c4468985724737a2cadfb3c264b0b70efd45f8b1fcb5bd4ee4ec48e0cfe04c4585881ae70e70bc342f52a0dea12de91e56d79e8f3e794d90f6949f3f89ab5af2125a4f23eea6a69d4d5825240ae1d71583a6af7304f643889302f79cce9b3b897891b04b1622a805e35e16bb113e614b96bbf32d2a1061a1ce6039e3bcc7d107ebbfb3d56069f6cf652ac2ad8a2a292f1287d2ff2f1a9f56e57642516b94a1ac0d288a3e767f322db5b3bfcffec152049fa3f9b8fe95e275dfc9483df2650c19106f3b136bef306c2689eaa4e6d44476daf5011bbf5967224fd948053ae4be0a30cde694dfc1ac5d13e852c81b4e1d1bbb1e4bec5ead5b21714bb57b1e78495c16f1a4165b1ccc190aa8ea66b9639c138868c33a4e4dc1314c62d7463ada5f38a567303b6c634730be1af09a94ac1e143ca66ea3f82f1081a65fedd9e6968444dec41b2ab1f98766d4ceca49e910769f0117c41061a0c7ed1d4d18776c038ab1fd39cee8d1f1c71be194bef4106fcaff4b24d2e1e0f600307b9d275f9e107cefcf123e4d892849d3dc6929fd9b36a619d64df153960509e8ee451b0340ef8a2ff0ca06899870123b85c1296743e322d8e10d8ffed6bef27b0d2d17cf3ae74b92e4835fc0295c3b071c2c14fd5e90d4c6637e86c662267965626d5fb086006ae0d6218f7b2065fdcca40528120120121eb79b47b28459f4fb2eaa0d288ef4e77b9278ffab42e90e967d0ef335ba3c75ca7f90aebf96ae145a532ab69c74acb5cb5c5b3bdbf8836872d542c4e8416f842c0aee0e8fb04d272f00969994b80abd55da0960f543b976684eb5f6e6e87299d7970b3bd7f94acfbc1b89ba7b11cd95a46278be66bc4766fa6d1031da9775a793d1931f418b53ad18ed2c1b1c0f26a2dbe80c728fd196c704b6266594479abd642a66a27d9542713375fa379c7c779218bb746d567b35d001998f01048ae2593e7210013706d43a446ef5bc8c6c4b0af8813b77da80a909c93ea1126367a10b9ba3207c43fb868b3e10a72d3581e9c1feafae5a350219a31aba6a28e8b91558f2b3f2795f0ec6f6f2a6c59a6c66b4ae046864d7138c0263ad40e5daa37659573a061d5c537c2ae7a2a0b9dd6d4f9d536aafa99f748f7242a8d22ebb488bfb018afefb0d1e129e8b37dc7e69406885267ee251f943dfea6f1bd49f1ac3af35a7e6b23205133ef869a6571f59f0e8b4965008dd433a2fbc6a08524dd44e8f3e0072748b8fb03cd80a23f6a61f1bdc7307cad258fb133bdadd71ef85a8365a107470f949b5370413e4e9bbe3d18bbdebc85b9d2f08927e1ffa0afcd9b173513efed87560d923f69ee8ec75e0dbfe6b27cbb018285e29ac930eda1983b74d7d4e7956d8f5adf341aad345afc01dbde25b2c60c732c97fe5265b9530b87bacd4ddd5c17aa9933ccdc7110f807ab3d9249b6c3c823ecea5dc682a53b8b62c6f35a54948fae1df5b695d8917c2dfdbef6b6df5cc0df76cc10cabc9364f7e4beb6720ff926fa53418430b2212ad2b979923e34bc278fc84ba124e527b87b0c4605d2fafde2420e6c6a84cf77eb3dcdfdb8be0c6fc83166cb5d49cd0de9ec508eac819c6dcfbcb8454a3953120e92341e39ebe5612730fda2788bd5e43ede1cafd97d4b3beec899ebab206d923d6280d44eda4773e9c36548d92b5950e6003baae163cd60928368971fbbf67102ad013c7aac460e2eaef8f17f9d3c974204df0b01fdd29242fa88d4390c0085b421c7e5ce214864367c5597a2e96cc56c29464e6010cdac76033a3b17f35e9918d3ae00dc5a4f5465420dfecae73fe326a6d16adf63205c8670692bb1152dfbb23a341189119c8664bf1665c8ddb91417cd60b9b09aad49ebafb242ca74e6dc12b087006f11d6747d251b3c6f887be26d4863dac1628010accaa790aef7a22d017feb37e8b6224f0c15839b480f1cd40dddc614612bb61e43c32af24a1af9e875ca0ad5d05365227d037d322db9b8615fc702337b5cd18451f9f7001ec0435893b982615db0ce6bb51b75c61a86476d3db5bf136c346177b9fa46eab4f838ad38a13bf19805c01c17b9c804835dbe6f8b3d79f754a820a66ba5363c5ef6f17e14ee3f86cc609dcc23255d5aff38231ade1dc180467fc2865a48c1004f1872dfbb2c832d7567c728fb80691c36d3949c07475593fc65921f83998a6cab2dea546d8c9b8fcffc012c85f1fa91c862753db937e3da076877545d06e4e85dcba73502d712b0da4fdbfb2efb81b704e50397b367248b27a59dcad1b796ae29040303d1a0decf868c783b329c902336819e544423805b7217baf053ad6cc02572d7208b587b10f5871433a27f0abf59fb06d8ad673c9bc24dfd28bc532e06dac89bb1bbfe18dc4290080983f5b1bebcc3466a61e0a89e009077ca7adcf26ab67310e2783bff2e991a53d6ecce2ef5d71f2610ef074f2857453fab5df53259f6d117616eaaddb2d7dacbdb530ae6a19e78ebeaac6c9ac9a9f6f6205192c48f7a1ed1abda3cb56aa7f9313bf0e509248a5ac123772cf63f897348f3f29bd4f4a5db5d5e05c3f712cdfa54b50895daca303a302870222050bf42617cab6d939f19991023c849fb5c065f2e415a535d503507867311c22b3182ae7bb1a185f87afdb1d487ccf3c42ee80def594eac733c79025fe2a5a5ed147a953ebe305e75a1851267fc7ba57d8c6877574054c2e7e7e0b6144bba233788a33533eb9f17aa161285f62acf730e370d9e695d0eed20bad6b1051c30c75129585d5bc0ef14f28aba3256d0f3f87db6007c41e5b1a15407d34529dabc474c30dea5add59d73e31a58fdcb3675292674bb889096ded88cf266a075b6e2f73cc53bd13780717e45150bb959dbfbc8ac93b11a1fb4c6f1dc8d65b0f71ab29b8b7cc7ac1e46d41eca753a5a1ae5138a23b380541e6de27bbffaeb8f06b660821e3eae93fa861ef27d61ea36e9370dda2ab64f9e9b2514658d3427b326572d73f3be28835d7950edb0b66da99a5ac0755c71183049fdd252363fc4499499ab0d8bbfed1464ce06f20d4507ead1e24fcd5015df1a1cdb38084fccca69fed5816b6b5be4dbe0669625db0f8b50fa56ff41a9e5e2a971597e8bbd18f3c876dccb5b96bac7ee7dfecddb1d2048465108f4717dff0dfebe45b0ad17cc46d045518573a056213a8c7effd59ebc6a0c57f3dcce7734daa12e185f51d25e410faba0fd21f580fcf5fca333fc49ec4c2f57bc535488889a674fb03452a207bbc0669f35aeb335adf1e418796fef16bd6d6cd25e9547c574dd6a622990b1370d17639d23da1900c1404619d1ba468014d39975b5b19ea5fabb7966aabe27294b072c01d9e03240c90cf85b8b4e04bd341d5cc18945231ec78337191ed56a36c907ee195fb8c07e99e683a6e14f433f96b1d69db160edeee84896960fca0db4d7665a420a9f6af2b6bfe467b6d1b5f630f95cfe0f50e8c3272dc78e3e051e5e2292e8b08b680fcda11dce896f682e763505114f1a8d035f06b6c8273a18a8b06073ebdbca4d858b2091b13137612394ca745235477571eb1362819c26d5585f2ee73cdadd88d5190e1ba1b97e93c224a2bc70fbde10bc8aa30f16e5456999f167efa64e522fe38de413117cbadca80e339e898ff238dba5a393b06f5923e6fa5c09745f0c55abcc44454ff943b74608388aeab134565679c25b3445b35d0fe0a7ee7c43ccce8753d826fbcf80d2fed7246ae13649237460d144a1322b4f30f515c1f73179b9a87fb3c54de34d83abb70858110b8b1f39428c3e38acf7dbb0e97fd8eec76fa645519c24da32691ca0ce8ff054f97115e4e4f4890a65eabd4f4856e775028f9bfe0a593f51ec21ca7304aecc0fc9a38943209b33ef7945b3c5470546f936cd25c9886681f7fb63d07955bcbc30f4727976934f60847d88d293d96870b50ec1c2026a3d56bddb82c54c58dc66080b9c827dcfa3bb0d4a7bf69c3f8f47540b52b6c40844d2fc335595ee90df220215741abb2e235f89dc89027f593aba2583b2ad258d5ba2c55b357e069470765ed122edb10884830d2a994f452bee7fc56aed5367be34dd510b08af443b3b56fcb7ff6bff06b3022470acf5a8fdae937bf9cd54aab55f82f4fbe78283750be279d9c0ddea4135c1f4084d92456257f8e8f5acf982d4472df3cf8e56f795ea889d2574634ae7fb22bd83143abf31f8eeb0a485f97991b63566425728a455daa159bf5b43e630b892df33d0afb38096c80d803652f8189705634f7560cdb2b20ee9fe40eaac2926b12d84668a7f203f41d390d6ef18f939d464b6144dcdb80b9e55b6b639e403d0f8f827715bd6f2e7043feb6eecaa8265191195159e5cee956b9587e104b0012036fcbe4056eb0c12b03331e23f8fe2938578588330d7b2b25e8e5463f0cc697cbe9ff27a89a51fc0923992828f5a26c8ef328439c126c61e13acc4c7fb23da52b19171c2f96c563e345a501560033a8fb2121b50b0cf8ab8b998ca7bc6408f435fd7a7ae2ce4dd765ced534ac604b8b9636783ae5e68f71d58b034337ae6028a13bd533e7a3317dba7888ab312cf959fa9d154d0fdba9b1b0530059626b991b5959479ceea6183186b3530f3895f9c64a712a53bbeae13e733074a8308edc3e374c621655a1776cf5491b7f9616787100b54ff29dd1cd3865b7a925f3e9b88d40fcddccd413a40f22ce5493a3999c6caad631bca60bf1f658e534b3af1cb68dfe62854fa075e97de45788baaa36c40026af3f390c14bd2f1f57ee36d8bdd4bbb64c23a3736826dc3c4be6dc289616c83514e8947393c5b1d5ee9af5ea9beaa1fc13b7daa293aa91e0c71859bdb138040130acec2acea478ea81e3d39468fb6c3fdcc15f247b8ddfc024a56594607bab379eba2149c09aff77f3c12120a268f289125550a01462a585ef4c3e6e50e2dfb13c913e8b281abfb036518e77ca50210a3c7bfcd342135e4073348391230040b20a39f778cf6df912418774d8cad5fd3d10edea9aaf9176b057c807877aced8bec320258d8127db07b99816f29c9040497cb5d2c7c27165be4550d734d30b79dbe424cdcb71f0264142464d8899a255537ac2fbfebd98dbcfc3e1345e5e530d15e968664117209b63c1d822a42379fca81273b3c2fea08ee6f287e85fe05308449682898b201b954765ffa71a9081d318f5f298bfac4a267adc90231d0ac3186d2508aa9861dfecfbb0ae04595db736b8903cf06a34b02c470fb752c40d7c07205e3a60c4b8920f6d9769c495935fcc8c83726bf8b101c3e9015fdc496b9c42b5cb0de9320330c98adcebcb5d34db06828d8bac3055fca3992488027fd4af84bddf2cfae0c091d9c00623b91e47d566b472f5007a3b0ac7ba49807dc8eff032869b4179d9abf15a8721a450c805257a7f534d7bd0440c737a25b30cb4afe67d7e067eacf217a6c992cd3fe70a41bc04a672ed1300acf87dcbca1b9f8b01fc351431ab38ab6efc925c04209223e300192221739a058b7971b7c801f20de8a68ddcf3f92ef12a4631b10c719cca5cbda52bd87156a1b2c597e2c8d2ca71d967cdabc39324d82c249447f35bb9e310db8982a18d9c3da88b48815fb5f6227fa4edd350722b88b62636180083dde0f1776d5395ba225770b50126d57e6d030994bdd413edd788d7ee288e225800441829a7e1374d128dfecae7089fffad9c8b3b1887105e860ae8dd5bec70d471eb631bb418ea4546bc9f6a14f9b1cbc3ea6effed32221341804878302183c7e9d8828dc4b3c5629b6b1eee404c774d934079329d7c61706c027d2d76a8e312f5ed0e8f0eaa827b488533215e331500eb7c7e461a7c5964558e694204f43859444890ed49f35f0400393e4ec5dc34d6b91cc7c7f4176c05af097af7022734778573246b925a81c41639c71b28da4ee03f3b1c818f314b3a8d21be76809b83534650b85a580aca97d7aaca87c9e5a609cdd0c5bf98b783ac8ccd0bd1c684565b6721007e512b55b127f9949973df6983bce7fd881dd0c31855c69cf3abeba389d723b86d9db6e433d879cd83f4f4e0f1c87c03301587e0393753e3a8d29244d2a88120e836101403118eb2354fc2485d786aeaad691ff29dc5d47eb2a9bd7d188ed15232099fd7762be4d700a189a0bec9a8a3524f8fb52f4918247272996973ca257e5922ac53c2aa5b2a4c6f4598bdc27ab06b71b4b6aefeefeeb0cded16151b77aba95828cb94156da9bec9561b3105ae574bdc5a3074b45875f33414feb47fef124d6dc805814f4803acccea93a1b65642b0420eb41c292d385cef0467d4ccc5f4f6e2c9cd61288ad80e714a312ba4e72d624eef295f7ef9d3c83cf57de0595a7140a59954ebfe1ec46f4693eec156c15e4fba962438a1e801016cdd53bfc9a7cfff57b6211525e4ea309bcde10250b2ad03110303215f31db4744c231a30636f67071db52eb8071530d963b0af9784b2a8e0cf76542e01ffac1798409b2e78cb487cbd10f855b22fda0cd553708f49892507ae7cb8e7a5fbb25490bce25ece310c6cb467a749b6d99d99012da203969730b1e3b19dadf15796cce4b768cd3ac055a4b1846a350306a8b22b62335ddeb4718ea623bc040f612786e957d6dbf0baf0b8a631e4e81db86d49e4d6f2e309693cdf67e316ac00e11efd537900635903d35de185ad844ad966eb5556482119c6be17927cd1e5c6961e79cdf72995acab2449b2e639cc7058d9c04126e5ca04177d9e84af3e5b1bcbb711ce0f437f6892805b873576265e69e9039bbb14c1b9aa670baa0bac7cc38e7de8e4ddabd83eb779ec733a364980ee15ab623ba1a42fc73401f09e5c20763c17a23fa3d62c5fd9bb1a883e535993e4d99bae402568454ab329ae4ec8387e4fdeda7dc136f67b2d4a6443430986c58d10c78e8a114f1616997f4c25e9591fa2c1bdcd492680eff337c63c2270048602da586eaf5384bc441c1fecc439df7e1769b135982da62d6f0248b6a743ee76df6fea632046f321955b60f989c415d079aca50242064d6cd5ae63dac115d4686b9b98e024b86c54c3bc97dedb7a448a16be769f5bf1b41c22541a3ebf2de77f07b790654a5a5fed7bddaed34887ae599d508cac464810326d4c0535fa81af2e56789723f775f390e010a8261103a9c0f1409b804bea7e5a9e7378a8b05120a9755412664c451351fa6c73c9a1eb4aa533c8844325586101c126e95664402c37e0ac40454743a1e293347d96f806c5be7bd4eeb58e61436350437127d3ff5552972dd8e62f7d868c076b2a03cdb041d7755ca22726b7905b3bf0b767a8fc2902dd77c51f6b18b7186e85682ba1d6258e36610728f36fe28556e300e05ea5fbfd6fa9aec28585e5a4c2f55c40a12ca6b2083ec5dfebfe74caf16ff17f0cdc4789b7603aafc5a160fabb978f8768203aee0f3ca64e8ed1ae7288d263a3685df6652e3dc03859befb4ffa634e77911e73b299a1d0e94325dcba21ec4a6ce33c317e44f78b983723a5e4d56f6d362d61a949ffce33403bc1de0925e473cf9eee7208a542f2ad999168a56578878119713d9ee21fa122c93ab5e21db71f27c99f1e98299fa3b792bb52079593ff629f34fa3b604f27885a3292e71483584e98937cb9406c2d0bd2c8a658d00c2a8a653d45e3c22556fb3f1915cde6da322f535b407c9b44928b98173a6455e2321db683992fb8608888b550a4c17d6a3fea097a69ed41f4d581830e18fe1b37ed0d7b2dde670c5070e2337caa90939cd51712e5d9254d5dd15393068a6705e7bbb32f4bec01410be19e63a1f433e4657c76e1e61f9b6d301c0293f0b1326e8f252e97d9df51e9e5c59761692192abe79038c5163dae05dfa66101cd91506567fecce3f3034120f5e06f257868aa531153019abdb8e40523020ab169c1f8613a85478dc67aa2f1322c8aa44ca320301e3700f0a3fb372967a05cc50950bb531d698f3ebf2fd8e264b166d5375da849bafa60b0a513c43a5e8d224fd648ce5fc8ba7dda0be0d82c57d483d6c11ba69f9bd41e27925853d52fd77a2c89cf32a2d847ede9b86626aed474270a462a68b8a6b857efc07d5caf0c40143c0a8ba9d0677a6dabb9cb5e2b50341a6d7718a27dfe3e6d815f08b52c2592fc401e94f05415e98eff05148fcdef65e5db565d4e3579b1c84324d9b2d4c9ca96a2570938d7220aca19f50f4815291442289b6e8b4f07bd2f36c35b964a32ee3335eac42bcd829e8b88bdf49053fc76c2fef795403866532c9f5fabe39655dc81ca256b4999119576855bce19ecd3c4ee801de797f624683b2d8b41a758eaa1468a289a3aba14e6d3c2e4b5e997e3aae29f9fec36e4bc58eeda2b7f9446f2e17f65f66ad2ccafe49e3cbd2441f21628395d916ddcbf696b261520615f2d0473e5a5b024ae8739951559a75f160df55260f7eb48607c311643bb93535c215a6f3531ece432149a722fd1704e2ef2c5304d92d77635ab92a43d4765d184e4932050e7d1fc482c0c210564659abe6a79c9aa97d86d8d7d4604d254b03edb142a9b35bca797e49a24d45626cef16cc4a1dbdc229cbebd0835e9e379a550032792d10055d8405d60089193992be238f6e2ea522a87964fc893750c676d5e0298ec576c5d2f6c513a84fc24a172d6ef796c5489b3f2c9d656e69dae33c3f570de90dc272fa184e4e9e31dc4f2bf0efc68391a3f271f0b12da16bec216db44db6ff090d44b0e4a403134ea652c85cace22633e1f2595f6b0478bcfb1ad74bc1974e663ab4112307782e7bf574f0553f9082383456ba5453149bee89ada709d981da418eaab6af9bce6350326850b1d0880cf4f175fd92b17aba9982ffbd5752094c60de691e42f626f5df8f77237ee38ca2d4f9d11ed67ebdb4eee3f43f57ce701f48206170ed3838b59cdc5cf1eecea6696d004e3a74c1c582db14e5ed0543213b81cac2d05fd18aecaf015d03790c7edd540d2e3ba7fb79b07254b8f9ab5c66d7d3f3df5f555c187c5efcb3463fc638d1a8688e261fcf74941539f675234adab811775adb0ac914e6a4cf6d4b4f11d184edfb915afe25bbf91c5508d55273c289e200e622b6f2935bd07eb654cef70672fdee21e5f235f876abf1069e8bef0b78526174017785d216584ddf17cac284ec28550a0600c85db61b373fa171db221b4cf1a40759186fcf8b2672fad87a0a6c88f8f5c4bd7bc60c917b94b52cf8f9762c2235a598572ab2c80e32ff53b6bf5ee980d0e67abbfefe028c63ebf6d7c264435a321e1c22a3a8d8877aa9e17da3e94a59b10295152333d15d56df6ee0b2a66329ec564f9a95ef739ad354bcb635adcb13b8a8b3f83adcb376978a4a81ff930f5261c48dab09f3d9b7ee16aeaeda4c29f17d5f538a025d572a4c01fce4b1db766fe0006372bbe841c59988e19da959bfb261cc6ce0909bc1943ac273ea5654ba2c31c58cf6adb889fd7da331c1d91f25eb3a8792ea394fce3a633e1bf2b6bb72439f1f282570818413ef77f86a01615164ea64ea71764f93c1fddda44d5d87826b5584223d032423a42e23e0b708e24ea1f4cd58cbacbbe6ecc4b31d8ca28b5ce10a5f32313eb54207e13ddd5861afaf17e3cd718baee4bd07231071914bc0fdfe588344c385533ceb973a22c97956a3adbf507a53ff8bd24ba12c0b2fc9cafe73d71231ea1f035110bf25e2db813a1fc74b923ed8dc5590dab6c45302b51eb423a59f253d323773920a26f1c9b5bdb95d4176360fb5fb34c69d979f3cf3b8c0356f7d41e0556bd01d58f0a3e264388fb1de0c5c61bf0e91c632dea0a6bd94caa7ed8111469fc28a8942c2c02d3524aa5e5a7babf0d717e67088b4f0ea521a7a04e99e47ab8f7ecafeed729c968bd094642a30c1ae9420acfef86433b250cb0ebfa2e281a0467b966b564ce99596a8f3d7d28776deaed07cb8a3873ee5fbdeb9889d1973da6b633cfe653a07ce77e759c8bcd7977a3a346b23ed0587ec50309fa24b867703e61b41f2ebc77980bf56f4cdf37d96ac669a3bb8bb77668eb0b0e4d5d2e54a5b1b35aa933b9173e782cb8071c6f516f56793d307a9b9a96a68e3b6c9906ffdd1983a1be9fa4e33c39ab68001df289db780425eb62cc966d701b7126bf9e84c91e0539a8ad666510fea7b92bc9c9ce9ed4d8463f5cbb5580287394f8d5da3f46450aeb73c4ea4c2876bbe8313b50af3203df5356938734f63dde2c0d2d5b7b05e021aae02d35029dc402a7810ae9199db8c5593d29395e5f461902c7192ea5df135820f0cb41b0c2d67ddde6bcd3c844a385940f6e6c93a4d0de3509c51445e1a9fd3b50d82e10d7f14897d67935fe3fe2c1739608e9b24e771c60d07e242aa58ff1f0a21920b66e7636124716d5d34898be956640a37457b1b0401320467eb1d30eeacff6248d96614d6068a533b1479eea420e81a0df7f8768dd5cf1dfb10ac37952fa65af71ad6ca5bcca4ce81988ec00dac70dce63d68e0349e7643a3904a1079aa86fb4d9e5fa462691b945921006da662f0dab0e71f9ad954798f5c649b90ebe1f8135123c9ea7a963ccae1670e256e58069afdff82b91383ada498b2f56a56507f81c140c648ee266a9cc81f102eaba4788bed4bf46ccf0152b44d49973d2c52abdb5f6d48135577b2751c3b95a2ab927150f57856bb245baf5ff57df1e9eabe9f391094070ad6fab7594db07dc280d2f12c809493a8c5b51b1c9fbe73e7d3ac6c0b5b07ef6a5ebadd83c49e3539b8626a26d12268a7682c0dc1a5dfa6efeaaf1e05cdd5821038c865a4399694aea9e9eae06d2fca418318b6f748be779553fdb1f782e9b0334c72158a10accd9ec92e4f8afbd59e8664b3ac2ff67b6e4be21b1fbb552be090ddd8b62e68b2917acda8ab1efe6d4aed1e7d8c4410d09054985bf6ff045812e1670617a2f6395f26be861fa29fa13f84d798ca435fe8558897184313ff6db3960c966507ec6549e6bb6e19e2d0fb3552d0b71568d5565f26fd5e7ef7752389b9ef742fa9ee8d5f96db75b5eca2ecb6baaec0345fc33d1f9362fd159a7cac9ee3583b21681d1b7c95ba7710e9f357b849e190af933e4bf86809209c2da6b71732e9df813e8f0686c9ad980a72745641f4100a587085c1afacf0c361fd0dc528bc3c053f44f395177a43102c300585b149d25b57139b32706df54bb4b23a9f1b54f8313a0d6782a4c153c91b32d670862794846cf1c8cc585aebf35e7e2e96f5407ccb508ae1310a8c6a38c6ea86bebd95a3709377927f6f38d015f951a5ddf23421b599aea84d5657d1b9706c437324b91fbe3858d5c5081db8cb2af5bc1f7bcbb1e6c8c715ae5daa394e77f749ea9fd7ab66c5565f8d69c513a5504aa81dcdff6442db9139d0e30c637e1629927fd3e6f2fb8d94f88ab4a16f82b043040d8c7b1e3fee75872c98e03bf92d1e948e1ba4b6c07d3a8c9402379860ca3627d324bec75c1ee6a647fa22d7aebe809448a57a68639868a166f09a403a4672ccc5985fac9bf60c7499a04ecfabc652b8f0a3278109916d2c0b2f978c23f25981f3c59bcdca1f764c3c42ee10743bf1eb3a7ce187432182c6a5c3a0865acf09a658ae8f2f07fbccae324cbc92e947c2a5d227925d9415e45f06e43b80a1714ba550b98f86517d1c68713bacd3022aad22ca7808fd400baa257f8c4e43dc880f5da7c08583f6b2b46638ccfdd6fc56f9155135a148e8053dc019e5e0cd3518f3646164cdc200dac54d8428c3eabc79860b0aac263e51bf11a981c227d93b30e7cf1a2e24c3128c6b4727f735cb28969c3cd3e3b15e472ccdd93873370567448cfe44fa721fb9d69b0a857f4f617707452627826992083e7c1e53a4b5cd9bb5fb29fd60f31f983d9d4143b6a681d8272458b330d8ae3a0da1209f9a2275966d8a6954ccdc84839f72df9ee39607c52adb72ac14d0b63c760ee30c44f8bdf3fa01fd889c519990387975bea0f8a72b02763ef6103f5145c0c4514bec598ad8310b75aec498804b74dbbfbdf1b213317760450109029abfb21557b8203d26e0534a9540613de9d389dfe0533d6f8dc05e172e9baba689bed87f4ca6aa593533903c93d724f4a5b4a98709953602255db4f958abe57fe04a45244d23732a33416b428d8713182adb9a266eac3f1efa9ae7dcdaee6eda7a7d2b25ba16708bc2c0c6b33178a4b4d145323999061554f571f2df0aeaae3b2c56111e299fa5abbea8cb7e3dfbd7a41d57b8f578eda679f15de23c165b082277018a9eed7ac1279615b3cde07f031087635d603f30c69541c31ea357b02b077d4473bfd30a7c0fa836c9d9f933f87733a441b5027e28d9079abe5bfd0acabdff516f27259eeb00aaad5c86b49aa1aa11a1f82d235492f42b2a7485a809b97747b4b40fac3a3f33a6e09a7d00e15b38d60a42ff7420d0c545c0cb291a668117af30de823ae7587d946d259a26c97f8f694bdee79ae865e4236c4154c103f746c49e90dab9fedc787d56dc7eaee232d242042f9bc86ed4f122e2bfe6ec741bb4fd0181070f81ac642091e8610a8d9df5c9c0d6f9f3dc7c87436b4445b9f3aee21b8c2d56dcff0d33c0ffb3a5e0534e7b6b27b7c8bea81cd8eb05083c1a0bf893ffaa03b686f2261d9fb8795df96fa98e936c5fc81cb681ec21715526cc154df1302a91387e1d9f288a8f8380df9c44257c227f974b783307b9bee781d413007b2c93320ab2d256d88ae9e89e44fe43979ffbbaad740a2a0e715ad9dbe181c63a38fe6c640e4dd389226965ebd754c25af3bf96edad5987fb75aa6a994ce9b0a1f693485d5d853993bdc40476278aaf04b6b6ed515f87081c69c5edf881b6d1a68b387d1b2b65ef7a095efde628537efcf39bafbb3d3ababc526059dfd33d3beda1996d92195896e27979474758b3b250f7dc668da35b74b80e7d10e7404a3a3dc70efbbba3dedd34e527c64a147118791ee710590170420a8562a272937ca32e696138ff15e1f17b3dad7c85d02a90880083b09a86a723d59b069a0007eb475b5bc9835e5354b91f64bedd98834c5f2d30340a5687e442a7f3e3a89b473841e0021a38a28835cb5f6293cc88963596ddb158ae128c3a261471c9bfb0a82daa3012d47dbc4eb67e0fc4caea5ea411513032605002132f94469aeee7c3307cc446df7962ab98773d2c06f5749417b30ca6e27cb4205d4599fb711373e65741b0e7d746297420095d63be0adb2ed0ee3cd6bbcfd0b73aa709a2b87f8d3ff0ae510e13f3ebba6ec0ab044648e82bd1a4adcd3c2fef2e2cb5830b884549d11ad6da73add0c6dc0e9a69fad905c2e8625798f9e018a8d994c4910c503cdc1989e02b8d652796b74d75a6abade140f409b8d373a51f979312e851c12fd8fb5f59777ebda7a88710361bb03efc98def0bb9c61520e7490cba6c873809da7a9c2b94a2f36ed278602a3323b63abb8e046d1cdf8af59580cfbc9565e90a2248327583831cceb5eb1033ee3b16b25d81bbe58125c6dcd5557d113c855e37ebd7322e3c57ee367e856bbfb17d1f6f5cbbb735114a568bf0174a37fc680f1f4e559922ac1ad0052276ed5906d8d74b9e697b3d0fc4aaf613d670c69c9c9a7e36d1425af97eaaffb52c2ab27213e7ea55fe7c61684dbb73e8050283629b6c5604b9ab6699e96a011c278301e2580b480da347e2572a0ea078734ca3122aa5cbeccb2aa8cadfe3f28bf6a916803f03b0aa533b5197f79dedb37937596da8319e2b4c6cb682f8b40d9081d8f54aad5851f79b9836d16cafe67a8bf64bf6976d4db3eff5ad95d577a93b1989961ab382f40f9ac979e6ddb059fad1d7bae77c73eaac4ba944151bace08b379622765047ecae3fdf74f43ed6ee72976a9b0e24729b612751dc6f8e409efb65f8a621b4aee01b30b8a773c7fb8b5fec2a706fd7ce1f20067fc798545ca311ab3a921d279861230e8643378d55af3c24765d19ddf8ae78736fb03212cc44b0b524ebcff04dc1c701c81b201503249dbc32413f0a6c1c571a013a84cae950cab159f529cf3dc1b9a96f344fa5da6e5f70aeab6939b2cbd877c4c5aaf84529d6c0b15911ed8f72e56f86024c49d1ebe6ec5d9ce639976547e1c772272212fe39cfdc00654bcb4e470ae168ba1e3c6f0cfb1c151f3dd1b83126390b1cf28a30cb4fc1c1ca1fa60e57a803ead7901db5659961d5901280e3f4e8f04b9306a97d19fb56414d803e000b618108cb63b7015c4e2c9e603758c128b6411ce91022eb42f041ed3edcab7dce1556d40a7ddefa1e4909492bc79d0af347da2aa569a9a87e8db00a42acb2c4398abb2bb433ebb2066352aa84df234d5df1c5511fd8e0102aa80c9b7043352d51c15aa844296c59ed45ac9edeab628a048077ea43e291e1ce5278feed4fa47a4e2a73f7efb8c895d562ee563b05ecf50170f061fb43c6875c443223827fddb89cda8db8efa3bce3ecd1abf84645fd0cff7c10ee10685f047717ff24f523d307af344327489cca29b769c295e60c697631d6bb4ea021a5770c7aaef124593f8212cf3464e0dfee270afbba716a70270bdcb0c6f88fe4c19f0adfade95db57bbd8a6665f4695c64771430e295b05bf6433e118eecc8641937ff3dd3f37da6f58cc8ca86bd6ea880be6a88b97c64754f2a9e0712fe5b2173a1ede8415f4202d99cc2b4c0509375510340ec4cd3d4cbbddfe8d0c8c84937eb9a68d987057712195d434ade090a31e48ef630d46e3adfb9500f03eb540b249db111a0268e42344cde8d03a74b6b2c302b8f7465c55fc75d3e8c3fc61d70ae16c775a549ad050f59a51be227fe427573d34a7f9f4906ca0da5cba4978d60ee48bfca3cd6c60a376552a1c06250d241b33528b7bb48e7ff5099568953be4dc495444e103d1f7cd2f38d6ebd41cfec845227b63d80bda4b7605aaa6f35bc2e2519889924005e1fad641547ee035327d28fb3ff67eedccafcda4666909cd6f9442ece3d3c42fba480a69553b3fb16c6e6fadcd131659152c9a92c0bcbcf7eb063f2e78c038e2094d06cfc415ba75fa34880b45620842615d7bbf303f0822c04c299a38edf1fb506f1423a6d4f8628841d7952bfe6fb82d36dc37bf99bd6b4a735a5b3becedfeff7bd29b55e740c5e92e</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">[数据删除]</span>
-      </label>
     </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">
-    </div>
-
-    
-    
-    
-
-      <footer class="post-footer">
-          <div class="post-tags">
-              <a href="/tags/doxxing/" rel="tag"># doxxing</a>
-          </div>
-
+    <div id="post-footer" class="post-footer main-content-wrap">
         
+            <div class="post-footer-tags">
+                <span class="text-color-light text-small">TAGGED IN</span><br/>
+                
+    <a class="tag tag--primary tag--small t-none-link" href="/tags/doxxing/" rel="tag">doxxing</a>
 
-
+            </div>
         
-    <div class="post-nav">
-      <div class="post-nav-item">
-    <a href="/2024/09/20/flower/" rel="prev" title="野花">
-      <i class="fa fa-chevron-left"></i> 野花
-    </a></div>
-      <div class="post-nav-item">
-    <a href="/2024/09/20/2022/" rel="next" title="__2022__">
-      __2022__ <i class="fa fa-chevron-right"></i>
-    </a></div>
-    </div>
-      </footer>
-    
-  </article>
-  
-  
-  
-
-
-
-          </div>
-          
-
-<script>
-  window.addEventListener('tabs:register', () => {
-    let { activeClass } = CONFIG.comments;
-    if (CONFIG.comments.storage) {
-      activeClass = localStorage.getItem('comments_active') || activeClass;
-    }
-    if (activeClass) {
-      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
-      if (activeTab) {
-        activeTab.click();
-      }
-    }
-  });
-  if (CONFIG.comments.storage) {
-    window.addEventListener('tabs:click', event => {
-      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
-      let commentClass = event.target.classList[1];
-      localStorage.setItem('comments_active', commentClass);
-    });
-  }
-</script>
-
-        </div>
-          
-  
-  <div class="toggle sidebar-toggle">
-    <span class="toggle-line toggle-line-first"></span>
-    <span class="toggle-line toggle-line-middle"></span>
-    <span class="toggle-line toggle-line-last"></span>
-  </div>
-
-  <aside class="sidebar">
-    <div class="sidebar-inner">
-
-      <ul class="sidebar-nav motion-element">
-        <li class="sidebar-nav-toc">
-          Table of Contents
+        
+            <div class="post-actions-wrap">
+    <nav>
+        <ul class="post-actions post-action-nav">
+            <li class="post-action">
+                
+                    
+                <a
+                    class="post-action-btn btn btn--default tooltip--top"
+                    href="/2024/09/20/2022/"
+                    data-tooltip="__2022__"
+                    aria-label="PREVIOUS: __2022__"
+                >
+                    
+                        <i class="fa fa-angle-left" aria-hidden="true"></i>
+                        <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
+                    </a>
+            </li>
+            <li class="post-action">
+                
+                    
+                <a
+                    class="post-action-btn btn btn--default tooltip--top"
+                    href="/2024/09/20/flower/"
+                    data-tooltip="野花"
+                    aria-label="NEXT: 野花"
+                >
+                    
+                        <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
+                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                    </a>
+            </li>
+        </ul>
+    </nav>
+    <ul class="post-actions post-action-share">
+        <li class="post-action hide-lg hide-md hide-sm">
+            <a
+                class="post-action-btn btn btn--default btn-open-shareoptions"
+                href="#btn-open-shareoptions"
+                aria-label="Share this post"
+            >
+                <i class="fa fa-share-alt" aria-hidden="true"></i>
+            </a>
         </li>
-        <li class="sidebar-nav-overview">
-          Overview
+        
+            
+            
+            <li class="post-action hide-xs">
+                <a
+                    class="post-action-btn btn btn--default"
+                    target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://66cf.netlify.app/2024/09/20/2021/"
+                    title="Share on Facebook"
+                    aria-label="Share on Facebook"
+                >
+                    <i class="fab fa-facebook" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+            
+            
+            <li class="post-action hide-xs">
+                <a
+                    class="post-action-btn btn btn--default"
+                    target="new" href="https://twitter.com/intent/tweet?text=https://66cf.netlify.app/2024/09/20/2021/"
+                    title="Share on Twitter"
+                    aria-label="Share on Twitter"
+                >
+                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+            
+            
+            <li class="post-action hide-xs">
+                <a
+                    class="post-action-btn btn btn--default"
+                    target="new" href="https://plus.google.com/share?url=https://66cf.netlify.app/2024/09/20/2021/"
+                    title="Share on Google+"
+                    aria-label="Share on Google+"
+                >
+                    <i class="fab fa-google-plus" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+        
+            
+        
+        <li class="post-action">
+            
+                <a class="post-action-btn btn btn--default" href="#" aria-label="Back to top">
+            
+                <i class="fa fa-list" aria-hidden="true"></i>
+            </a>
         </li>
-      </ul>
-
-      <!--noindex-->
-      <div class="post-toc-wrap sidebar-panel">
-      </div>
-      <!--/noindex-->
-
-      <div class="site-overview-wrap sidebar-panel">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <img class="site-author-image" itemprop="image" alt="66CF"
-      src="https://i1.hdslb.com/bfs/face/0fcfff9250754b90582d3d549efd6984e59aa510.jpg">
-  <p class="site-author-name" itemprop="name">66CF</p>
-  <div class="site-description" itemprop="description"></div>
+    </ul>
 </div>
-<div class="site-state-wrap motion-element">
-  <nav class="site-state">
-      <div class="site-state-item site-state-posts">
-          <a href="/archives/">
+
+
         
-          <span class="site-state-item-count">11</span>
-          <span class="site-state-item-name">posts</span>
-        </a>
-      </div>
-      <div class="site-state-item site-state-tags">
-        <span class="site-state-item-count">2</span>
-        <span class="site-state-item-name">tags</span>
-      </div>
-  </nav>
-</div>
-  <div class="links-of-author motion-element">
-      <span class="links-of-author-item">
-        <a href="https://github.com/66CF" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;66CF" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
-      </span>
-      <span class="links-of-author-item">
-        <a href="https://www.luogu.com.cn/user/540020" title="Luogu → https:&#x2F;&#x2F;www.luogu.com.cn&#x2F;user&#x2F;540020" rel="noopener" target="_blank"><i class="fas fa-code fa-fw"></i>Luogu</a>
-      </span>
-      <span class="links-of-author-item">
-        <a href="https://space.bilibili.com/621504283" title="Bilibili → https:&#x2F;&#x2F;space.bilibili.com&#x2F;621504283" rel="noopener" target="_blank"><i class="fas fa-video fa-fw"></i>Bilibili</a>
-      </span>
-      <span class="links-of-author-item">
-        <a href="https://jinhenghs.us.kg/" title="合成大王易 → https:&#x2F;&#x2F;jinhenghs.us.kg" rel="noopener" target="_blank"><i class="fas fa-gamepad fa-fw"></i>合成大王易</a>
-      </span>
-      <span class="links-of-author-item">
-        <a href="https://yinlang.netlify.app/" title="银狼的模拟宇宙 → https:&#x2F;&#x2F;yinlang.netlify.app" rel="noopener" target="_blank"><i class="fas fa-globe fa-fw"></i>银狼的模拟宇宙</a>
-      </span>
-  </div>
-
-
-
-      </div>
-        <div class="back-to-top motion-element">
-          <i class="fa fa-arrow-up"></i>
-          <span>0%</span>
-        </div>
-
+        
+            
+        
     </div>
-  </aside>
-  <div id="sidebar-dimmer"></div>
+</article>
 
 
-      </div>
-    </main>
 
-    <footer class="footer">
-      <div class="footer-inner">
+                <footer id="footer" class="main-content-wrap">
+    <span class="copyrights">
+        Copyrights &copy; 2024 66CF. All Rights Reserved.
+    </span>
+</footer>
+
+            </div>
+            
+                <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
+                    <div class="post-actions-wrap">
+    <nav>
+        <ul class="post-actions post-action-nav">
+            <li class="post-action">
+                
+                    
+                <a
+                    class="post-action-btn btn btn--default tooltip--top"
+                    href="/2024/09/20/2022/"
+                    data-tooltip="__2022__"
+                    aria-label="PREVIOUS: __2022__"
+                >
+                    
+                        <i class="fa fa-angle-left" aria-hidden="true"></i>
+                        <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
+                    </a>
+            </li>
+            <li class="post-action">
+                
+                    
+                <a
+                    class="post-action-btn btn btn--default tooltip--top"
+                    href="/2024/09/20/flower/"
+                    data-tooltip="野花"
+                    aria-label="NEXT: 野花"
+                >
+                    
+                        <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
+                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                    </a>
+            </li>
+        </ul>
+    </nav>
+    <ul class="post-actions post-action-share">
+        <li class="post-action hide-lg hide-md hide-sm">
+            <a
+                class="post-action-btn btn btn--default btn-open-shareoptions"
+                href="#btn-open-shareoptions"
+                aria-label="Share this post"
+            >
+                <i class="fa fa-share-alt" aria-hidden="true"></i>
+            </a>
+        </li>
         
-
+            
+            
+            <li class="post-action hide-xs">
+                <a
+                    class="post-action-btn btn btn--default"
+                    target="new" href="https://www.facebook.com/sharer/sharer.php?u=https://66cf.netlify.app/2024/09/20/2021/"
+                    title="Share on Facebook"
+                    aria-label="Share on Facebook"
+                >
+                    <i class="fab fa-facebook" aria-hidden="true"></i>
+                </a>
+            </li>
         
-
-<div class="copyright">
-  
-  &copy; 
-  <span itemprop="copyrightYear">2024</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">66CF</span>
+            
+            
+            <li class="post-action hide-xs">
+                <a
+                    class="post-action-btn btn btn--default"
+                    target="new" href="https://twitter.com/intent/tweet?text=https://66cf.netlify.app/2024/09/20/2021/"
+                    title="Share on Twitter"
+                    aria-label="Share on Twitter"
+                >
+                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+            
+            
+            <li class="post-action hide-xs">
+                <a
+                    class="post-action-btn btn btn--default"
+                    target="new" href="https://plus.google.com/share?url=https://66cf.netlify.app/2024/09/20/2021/"
+                    title="Share on Google+"
+                    aria-label="Share on Google+"
+                >
+                    <i class="fab fa-google-plus" aria-hidden="true"></i>
+                </a>
+            </li>
+        
+        
+            
+        
+        <li class="post-action">
+            
+                <a class="post-action-btn btn btn--default" href="#" aria-label="Back to top">
+            
+                <i class="fa fa-list" aria-hidden="true"></i>
+            </a>
+        </li>
+    </ul>
 </div>
-  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a>
-  </div>
 
+
+                </div>
+                
+    <div id="share-options-bar" class="share-options-bar" data-behavior="4">
+        <i id="btn-close-shareoptions" class="fa fa-times"></i>
+        <ul class="share-options">
+            
+                
+                
+                <li class="share-option">
+                    <a
+                        class="share-option-btn"
+                        target="new"
+                        href="https://www.facebook.com/sharer/sharer.php?u=https://66cf.netlify.app/2024/09/20/2021/"
+                        aria-label="Share on Facebook"
+                    >
+                        <i class="fab fa-facebook" aria-hidden="true"></i><span>Share on Facebook</span>
+                    </a>
+                </li>
+            
+                
+                
+                <li class="share-option">
+                    <a
+                        class="share-option-btn"
+                        target="new"
+                        href="https://twitter.com/intent/tweet?text=https://66cf.netlify.app/2024/09/20/2021/"
+                        aria-label="Share on Twitter"
+                    >
+                        <i class="fab fa-twitter" aria-hidden="true"></i><span>Share on Twitter</span>
+                    </a>
+                </li>
+            
+                
+                
+                <li class="share-option">
+                    <a
+                        class="share-option-btn"
+                        target="new"
+                        href="https://plus.google.com/share?url=https://66cf.netlify.app/2024/09/20/2021/"
+                        aria-label="Share on Google+"
+                    >
+                        <i class="fab fa-google-plus" aria-hidden="true"></i><span>Share on Google+</span>
+                    </a>
+                </li>
+            
+        </ul>
+    </div>
+
+
+            
+        </div>
         
 
 
+    
+        
+    
+
+<div id="about">
+    <div id="about-card">
+        <div id="about-btn-close">
+            <i class="fa fa-times"></i>
+        </div>
+        
+            <img id="about-card-picture" src="https://i1.hdslb.com/bfs/face/0fcfff9250754b90582d3d549efd6984e59aa510.jpg" alt="Author&#39;s picture"/>
+        
+            <h4 id="about-card-name">66CF</h4>
+        
+            <div id="about-card-bio"><p>author.bio</p>
+</div>
+        
+        
+            <div id="about-card-job">
+                <i class="fa fa-briefcase"></i>
+                <br/>
+                <p>author.job</p>
+
+            </div>
+        
+        
+    </div>
+</div>
+
+        
+        
+<div id="cover" style="background-image:url('https://i0.hdslb.com/bfs/article/81f8529d740893a9a84c9a50b6d8b3f3621504283.jpg');"></div>
+        <!--SCRIPTS-->
+
+<script src="/assets/js/script-nmuyzousk0lnurxqjpnz5el5e5mvvjk8rovtppj6xyg2dbspl1oypuuwf27y.min.js"></script>
+
+<!--SCRIPTS END-->
+
+
+    
 
 
 
 
-
-
-      </div>
-    </footer>
-  </div>
-
-  
-  
-  <script color='0,0,0' opacity='0.5' zIndex='-1' count='99' src="/lib/canvas-nest/canvas-nest.min.js"></script>
-  <script src="/lib/anime.min.js"></script>
-  <script src="/lib/velocity/velocity.min.js"></script>
-  <script src="/lib/velocity/velocity.ui.min.js"></script>
-
-<script src="/js/utils.js"></script>
-
-<script src="/js/motion.js"></script>
-
-
-<script src="/js/schemes/muse.js"></script>
-
-
-<script src="/js/next-boot.js"></script>
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  
-
-  
-
-</body>
+    </body>
 </html>
-<!-- 页面点击小红心 -->
-<script type="text/javascript" src="/js/src/clicklove.js"></script>
