@@ -211,4 +211,19 @@
 </div>
 <script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
   </entry>
+  <entry>
+    <title>木高</title>
+    <url>/2024/09/30/%E6%9C%A8%E9%AB%98/</url>
+    <content><![CDATA[<head>
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+</head>
+  <body>
+    <body>
+    <a-scene>
+      <a-sky src="https://i0.hdslb.com/bfs/article/f6e9cb572e1ab5954fb4512eae4655dd621504283.jpg" rotation="0 -130 0"></a-sky>
+    </a-scene>
+    </body>
+  </body>
+]]></content>
+  </entry>
 </search>
