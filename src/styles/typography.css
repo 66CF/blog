@@ -93,9 +93,11 @@
     }
   }
 
-  /* Katex text color */
-  .prose .katex-display {
-    @apply text-foreground;
+  /* Katex text color - Fix dim color in dark mode */
+  .prose .katex,
+  .prose .katex-display,
+  .prose .katex * {
+    @apply text-foreground !important;
   }
 
   /* ===== Code Blocks & Syntax Highlighting ===== */
