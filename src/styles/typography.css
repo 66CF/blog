@@ -94,10 +94,10 @@
   }
 
   /* Katex text color - Fix dim color in dark mode */
-  .prose .katex,
-  .prose .katex *,
-  .prose .katex-display,
-  .prose .katex-display * {
+  .app-prose .katex,
+  .app-prose .katex *,
+  .app-prose .katex-display,
+  .app-prose .katex-display * {
     color: var(--color-foreground) !important;
   }
 
