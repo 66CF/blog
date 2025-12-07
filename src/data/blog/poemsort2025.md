@@ -11,7 +11,7 @@ canonicalURL: https://www.qty.lol/posts/poemsort2025
 description: 2025-2010天津高考诗歌整理
 ---
 
-** Gemini 3 Pro Preview **
+## Gemini 3 Pro Preview
 
 根据你提供的文件内容，整理了2010年至2025年（其中2025年应为模拟或预测题，依据文件标注处理）天津高考语文卷诗歌鉴赏题的详细分析表格。
 
