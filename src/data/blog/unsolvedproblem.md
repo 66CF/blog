@@ -7,7 +7,7 @@ featured: true
 draft: false
 tags:
   - study
-canonicalURL: https://example.com/latex-test
+canonicalURL: https://www.qty.lol/posts/unsolvedproblem
 description: 【转载】2024年高考作文·新课标Ⅰ卷·答案与问题·解决不了的问题
 ---
 

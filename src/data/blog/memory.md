@@ -15,9 +15,11 @@ description: 木高的追忆
 [全景照片原图1](https://66cf.github.io/images/DJI_0376.jpg)
 [全景照片原图2](https://i0.hdslb.com/bfs/article/f6e9cb572e1ab5954fb4512eae4655dd621504283.jpg)
 
-<iframe width="600" height="400" allowfullscreen style="border-style:none;" src="https://cdn.pannellum.org/2.5/pannellum.htm#panorama=https%3A//66cf.icu/images/DJI_0376.jpg"></iframe>
+<iframe width="600" height="400" allowfullscreen style="border-style:none;" src="https://cdn.pannellum.org/2.5/pannellum.htm#panorama=@/assets/images/DJI_0376.jpg"></iframe>
 
 *powered by [Pannellum](https://pannellum.org/)*
+
+![something](@/assets/images/DJI_0376.jpg)
 
 folding child:codeblock open:false color:cyan 原图链接
 ```markdown
