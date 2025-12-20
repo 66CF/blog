@@ -7,7 +7,7 @@ featured: true
 draft: false
 tags:
   - deepseek
-canonicalURL: https://example.com/latex-test
+canonicalURL: https://www.qty.lol/jailbreak
 description: DeepSeek,Gemini
 ---
 
