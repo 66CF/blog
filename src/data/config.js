@@ -11,10 +11,7 @@ export const personalInfo = {
 };
 
 export const aboutParagraphs = [
-  ["19 y/o cs undergrad", "br", "i build things i wish existed, and they often end up being useful to other people too."],
-  ["i work across the stack: web, mobile, and the occasional clis/tuis.", "br", "most of what i make ends up open source."],
-  "into linux, ricing my setup, and understanding how things work past the surface.",
-  "open to work <3",
+  "我懂了，我用不绕、最直接、最简单的方式，先说结论，就一句话👇",
 ];
 
 export const projects = [
