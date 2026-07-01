@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+  --color-accent: #86efac;
+  --font-geist: "Geist", sans-serif;
+  --font-geist-mono: "Geist Mono", monospace;
+  color: #fff;
+  scroll-behavior: smooth;
+  background-color: #000;
+}
+
+body {
+  font-family: var(--font-geist-mono);
+  -webkit-font-smoothing: antialiased;
+  background-color: #000;
+}
+
+/* Hide scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
+html {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
