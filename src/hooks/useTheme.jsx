@@ -5,12 +5,16 @@ const ThemeContext = createContext(null);
 const STORAGE_KEY = "theme";
 
 function getInitialTheme() {
+  let theme;
   try {
     const saved = localStorage.getItem(STORAGE_KEY);
-    return themes.find((t) => t.name === saved) || themes[0];
+    theme = themes.find((t) => t.name === saved) || themes[0];
   } catch {
-    return themes[0];
+    theme = themes[0];
   }
+  // Set immediately to avoid flash of default accent
+  document.documentElement.style.setProperty("--color-accent", theme.color);
+  return theme;
 }
 
 function cycleTheme(current) {
