@@ -12,6 +12,6 @@ description: 木高的追忆
 [全景照片原图1](/assets/DJI_0376.jpg)
 [全景照片原图2](https://i0.hdslb.com/bfs/article/f6e9cb572e1ab5954fb4512eae4655dd621504283.jpg)
 
-<div data-pannellum="/assets/DJI_0376.jpg"></div>
+<div data-pannellum="/DJI_0376.jpg"></div>
 
 *powered by [Pannellum](https://pannellum.org/)*
