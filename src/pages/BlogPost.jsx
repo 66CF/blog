@@ -2,7 +2,9 @@ import { useParams, Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import rehypeRaw from "rehype-raw";
 import Card from "../components/Card";
+import PannellumViewer from "../components/PannellumViewer";
 
 export default function BlogPost() {
   const { slug } = useParams();
@@ -80,7 +82,21 @@ export default function BlogPost() {
             prose-p:text-gray-300
             text-sm leading-relaxed"
         >
-          <ReactMarkdown remarkPlugins={[remarkGfm]}>
+          <ReactMarkdown
+            remarkPlugins={[remarkGfm]}
+            rehypePlugins={[rehypeRaw]}
+            components={{
+              // Intercept <div data-pannellum="..."> → PannellumViewer
+              div: ({ node, ...props }) => {
+                const panoSrc =
+                  props["data-pannellum"] || props["data-panorama"];
+                if (panoSrc) {
+                  return <PannellumViewer src={panoSrc} />;
+                }
+                return <div {...props} />;
+              },
+            }}
+          >
             {content}
           </ReactMarkdown>
         </div>
