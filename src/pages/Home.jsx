@@ -81,11 +81,11 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Recent Posts Section */}
+        {/* Posts Section */}
         {recentPosts.length > 0 && (
           <div className="text-white mb-4">
             <div className="flex items-center justify-between mb-8">
-              <SectionTitle>recent posts</SectionTitle>
+              <SectionTitle>posts</SectionTitle>
               <Link
                 to="/blog"
                 className="text-sm text-gray-500 hover:text-accent transition-all duration-300 flex items-center gap-1"
