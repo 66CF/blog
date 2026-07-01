@@ -250,6 +250,15 @@ export default function Background({
   ...rest
 }) {
   const containerRef = useRef(null);
+  const programRef = useRef(null);
+
+  // Update tint uniform when prop changes (no WebGL rebuild needed)
+  useEffect(() => {
+    const program = programRef.current;
+    if (!program) return;
+    const rgb = hexToRgb(tint);
+    program.uniforms.uTint.value = new Color(rgb[0], rgb[1], rgb[2]);
+  }, [tint]);
 
   useEffect(() => {
     const el = containerRef.current;
@@ -296,6 +305,8 @@ export default function Background({
         uBrightness: { value: brightness },
       },
     });
+
+    programRef.current = program;
 
     const mesh = new Mesh(gl, { geometry, program });
 
@@ -367,6 +378,7 @@ export default function Background({
       if (mouseReact) el.removeEventListener("mousemove", handleMouseMove);
       if (gl.canvas.parentElement === el) el.removeChild(gl.canvas);
       gl.getExtension("WEBGL_lose_context")?.loseContext();
+      programRef.current = null;
     };
   }, []);
 
