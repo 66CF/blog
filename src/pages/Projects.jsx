@@ -1,14 +1,11 @@
 import { projects } from "../data/config";
+import Card from "../components/Card";
 import SectionTitle from "../components/SectionTitle";
 
 export default function Projects() {
   return (
-    <div className="flex-1 overflow-y-auto scrollbar-none">
-      <SectionTitle>projects</SectionTitle>
-      <p className="text-gray-400 text-sm mt-2 mb-8">
-        things i&apos;ve built
-      </p>
-      <div className="grid gap-6">
+    <Card className="!p-0">
+      <div className="grid">
         {projects.map((project) => (
           <div
             key={project.title}
@@ -31,6 +28,6 @@ export default function Projects() {
           </div>
         ))}
       </div>
-    </div>
+    </Card>
   );
 }

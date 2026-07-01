@@ -1,35 +1,22 @@
 // ============================================
-// 👇 在这里修改你的个人信息、项目和社交链接
+//  Site Data — edit this file to customize
 // ============================================
 
-// 个人信息
+import { Github, Mail, Discord, Linkedin, X, File } from "../components/Icons";
+
 export const personalInfo = {
   name: "QTY",
   fullName: "QTY",
   avatarUrl: "/avatar.jpg",
-  resumeUrl: "/resume",
 };
 
-// About 简介段落
 export const aboutParagraphs = [
-  "19 y/o cs undergrad",
-  "i build things i wish existed, and they often end up being useful to other people too.",
-  "i work across the stack: web, mobile, and the occasional clis/tuis.",
-  "most of what i make ends up open source.",
+  ["19 y/o cs undergrad", "br", "i build things i wish existed, and they often end up being useful to other people too."],
+  ["i work across the stack: web, mobile, and the occasional clis/tuis.", "br", "most of what i make ends up open source."],
   "into linux, ricing my setup, and understanding how things work past the surface.",
   "open to work <3",
 ];
 
-// 社交链接
-export const socialLinks = [
-  { title: "github", username: "d1rshan", link: "https://github.com/d1rshan" },
-  { title: "email", username: "darshan.paccha@gmail.com", link: "mailto:darshan.paccha@gmail.com" },
-  { title: "discord", username: "d1rshan", link: "https://discord.gg/22rFFr8n" },
-  { title: "linkedin", username: "darshan paccha", link: "https://www.linkedin.com/in/darshan-paccha/" },
-  { title: "x", username: "@d1rshan", link: "https://x.com/d1rshan" },
-];
-
-// 项目列表
 export const projects = [
   {
     title: "FuckWeici",
@@ -39,27 +26,13 @@ export const projects = [
   },
 ];
 
-// 背景着色器参数 (CRT/Matrix 风格)
-export const backgroundConfig = {
-  scale: 3,
-  gridMul: [2, 1],
-  digitSize: 1.2,
-  timeScale: 0.2,
-  scanlineIntensity: 0.5,
-  glitchAmount: 1,
-  flickerAmount: 1,
-  noiseAmp: 1,
-  chromaticAberration: 0,
-  dither: 0,
-  curvature: 0.1,
-  tint: [0.53, 0.94, 0.68], // #86efac green accent
-  mouseReact: false,
-  mouseStrength: 0.5,
-  pageLoadAnimation: true,
-  brightness: 0.5,
-};
+export const socialLinks = [
+  { title: "github", username: "66CF", link: "https://github.com/66CF", icon: Github },
+  { title: "email", username: "3202714166@qq.com", link: "mailto:3202714166@qq.com", icon: Mail },
+  { title: "bilibili", username: "621504283", link: "https://space.bilibili.com/621504283", icon: Discord },
+  { title: "resume", username: "resume", link: "/resume", icon: File },
+];
 
-// 博客文章列表
 export const blogPosts = [
   {
     slug: "baichuan",
@@ -79,15 +52,15 @@ export const blogPosts = [
     slug: "lv-shi-chun-qiu",
     title: "吕氏春秋",
     date: "2025-12-06",
-    excerpt: "班史闲摹太史文，春秋笔底记纷纭。笑谑藏真皆入卷，他年展处忆同云。",
+    excerpt: "班史闲摹太史文，春秋笔底记纷纭。",
     tags: ["history"],
   },
   {
     slug: "zero-2025",
     title: "天津高考数学",
     date: "2025-12-06",
-    excerpt: "DeepSeek-V3.2-Speciale 解2025天津高考数学零点问题",
-    tags: ["deepseek", "math"],
+    excerpt: "DeepSeek 解2025天津高考数学零点问题",
+    tags: ["math"],
   },
   {
     slug: "jailbreak",
@@ -98,9 +71,11 @@ export const blogPosts = [
   },
 ];
 
-// 网站元数据
-export const siteMeta = {
-  title: "My Blog",
-  description: "A personal blog",
-  language: "zh-CN",
-};
+// Theme options
+export const themes = [
+  { name: "green", color: "#86efac" },
+  { name: "purple", color: "#c084fc" },
+  { name: "blue", color: "#93c5fd" },
+  { name: "orange", color: "#fdba74" },
+  { name: "pink", color: "#f9a8d4" },
+];

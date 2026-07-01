@@ -1,7 +1,18 @@
+import AnimatedText from "./AnimatedText";
+import { useTheme } from "../hooks/useTheme";
+
 export default function SectionTitle({ children }) {
+  const { theme } = useTheme();
+
   return (
-    <h2 className="text-2xl font-bold text-accent" style={{ color: "var(--color-accent)" }}>
+    <AnimatedText
+      as="h2"
+      className="text-2xl font-bold text-accent"
+      animateOnHover={false}
+      startOnView={false}
+      key={theme.name}
+    >
       {children}
-    </h2>
+    </AnimatedText>
   );
 }
