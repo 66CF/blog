@@ -31,9 +31,6 @@ dependencies:
     version: 4.0.1
 
 devDependencies:
-  '@tailwindcss/oxide-linux-arm64-gnu':
-    specifier: 4.3.2
-    version: 4.3.2
   '@tailwindcss/vite':
     specifier: ^4.0.0
     version: 4.3.2(vite@6.4.3)
@@ -771,6 +768,7 @@ packages:
     libc: [glibc]
     requiresBuild: true
     dev: true
+    optional: true
 
   /@tailwindcss/oxide-linux-arm64-musl@4.3.2:
     resolution: {integrity: sha512-J5Nuk0uZQIiMTJj3LEx4sAA9tMFUoXQZFv1J6An+QGYe53HKRJuFDi0rpq/tuouCZeAbOBY3kQ6g8qeD4TUjtA==}
