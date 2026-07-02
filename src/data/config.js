@@ -21,6 +21,12 @@ export const projects = [
     technologies: ["python"],
     link: "https://github.com/66CF/fuckweici",
   },
+  {
+    title: "blog",
+    description: "此博客，用 react + vite + tailwindcss 构建，含 WebGL 动态背景与多种文字特效",
+    technologies: ["react", "vite", "tailwindcss", "ogl"],
+    link: "https://github.com/66CF/blog",
+  },
 ];
 
 export const socialLinks = [
