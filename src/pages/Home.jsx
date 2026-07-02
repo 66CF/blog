@@ -33,7 +33,7 @@ export default function Home() {
             ))}
             <div>
               <Paragraph>{renderText(lastOne)}</Paragraph>
-              <div className="max-sm:flex flex-wrap gap-3 mt-3 hidden">
+              <div className="max-sm:flex flex-wrap gap-3 mt-3 hidden justify-end">
                 {socialLinks
                   .filter((l) => l.title !== "resume")
                   .map((link) => (
