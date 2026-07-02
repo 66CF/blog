@@ -23,8 +23,8 @@ export const projects = [
   },
   {
     title: "blog",
-    description: "此博客，用 react + vite + tailwindcss 构建，含 WebGL 动态背景与多种文字特效",
-    technologies: ["react", "vite", "tailwindcss", "ogl"],
+    description: "本博客，react + WebGL 动态背景。",
+    technologies: ["react"],
     link: "https://github.com/66CF/blog",
   },
 ];
