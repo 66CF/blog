@@ -1,5 +1,14 @@
 # d1rshan — QTY 的个人博客
 
+<p align="center">
+  <a href="https://react.dev"><img src="https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white" alt="React 19"></a>
+  <a href="https://vitejs.dev"><img src="https://img.shields.io/badge/Vite-6-646CFF?logo=vite&logoColor=white" alt="Vite 6"></a>
+  <a href="https://tailwindcss.com"><img src="https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=white" alt="Tailwind CSS 4"></a>
+  <a href="https://vercel.com"><img src="https://img.shields.io/badge/Vercel-deployed-black?logo=vercel&logoColor=white" alt="Vercel"></a>
+  <a href="#"><img src="https://img.shields.io/badge/pnpm-10-F69220?logo=pnpm&logoColor=white" alt="pnpm"></a>
+  <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-green" alt="MIT License"></a>
+</p>
+
 基于 **React 19** + **Vite 6** + **Tailwind CSS 4** 构建的个人博客 & 作品集。
 
 ## ✨ 功能特性
