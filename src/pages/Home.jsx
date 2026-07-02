@@ -1,9 +1,8 @@
 import { Link } from "react-router-dom";
-import { aboutParagraphs, projects, blogPosts } from "../data/config";
+import { aboutParagraphs, projects, blogPosts, socialLinks } from "../data/config";
 import Card from "../components/Card";
 import SectionTitle from "../components/SectionTitle";
 import Paragraph from "../components/Paragraph";
-import { SocialGrid } from "../components/SocialIcons";
 
 function renderText(content) {
   if (Array.isArray(content)) {
@@ -32,13 +31,23 @@ export default function Home() {
             {allButLast.map((content, i) => (
               <Paragraph key={i}>{renderText(content)}</Paragraph>
             ))}
-            <div className="flex justify-between">
+            <div>
               <Paragraph>{renderText(lastOne)}</Paragraph>
-              <div className="max-sm:grid grid-cols-5 max-w-fit gap-2 hidden">
-                <SocialGrid
-                  size={20}
-                  iconClassName="text-accent flex items-center justify-center"
-                />
+              <div className="max-sm:flex flex-wrap gap-3 mt-3 hidden">
+                {socialLinks
+                  .filter((l) => l.title !== "resume")
+                  .map((link) => (
+                    <a
+                      key={link.title}
+                      href={link.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={link.title}
+                      className="text-accent flex items-center justify-center"
+                    >
+                      <link.icon size={20} />
+                    </a>
+                  ))}
               </div>
             </div>
           </div>
