@@ -5,6 +5,8 @@ import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
 import Card from "../components/Card";
 import PannellumViewer from "../components/PannellumViewer";
+import Comments from "../components/Comments";
+import { giscus } from "../data/config";
 
 export default function BlogPost() {
   const { slug } = useParams();
@@ -100,6 +102,8 @@ export default function BlogPost() {
             {content}
           </ReactMarkdown>
         </div>
+
+        <Comments giscusConfig={giscus} />
       </div>
     </Card>
   );

@@ -74,6 +74,27 @@ export const blogPosts = [
   },
 ];
 
+// ============================================
+//  Comments — Giscus (基于 GitHub Discussions)
+//  使用教程: https://giscus.app/zh-CN
+//  1. 在仓库 Settings → General → Discussions 中启用
+//  2. 访问 https://giscus.app/zh-CN 填写信息获取配置
+//  3. 将下方 repo/repoId/category/categoryId 替换为你的
+// ============================================
+export const giscus = {
+  repo: "66CF/blog",
+  repoId: "R_kgDOS5pHhQ",
+  category: "General",
+  categoryId: "DIC_kwDOS5pHhc4DAQ6b",
+  mapping: "pathname",      // 页面与讨论的映射方式
+  strict: "0",              // 是否严格匹配
+  reactionsEnabled: "1",    // 是否启用反应
+  emitMetadata: "0",        // 是否发出元数据
+  inputPosition: "bottom",  // 评论输入框位置 top | bottom
+  lang: "zh-CN",            // 语言
+  loading: "lazy",          // 加载方式 lazy | eager
+};
+
 // Theme options
 export const themes = [
   { name: "green", color: "#86efac" },
