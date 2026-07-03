@@ -84,9 +84,9 @@ export const blogPosts = [
 // ============================================
 export const giscus = {
   repo: "66CF/blog",
-  repoId: "R_kgDOS5pHhQ",
+  repoId: "R_kgDOTKdUaw",
   category: "General",
-  categoryId: "DIC_kwDOS5pHhc4DAQ6b",
+  categoryId: "DIC_kwDOTKdUa84DAZpU",
   mapping: "pathname",      // 页面与讨论的映射方式
   strict: "0",              // 是否严格匹配
   reactionsEnabled: "1",    // 是否启用反应
