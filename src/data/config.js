@@ -77,9 +77,10 @@ export const blogPosts = [
 // ============================================
 //  Comments — Giscus (基于 GitHub Discussions)
 //  使用教程: https://giscus.app/zh-CN
-//  1. 在仓库 Settings → General → Discussions 中启用
-//  2. 访问 https://giscus.app/zh-CN 填写信息获取配置
-//  3. 将下方 repo/repoId/category/categoryId 替换为你的
+//  ⚠️ 重要：确保仓库已开启 Discussions！
+//  1. 前往 https://github.com/66CF/blog/settings 页面
+//  2. 在 Features 区域勾选 Discussions → Save
+//  3. 访问 https://giscus.app/zh-CN 可重新生成配置
 // ============================================
 export const giscus = {
   repo: "66CF/blog",
