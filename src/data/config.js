@@ -5,9 +5,8 @@
 import { Github, Mail, Discord, Linkedin, X, File } from "../components/Icons";
 
 export const personalInfo = {
-  name: "QTY",
   fullName: "QTY",
-  avatarUrl: "/avatar.jpg",
+  avatarUrl: "https://avatars.githubusercontent.com/u/72987740?v=4",
 };
 
 export const aboutParagraphs = [
