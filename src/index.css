@@ -32,3 +32,15 @@ html {
   overflow-y: hidden;
   padding-block: 0.5rem;
 }
+
+/* Keep long code lines inside the article instead of widening the page. */
+.prose pre {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.prose pre code {
+  white-space: pre;
+  overflow-wrap: normal;
+  word-break: normal;
+}

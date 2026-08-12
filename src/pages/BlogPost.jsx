@@ -54,8 +54,8 @@ export default function BlogPost() {
   }
 
   return (
-    <Card className="h-full flex flex-col">
-      <div className="flex-1 overflow-y-auto scrollbar-none">
+    <Card className="h-full min-w-0 flex flex-col">
+      <div className="min-w-0 flex-1 overflow-y-auto scrollbar-none">
         <Link
           to="/blog"
           className="text-sm text-gray-500 hover:text-accent transition-colors mb-6 inline-block"
@@ -75,7 +75,7 @@ export default function BlogPost() {
         )}
 
         <div
-          className="prose prose-invert max-w-none
+          className="prose prose-invert min-w-0 max-w-none
             prose-headings:text-accent
             prose-a:text-accent
             prose-code:text-gray-300

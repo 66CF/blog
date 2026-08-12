@@ -11,7 +11,7 @@ export default function Layout() {
       <Background tint={theme.color} />
       <main className="relative z-10 max-w-5xl mx-auto py-10 px-4 grid gap-6">
         <Header />
-        <div>
+        <div className="min-w-0">
           <Outlet />
         </div>
       </main>
