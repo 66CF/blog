@@ -2,7 +2,10 @@ import { useParams, Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import remarkMath from "remark-math";
 import rehypeRaw from "rehype-raw";
+import rehypeKatex from "rehype-katex";
+import "katex/dist/katex.min.css";
 import Card from "../components/Card";
 import PannellumViewer from "../components/PannellumViewer";
 import Comments from "../components/Comments";
@@ -85,8 +88,8 @@ export default function BlogPost() {
             text-sm leading-relaxed"
         >
           <ReactMarkdown
-            remarkPlugins={[remarkGfm]}
-            rehypePlugins={[rehypeRaw]}
+            remarkPlugins={[remarkGfm, remarkMath]}
+            rehypePlugins={[rehypeRaw, rehypeKatex]}
             components={{
               // Intercept <div data-pannellum="..."> → PannellumViewer
               div: ({ node, ...props }) => {
