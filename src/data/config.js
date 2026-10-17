@@ -58,13 +58,6 @@ export const blogPosts = [
     tags: ["history"],
   },
   {
-    slug: "zero-2025",
-    title: "天津高考数学",
-    date: "2025-12-06",
-    excerpt: "DeepSeek 解2025天津高考数学零点问题",
-    tags: ["math"],
-  },
-  {
     slug: "jailbreak",
     title: "Jailbreak",
     date: "2025-05-03",
