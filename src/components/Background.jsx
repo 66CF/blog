@@ -18,7 +18,7 @@ void main() {
 }
 `;
 
-// Fragment shader — exact match with original
+// Fragment shader — aspect-correct grid coordinates
 const fragment = /* glsl */ `
 precision mediump float;
 
@@ -46,6 +46,13 @@ uniform float uUsePageLoadAnimation;
 uniform float uBrightness;
 
 float time;
+
+// The default 2:1 grid is proportioned for a 2:1 viewport.
+// Crop the horizontal field on portrait screens instead of squeezing its cells.
+vec2 toGridSpace(vec2 uv) {
+  float aspect = iResolution.x / max(iResolution.y, 1.0);
+  return ((uv - 0.5) * vec2(aspect / 2.0, 1.0) + 0.5) * uScale;
+}
 
 float hash21(vec2 p){
   p = fract(p * 234.56);
@@ -105,7 +112,7 @@ float getIntensity(vec2 p){
     float intensity = pattern(s * 0.1, q, r) * 1.3 - 0.03;
     
     if(uUseMouse > 0.5){
-        vec2 mouseWorld = uMouse * uScale;
+        vec2 mouseWorld = toGridSpace(uMouse);
         float distToMouse = distance(s, mouseWorld);
         float mouseInfluence = exp(-distToMouse * 8.0) * uMouseStrength * 10.0;
         intensity += mouseInfluence;
@@ -200,7 +207,7 @@ void main() {
       uv = barrel(uv);
     }
     
-    vec2 p = uv * uScale;
+    vec2 p = toGridSpace(uv);
     vec3 col = getColor(p);
 
     if(uChromaticAberration != 0.0){
@@ -312,7 +319,9 @@ export default function Background({
 
     function resize() {
       if (!el || !renderer) return;
-      renderer.setSize(el.offsetWidth, el.offsetHeight);
+      const width = Math.max(1, el.clientWidth);
+      const height = Math.max(1, el.clientHeight);
+      renderer.setSize(width, height);
       program.uniforms.iResolution.value = new Color(
         gl.canvas.width,
         gl.canvas.height,
@@ -385,7 +394,7 @@ export default function Background({
   return (
     <div
       ref={containerRef}
-      className={`fixed inset-0 z-0 ${className}`}
+      className={`fixed inset-0 z-0 overflow-hidden ${className}`}
       {...rest}
     />
   );

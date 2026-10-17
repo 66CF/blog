@@ -1,4 +1,4 @@
-# d1rshan — QTY 的个人博客
+# qty's blog — QTY 的个人博客
 
 <p align="center">
   <a href="https://react.dev"><img src="https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white" alt="React 19"></a>
@@ -13,7 +13,7 @@
 
 ## ✨ 功能特性
 
-- **WebGL 动态背景** — 使用 [ogl](https://github.com/oframe/ogl) 渲染的矩阵数字雨风格背景，支持鼠标交互和主题色联动
+- **WebGL 动态背景** — 使用 [ogl](https://github.com/oframe/ogl) 渲染的矩阵数字雨风格背景，支持主题色联动、可选鼠标交互，并按视口宽高比保持网格比例
 - **多主题切换** — 内置绿/紫/蓝/橙/粉五种主题色，按 `T` 键或点击即可切换
 - **Markdown 博客** — 基于 `react-markdown`，支持 GFM 表格、HTML 标签等扩展语法
 - **响应式设计** — 适配桌面端与移动端
